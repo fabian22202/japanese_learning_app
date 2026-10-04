@@ -10,9 +10,9 @@ void main() {
   final pack = Curriculum.parse(path.readAsStringSync());
   test('Expanded course pack parses through the real importer and engine', () {
     expect(pack.modules.length, 12);
-    expect(pack.modules.expand((m) => m.lessons).length, 50);
-    expect(pack.modules.expand((m) => m.mcos).length, 28);
-    expect(pack.modules.expand((m) => m.mcos).expand((u) => u.words).length, 220);
+    expect(pack.modules.expand((m) => m.lessons).length, 51);
+    expect(pack.modules.expand((m) => m.mcos).length, 29);
+    expect(pack.modules.expand((m) => m.mcos).expand((u) => u.words).length, 230);
     var total = 0;
     final ids = <String>{};
     for (final m in pack.modules) {
@@ -28,7 +28,7 @@ void main() {
         }
       }
     }
-    expect(total, 2498);
+    expect(total, 2603);
   });
   test('Course pack installs with current progress and exports for a restart', () async {
     final old = Curriculum.parse(File('assets/curriculum.json').readAsStringSync());

@@ -3,7 +3,7 @@
   "version": 1,
   "title": "Kotoba · Parcours débutant approfondi",
   "contentVersion": "2026-10-04",
-  "description": "50 leçons, 12 modules. Textes et exercices originaux en français ; ressources vidéo de Julien Fontanier en complément. Lectures fournies, kanji limités au départ.",
+  "description": "51 leçons, 12 modules. Textes et exercices originaux en français ; ressources vidéo de Julien Fontanier en complément. Lectures fournies et apprentissage progressif des kanji, dont les nombres.",
   "modules": [
     {
       "id": "m1",
@@ -2331,6 +2331,270 @@
           ]
         },
         {
+          "id": "number-kanji",
+          "title": "Écrire les nombres en kanji",
+          "paragraphs": [],
+          "questions": [],
+          "table": [
+            [
+              "一",
+              "いち",
+              "1"
+            ],
+            [
+              "二",
+              "に",
+              "2"
+            ],
+            [
+              "三",
+              "さん",
+              "3"
+            ],
+            [
+              "四",
+              "よん",
+              "4"
+            ],
+            [
+              "五",
+              "ご",
+              "5"
+            ],
+            [
+              "六",
+              "ろく",
+              "6"
+            ],
+            [
+              "七",
+              "なな",
+              "7"
+            ],
+            [
+              "八",
+              "はち",
+              "8"
+            ],
+            [
+              "九",
+              "きゅう",
+              "9"
+            ],
+            [
+              "十",
+              "じゅう",
+              "10"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Objectif et prérequis",
+              "paragraphs": [
+                "Reconnaître, lire et écrire 一 à 十, puis construire les nombres de 11 à 99 en kanji.",
+                "Prérequis : les deux leçons sur les nombres et les dizaines. Travaille le MCO « Nombres en kanji » avec cette leçon."
+              ],
+              "examples": []
+            },
+            {
+              "title": "Même nombre, plusieurs écritures",
+              "paragraphs": [
+                "Les chiffres arabes restent très courants au Japon : 7 et 七 représentent le même nombre. Les kanji sont une autre écriture à apprendre, et non un nouveau système de lecture.",
+                "Apprends les caractères par petits groupes : 一・二・三, puis 四・五・六, puis 七・八・九・十. Pour les nombres isolés, nous privilégions よん, なな et きゅう ; les lectures changent parfois avec les heures et les compteurs."
+              ],
+              "examples": [
+                {
+                  "jp": "四",
+                  "reading": "よん",
+                  "fr": "4"
+                },
+                {
+                  "jp": "七",
+                  "reading": "なな",
+                  "fr": "7"
+                },
+                {
+                  "jp": "九",
+                  "reading": "きゅう",
+                  "fr": "9"
+                }
+              ]
+            },
+            {
+              "title": "Construire plutôt que juxtaposer",
+              "paragraphs": [
+                "11 s’écrit 十一 : dix plus un. 20 s’écrit 二十 : deux fois dix. 23 s’écrit 二十三 : deux fois dix plus trois.",
+                "Pour écrire 47 comme un nombre, utilise 四十七. 四七 juxtapose deux chiffres et ne représente pas la construction habituelle du nombre quarante-sept."
+              ],
+              "examples": [
+                {
+                  "jp": "十一",
+                  "reading": "じゅういち",
+                  "fr": "11"
+                },
+                {
+                  "jp": "二十",
+                  "reading": "にじゅう",
+                  "fr": "20"
+                },
+                {
+                  "jp": "二十三",
+                  "reading": "にじゅうさん",
+                  "fr": "23"
+                },
+                {
+                  "jp": "四十七",
+                  "reading": "よんじゅうなな",
+                  "fr": "47"
+                },
+                {
+                  "jp": "九十九",
+                  "reading": "きゅうじゅうきゅう",
+                  "fr": "99"
+                }
+              ]
+            },
+            {
+              "title": "Pratiquer le tracé",
+              "paragraphs": [
+                "Dans l’atelier d’écriture, choisis un caractère, reproduis-le avec le modèle, puis masque le modèle et recommence. Compare ensuite les proportions et les espaces entre les traits.",
+                "La silhouette d’une police sert de repère visuel ; elle n’enseigne pas l’ordre des traits. L’atelier ne note pas automatiquement l’écriture manuscrite."
+              ],
+              "examples": []
+            },
+            {
+              "title": "Réutiliser les nombres",
+              "paragraphs": [
+                "Retrouve ces mêmes caractères dans les dizaines et, à la leçon suivante, dans les centaines. 百 signifie cent et 円 signifie yen ; 千 et 万 seront introduits avec les grands prix au module 11."
+              ],
+              "examples": []
+            }
+          ],
+          "exercises": [
+            {
+              "id": "write-1",
+              "type": "input",
+              "prompt": "Écris 1 avec un seul kanji.",
+              "answer": "一",
+              "explanation": "1 s’écrit 一 et se lit いち comme nombre isolé."
+            },
+            {
+              "id": "write-2",
+              "type": "input",
+              "prompt": "Écris 2 avec un seul kanji.",
+              "answer": "二",
+              "explanation": "2 s’écrit 二 et se lit に comme nombre isolé."
+            },
+            {
+              "id": "write-3",
+              "type": "input",
+              "prompt": "Écris 3 avec un seul kanji.",
+              "answer": "三",
+              "explanation": "3 s’écrit 三 et se lit さん comme nombre isolé."
+            },
+            {
+              "id": "write-4",
+              "type": "input",
+              "prompt": "Écris 4 avec un seul kanji.",
+              "answer": "四",
+              "explanation": "4 s’écrit 四 et se lit よん comme nombre isolé."
+            },
+            {
+              "id": "write-5",
+              "type": "input",
+              "prompt": "Écris 5 avec un seul kanji.",
+              "answer": "五",
+              "explanation": "5 s’écrit 五 et se lit ご comme nombre isolé."
+            },
+            {
+              "id": "write-6",
+              "type": "input",
+              "prompt": "Écris 6 avec un seul kanji.",
+              "answer": "六",
+              "explanation": "6 s’écrit 六 et se lit ろく comme nombre isolé."
+            },
+            {
+              "id": "write-7",
+              "type": "input",
+              "prompt": "Écris 7 avec un seul kanji.",
+              "answer": "七",
+              "explanation": "7 s’écrit 七 et se lit なな comme nombre isolé."
+            },
+            {
+              "id": "write-8",
+              "type": "input",
+              "prompt": "Écris 8 avec un seul kanji.",
+              "answer": "八",
+              "explanation": "8 s’écrit 八 et se lit はち comme nombre isolé."
+            },
+            {
+              "id": "write-9",
+              "type": "input",
+              "prompt": "Écris 9 avec un seul kanji.",
+              "answer": "九",
+              "explanation": "9 s’écrit 九 et se lit きゅう comme nombre isolé."
+            },
+            {
+              "id": "write-10",
+              "type": "input",
+              "prompt": "Écris 10 avec un seul kanji.",
+              "answer": "十",
+              "explanation": "10 s’écrit 十 et se lit じゅう comme nombre isolé."
+            },
+            {
+              "id": "compose-11",
+              "type": "input",
+              "prompt": "Écris le nombre 11 en kanji.",
+              "answer": "十一",
+              "explanation": "十一 se lit じゅういち : repère la dizaine 十 et l’unité."
+            },
+            {
+              "id": "compose-20",
+              "type": "input",
+              "prompt": "Écris le nombre 20 en kanji.",
+              "answer": "二十",
+              "explanation": "二十 se lit にじゅう : repère la dizaine 十 et l’unité."
+            },
+            {
+              "id": "compose-23",
+              "type": "input",
+              "prompt": "Écris le nombre 23 en kanji.",
+              "answer": "二十三",
+              "explanation": "二十三 se lit にじゅうさん : repère la dizaine 十 et l’unité."
+            },
+            {
+              "id": "compose-47",
+              "type": "input",
+              "prompt": "Écris le nombre 47 en kanji.",
+              "answer": "四十七",
+              "explanation": "四十七 se lit よんじゅうなな : repère la dizaine 十 et l’unité."
+            },
+            {
+              "id": "compose-99",
+              "type": "input",
+              "prompt": "Écris le nombre 99 en kanji.",
+              "answer": "九十九",
+              "explanation": "九十九 se lit きゅうじゅうきゅう : repère la dizaine 十 et l’unité."
+            },
+            {
+              "id": "read-47",
+              "type": "input",
+              "prompt": "Lis 四十七 : réponds en hiragana.",
+              "answer": "よんじゅうなな",
+              "alternatives": [
+                "よんじゅうしち"
+              ],
+              "explanation": "四十 signifie quarante, puis 七 ajoute sept."
+            }
+          ],
+          "resources": [
+            {
+              "title": "Japan Foundation — Irodori : progression des nombres et kanji",
+              "url": "https://www.irodori.jpf.go.jp/assets/data/X_syllabus.pdf"
+            }
+          ]
+        },
+        {
           "id": "kanji",
           "title": "Un kanji, plusieurs lectures",
           "paragraphs": [],
@@ -2365,7 +2629,7 @@
             {
               "title": "Objectif et prérequis",
               "paragraphs": [
-                "Associer les dix mots en kanji du module à leur lecture et leur sens, sans apprendre toutes les lectures isolées.",
+                "Associer les dix mots courants des MCO « Nature » et « Autour de soi » à leur lecture et leur sens, en complément des dix nombres.",
                 "Les bases des modules précédents, puis les leçons précédentes de ce module. Consulte le vocabulaire du module 2 si un mot manque."
               ],
               "examples": []
@@ -2374,7 +2638,7 @@
               "title": "Lire un mot plutôt qu’un caractère hors contexte",
               "paragraphs": [
                 "Un kanji est associé à du sens, mais il ne porte pas une lecture unique valable dans tous les mots. 山 se lit やま lorsqu’on parle de la montagne comme mot isolé ; le même caractère peut avoir une autre lecture dans un composé.",
-                "Dans ce module, retiens seulement les dix mots des deux MCO. Pour chacun, associe trois éléments : le mot écrit, sa lecture en kana et son sens. Nous n’exigeons pas la mémorisation de toutes les lectures possibles."
+                "Dans les MCO « Nature » et « Autour de soi », retiens dix mots courants. Pour chacun, associe le mot écrit, sa lecture en kana et son sens. Le troisième MCO entraîne séparément les dix nombres ; nous n’exigeons pas toutes les lectures possibles de chaque caractère."
               ],
               "examples": [
                 {
@@ -2417,7 +2681,7 @@
                   "fr": "ciel"
                 }
               ],
-              "note": "Le programme garde le plafond de dix mots en kanji pour ce module. Les cours suivants fourniront toujours une lecture pour les nouveaux exemples."
+              "note": "Le module comporte deux petites listes de mots courants et une liste de dix nombres. Chaque MCO reste limité à dix entrées. Les nombres serviront de nouveau dans les prix et les quantités."
             }
           ],
           "exercises": [
@@ -2510,6 +2774,39 @@
                   "fr": "deux cent cinq"
                 }
               ]
+            },
+            {
+              "title": "Reconnaître 百 et 円",
+              "paragraphs": [
+                "百 s’écrit avec un seul kanji et se lit ひゃく dans 100. Dans 三百, 六百 et 八百, les changements sonores appris restent les mêmes. 円 se lit えん et indique les yens."
+              ],
+              "examples": [
+                {
+                  "jp": "百",
+                  "reading": "ひゃく",
+                  "fr": "100"
+                },
+                {
+                  "jp": "三百",
+                  "reading": "さんびゃく",
+                  "fr": "300"
+                },
+                {
+                  "jp": "六百",
+                  "reading": "ろっぴゃく",
+                  "fr": "600"
+                },
+                {
+                  "jp": "八百",
+                  "reading": "はっぴゃく",
+                  "fr": "800"
+                },
+                {
+                  "jp": "二百五十円",
+                  "reading": "にひゃくごじゅうえん",
+                  "fr": "250 yens"
+                }
+              ]
             }
           ],
           "exercises": [
@@ -2577,6 +2874,41 @@
                 "はちびゃく"
               ],
               "explanation": "800 est une des centaines à changement sonore."
+            },
+            {
+              "id": "kanji-100",
+              "type": "input",
+              "prompt": "Écris 100 en kanji.",
+              "answer": "百",
+              "explanation": "百 se lit ひゃく. 百 est le caractère des centaines."
+            },
+            {
+              "id": "kanji-300",
+              "type": "input",
+              "prompt": "Écris 300 en kanji.",
+              "answer": "三百",
+              "explanation": "三百 se lit さんびゃく. 百 est le caractère des centaines."
+            },
+            {
+              "id": "kanji-600",
+              "type": "input",
+              "prompt": "Écris 600 en kanji.",
+              "answer": "六百",
+              "explanation": "六百 se lit ろっぴゃく. 百 est le caractère des centaines."
+            },
+            {
+              "id": "kanji-800",
+              "type": "input",
+              "prompt": "Écris 800 en kanji.",
+              "answer": "八百",
+              "explanation": "八百 se lit はっぴゃく. 百 est le caractère des centaines."
+            },
+            {
+              "id": "price-kanji",
+              "type": "input",
+              "prompt": "Écris « 250 yens » en kanji, avec 円.",
+              "answer": "二百五十円",
+              "explanation": "二百 = 200 ; 五十 = 50 ; 円 indique la monnaie."
             }
           ],
           "resources": [
@@ -2695,6 +3027,72 @@
               "writing": "本",
               "reading": "ほん",
               "meaning": "livre"
+            }
+          ]
+        },
+        {
+          "id": "m2-numeric-kanji",
+          "title": "Nombres en kanji · 10 caractères",
+          "words": [
+            {
+              "id": "m2-numeric-1",
+              "writing": "一",
+              "reading": "いち",
+              "meaning": "1"
+            },
+            {
+              "id": "m2-numeric-2",
+              "writing": "二",
+              "reading": "に",
+              "meaning": "2"
+            },
+            {
+              "id": "m2-numeric-3",
+              "writing": "三",
+              "reading": "さん",
+              "meaning": "3"
+            },
+            {
+              "id": "m2-numeric-4",
+              "writing": "四",
+              "reading": "よん",
+              "meaning": "4"
+            },
+            {
+              "id": "m2-numeric-5",
+              "writing": "五",
+              "reading": "ご",
+              "meaning": "5"
+            },
+            {
+              "id": "m2-numeric-6",
+              "writing": "六",
+              "reading": "ろく",
+              "meaning": "6"
+            },
+            {
+              "id": "m2-numeric-7",
+              "writing": "七",
+              "reading": "なな",
+              "meaning": "7"
+            },
+            {
+              "id": "m2-numeric-8",
+              "writing": "八",
+              "reading": "はち",
+              "meaning": "8"
+            },
+            {
+              "id": "m2-numeric-9",
+              "writing": "九",
+              "reading": "きゅう",
+              "meaning": "9"
+            },
+            {
+              "id": "m2-numeric-10",
+              "writing": "十",
+              "reading": "じゅう",
+              "meaning": "10"
             }
           ]
         }
@@ -9382,6 +9780,39 @@
                   "fr": "Est-ce 12 000 yens ?"
                 }
               ]
+            },
+            {
+              "title": "Lire les grands prix en kanji",
+              "paragraphs": [
+                "千 signifie mille ; 万 marque un groupe de dix mille. 1000 s’écrit 千, tandis que 10000 s’écrit 一万. Les chiffres arabes restent usuels sur les étiquettes."
+              ],
+              "examples": [
+                {
+                  "jp": "千",
+                  "reading": "せん",
+                  "fr": "1000"
+                },
+                {
+                  "jp": "三千",
+                  "reading": "さんぜん",
+                  "fr": "3000"
+                },
+                {
+                  "jp": "八千",
+                  "reading": "はっせん",
+                  "fr": "8000"
+                },
+                {
+                  "jp": "一万",
+                  "reading": "いちまん",
+                  "fr": "10000"
+                },
+                {
+                  "jp": "一万二千円",
+                  "reading": "いちまんにせんえん",
+                  "fr": "12000 yens"
+                }
+              ]
             }
           ],
           "exercises": [
@@ -9445,6 +9876,34 @@
               ],
               "explanation": "Deux dizaines de milliers, cinq milliers, monnaie.",
               "alternatives": []
+            },
+            {
+              "id": "kanji-1000",
+              "type": "input",
+              "prompt": "Écris 1000 en kanji.",
+              "answer": "千",
+              "explanation": "千 se lit せん. 千 représente mille et 万 dix mille."
+            },
+            {
+              "id": "kanji-3000",
+              "type": "input",
+              "prompt": "Écris 3000 en kanji.",
+              "answer": "三千",
+              "explanation": "三千 se lit さんぜん. 千 représente mille et 万 dix mille."
+            },
+            {
+              "id": "kanji-8000",
+              "type": "input",
+              "prompt": "Écris 8000 en kanji.",
+              "answer": "八千",
+              "explanation": "八千 se lit はっせん. 千 représente mille et 万 dix mille."
+            },
+            {
+              "id": "kanji-10000",
+              "type": "input",
+              "prompt": "Écris 10000 en kanji.",
+              "answer": "一万",
+              "explanation": "一万 se lit いちまん. 千 représente mille et 万 dix mille."
             }
           ],
           "resources": [

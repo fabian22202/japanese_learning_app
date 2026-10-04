@@ -1,6 +1,6 @@
 # Kotoba — Parcours débutant approfondi
 
-Un cours en français pour aller des premiers kana à des phrases du quotidien. Le programme comprend 50 leçons : les 25 fiches initiales sont approfondies et 25 nouvelles leçons prolongent la progression. Les 28 MCO contiennent 220 entrées de vocabulaire ; certaines notions reviennent à des étapes différentes. Les 234 exercices ci-dessous possèdent un corrigé expliqué. Les générateurs des premières leçons fournissent aussi des variantes dans l’application.
+Un cours en français pour aller des premiers kana à des phrases du quotidien. Le programme comprend 51 leçons : les 25 fiches initiales sont approfondies et 26 nouvelles leçons prolongent la progression. Les 29 MCO contiennent 230 entrées de vocabulaire ; certaines notions reviennent à des étapes différentes. Les 259 exercices ci-dessous possèdent un corrigé expliqué. Les générateurs des premières leçons fournissent aussi des variantes dans l’application.
 
 Les textes, exemples et exercices sont rédigés pour Kotoba. Les vidéos de Julien Fontanier sont des compléments ; ce document n’est ni une transcription de ses cours ni un programme officiel du JLPT. Les références Irodori de la Japan Foundation servent de repères complémentaires pour les notions et situations abordées.
 
@@ -21,7 +21,7 @@ Les exercices demandent un modèle précis. En dehors de cette consigne, d’aut
 | Module | Leçons | MCO | Objectif |
 |---|---:|---:|---|
 | 1 · Hiragana & katakana | 5 | 3 | Tes premiers pas dans l’écriture japonaise |
-| 2 · Arabiasūji & premiers kanji | 4 | 2 | Compter et découvrir les caractères de sens |
+| 2 · Arabiasūji & premiers kanji | 5 | 3 | Compter et découvrir les caractères de sens |
 | 3 · Construire sa première phrase | 3 | 2 | Se présenter, relier des noms et comprendre les rôles |
 | 4 · Montrer & situer | 4 | 3 | Parler des objets, des lieux et de ce qui s’y trouve |
 | 5 · Actions & moments | 4 | 3 | Décrire sa journée avec les formes polies |
@@ -646,11 +646,113 @@ Pour lire, repère d’abord じゅう puis les nombres qui l’entourent. Pour 
 
 - [Explorer les cours de japonais de Julien Fontanier](https://www.youtube.com/@coursdejaponais/videos)
 
-### 2.3 — Un kanji, plusieurs lectures
+### 2.3 — Écrire les nombres en kanji
 
 **Objectif et prérequis**
 
-Associer les dix mots en kanji du module à leur lecture et leur sens, sans apprendre toutes les lectures isolées.
+Reconnaître, lire et écrire 一 à 十, puis construire les nombres de 11 à 99 en kanji.
+
+Prérequis : les deux leçons sur les nombres et les dizaines. Travaille le MCO « Nombres en kanji » avec cette leçon.
+
+**Même nombre, plusieurs écritures**
+
+Les chiffres arabes restent très courants au Japon : 7 et 七 représentent le même nombre. Les kanji sont une autre écriture à apprendre, et non un nouveau système de lecture.
+
+Apprends les caractères par petits groupes : 一・二・三, puis 四・五・六, puis 七・八・九・十. Pour les nombres isolés, nous privilégions よん, なな et きゅう ; les lectures changent parfois avec les heures et les compteurs.
+
+| Japonais | Lecture | Sens |
+|---|---|---|
+| 四 | よん | 4 |
+| 七 | なな | 7 |
+| 九 | きゅう | 9 |
+
+**Construire plutôt que juxtaposer**
+
+11 s’écrit 十一 : dix plus un. 20 s’écrit 二十 : deux fois dix. 23 s’écrit 二十三 : deux fois dix plus trois.
+
+Pour écrire 47 comme un nombre, utilise 四十七. 四七 juxtapose deux chiffres et ne représente pas la construction habituelle du nombre quarante-sept.
+
+| Japonais | Lecture | Sens |
+|---|---|---|
+| 十一 | じゅういち | 11 |
+| 二十 | にじゅう | 20 |
+| 二十三 | にじゅうさん | 23 |
+| 四十七 | よんじゅうなな | 47 |
+| 九十九 | きゅうじゅうきゅう | 99 |
+
+**Pratiquer le tracé**
+
+Dans l’atelier d’écriture, choisis un caractère, reproduis-le avec le modèle, puis masque le modèle et recommence. Compare ensuite les proportions et les espaces entre les traits.
+
+La silhouette d’une police sert de repère visuel ; elle n’enseigne pas l’ordre des traits. L’atelier ne note pas automatiquement l’écriture manuscrite.
+
+**Réutiliser les nombres**
+
+Retrouve ces mêmes caractères dans les dizaines et, à la leçon suivante, dans les centaines. 百 signifie cent et 円 signifie yen ; 千 et 万 seront introduits avec les grands prix au module 11.
+
+**Tableau de repérage**
+
+| Écriture / catégorie | Lecture / correspondance |
+|---|---|
+| 一 | いち · 1 |
+| 二 | に · 2 |
+| 三 | さん · 3 |
+| 四 | よん · 4 |
+| 五 | ご · 5 |
+| 六 | ろく · 6 |
+| 七 | なな · 7 |
+| 八 | はち · 8 |
+| 九 | きゅう · 9 |
+| 十 | じゅう · 10 |
+
+**Exercices — cherche avant de lire le corrigé**
+
+1. Écris 1 avec un seul kanji.
+2. Écris 2 avec un seul kanji.
+3. Écris 3 avec un seul kanji.
+4. Écris 4 avec un seul kanji.
+5. Écris 5 avec un seul kanji.
+6. Écris 6 avec un seul kanji.
+7. Écris 7 avec un seul kanji.
+8. Écris 8 avec un seul kanji.
+9. Écris 9 avec un seul kanji.
+10. Écris 10 avec un seul kanji.
+11. Écris le nombre 11 en kanji.
+12. Écris le nombre 20 en kanji.
+13. Écris le nombre 23 en kanji.
+14. Écris le nombre 47 en kanji.
+15. Écris le nombre 99 en kanji.
+16. Lis 四十七 : réponds en hiragana.
+
+**Corrigé expliqué**
+
+1. **一** — 1 s’écrit 一 et se lit いち comme nombre isolé.
+2. **二** — 2 s’écrit 二 et se lit に comme nombre isolé.
+3. **三** — 3 s’écrit 三 et se lit さん comme nombre isolé.
+4. **四** — 4 s’écrit 四 et se lit よん comme nombre isolé.
+5. **五** — 5 s’écrit 五 et se lit ご comme nombre isolé.
+6. **六** — 6 s’écrit 六 et se lit ろく comme nombre isolé.
+7. **七** — 7 s’écrit 七 et se lit なな comme nombre isolé.
+8. **八** — 8 s’écrit 八 et se lit はち comme nombre isolé.
+9. **九** — 9 s’écrit 九 et se lit きゅう comme nombre isolé.
+10. **十** — 10 s’écrit 十 et se lit じゅう comme nombre isolé.
+11. **十一** — 十一 se lit じゅういち : repère la dizaine 十 et l’unité.
+12. **二十** — 二十 se lit にじゅう : repère la dizaine 十 et l’unité.
+13. **二十三** — 二十三 se lit にじゅうさん : repère la dizaine 十 et l’unité.
+14. **四十七** — 四十七 se lit よんじゅうなな : repère la dizaine 十 et l’unité.
+15. **九十九** — 九十九 se lit きゅうじゅうきゅう : repère la dizaine 十 et l’unité.
+16. **よんじゅうなな** — 四十 signifie quarante, puis 七 ajoute sept.
+   Alternatives admises pour cette consigne : よんじゅうしち.
+
+**Pour compléter**
+
+- [Japan Foundation — Irodori : progression des nombres et kanji](https://www.irodori.jpf.go.jp/assets/data/X_syllabus.pdf)
+
+### 2.4 — Un kanji, plusieurs lectures
+
+**Objectif et prérequis**
+
+Associer les dix mots courants des MCO « Nature » et « Autour de soi » à leur lecture et leur sens, en complément des dix nombres.
 
 Les bases des modules précédents, puis les leçons précédentes de ce module. Consulte le vocabulaire du module 2 si un mot manque.
 
@@ -658,7 +760,7 @@ Les bases des modules précédents, puis les leçons précédentes de ce module.
 
 Un kanji est associé à du sens, mais il ne porte pas une lecture unique valable dans tous les mots. 山 se lit やま lorsqu’on parle de la montagne comme mot isolé ; le même caractère peut avoir une autre lecture dans un composé.
 
-Dans ce module, retiens seulement les dix mots des deux MCO. Pour chacun, associe trois éléments : le mot écrit, sa lecture en kana et son sens. Nous n’exigeons pas la mémorisation de toutes les lectures possibles.
+Dans les MCO « Nature » et « Autour de soi », retiens dix mots courants. Pour chacun, associe le mot écrit, sa lecture en kana et son sens. Le troisième MCO entraîne séparément les dix nombres ; nous n’exigeons pas toutes les lectures possibles de chaque caractère.
 
 | Japonais | Lecture | Sens |
 |---|---|---|
@@ -678,7 +780,7 @@ Compare 水 et 火 : leurs formes, lectures et sens diffèrent. Lis 水 comme �
 | 火 | ひ | feu |
 | 空 | そら | ciel |
 
-**À retenir :** Le programme garde le plafond de dix mots en kanji pour ce module. Les cours suivants fourniront toujours une lecture pour les nouveaux exemples.
+**À retenir :** Le module comporte deux petites listes de mots courants et une liste de dix nombres. Chaque MCO reste limité à dix entrées. Les nombres serviront de nouveau dans les prix et les quantités.
 
 **Exercices — cherche avant de lire le corrigé**
 
@@ -698,7 +800,7 @@ Compare 水 et 火 : leurs formes, lectures et sens diffèrent. Lis 水 comme �
 
 - [Explorer les cours de japonais de Julien Fontanier](https://www.youtube.com/@coursdejaponais/videos)
 
-### 2.4 — Les centaines : lire un premier prix
+### 2.5 — Les centaines : lire un premier prix
 
 **Objectif et prérequis**
 
@@ -729,6 +831,18 @@ Pour un zéro à une position interne, ne prononce pas forcément れい : 205 =
 | 250えん | にひゃくごじゅうえん | 250 yens |
 | 205 | にひゃくご | deux cent cinq |
 
+**Reconnaître 百 et 円**
+
+百 s’écrit avec un seul kanji et se lit ひゃく dans 100. Dans 三百, 六百 et 八百, les changements sonores appris restent les mêmes. 円 se lit えん et indique les yens.
+
+| Japonais | Lecture | Sens |
+|---|---|---|
+| 百 | ひゃく | 100 |
+| 三百 | さんびゃく | 300 |
+| 六百 | ろっぴゃく | 600 |
+| 八百 | はっぴゃく | 800 |
+| 二百五十円 | にひゃくごじゅうえん | 250 yens |
+
 **Tableau de repérage**
 
 | Écriture / catégorie | Lecture / correspondance |
@@ -755,6 +869,11 @@ Pour un zéro à une position interne, ne prononce pas forcément れい : 205 =
    Éléments : ろくじゅう / はち / さんびゃく
 6. Lecture de 800 ?
    Choix : はっぴゃく / はちひゃく / はちびゃく
+7. Écris 100 en kanji.
+8. Écris 300 en kanji.
+9. Écris 600 en kanji.
+10. Écris 800 en kanji.
+11. Écris « 250 yens » en kanji, avec 円.
 
 **Corrigé expliqué**
 
@@ -764,6 +883,11 @@ Pour un zéro à une position interne, ne prononce pas forcément れい : 205 =
 4. **にひゃくごじゅうえん** — Le prix est un nombre, pas une suite de chiffres indépendante.
 5. **さんびゃくろくじゅうはち** — On suit les centaines, dizaines, unités.
 6. **はっぴゃく** — 800 est une des centaines à changement sonore.
+7. **百** — 百 se lit ひゃく. 百 est le caractère des centaines.
+8. **三百** — 三百 se lit さんびゃく. 百 est le caractère des centaines.
+9. **六百** — 六百 se lit ろっぴゃく. 百 est le caractère des centaines.
+10. **八百** — 八百 se lit はっぴゃく. 百 est le caractère des centaines.
+11. **二百五十円** — 二百 = 200 ; 五十 = 50 ; 円 indique la monnaie.
 
 **Pour compléter**
 
@@ -792,6 +916,21 @@ Chaque liste est obligatoire dans le parcours. Lis les trois colonnes ensemble :
 | 目 | め | œil |
 | 手 | て | main |
 | 本 | ほん | livre |
+
+**Nombres en kanji · 10 caractères**
+
+| Écriture | Lecture | Sens |
+|---|---|---|
+| 一 | いち | 1 |
+| 二 | に | 2 |
+| 三 | さん | 3 |
+| 四 | よん | 4 |
+| 五 | ご | 5 |
+| 六 | ろく | 6 |
+| 七 | なな | 7 |
+| 八 | はち | 8 |
+| 九 | きゅう | 9 |
+| 十 | じゅう | 10 |
 
 **Avant le DS**
 
@@ -3161,6 +3300,18 @@ Un prix ne compte pas des personnes ou des stylos : ne transforme pas 3000 en un
 |---|---|---|
 | いちまんにせんえんですか。 | いちまんにせんえん です か。 | Est-ce 12 000 yens ? |
 
+**Lire les grands prix en kanji**
+
+千 signifie mille ; 万 marque un groupe de dix mille. 1000 s’écrit 千, tandis que 10000 s’écrit 一万. Les chiffres arabes restent usuels sur les étiquettes.
+
+| Japonais | Lecture | Sens |
+|---|---|---|
+| 千 | せん | 1000 |
+| 三千 | さんぜん | 3000 |
+| 八千 | はっせん | 8000 |
+| 一万 | いちまん | 10000 |
+| 一万二千円 | いちまんにせんえん | 12000 yens |
+
 **Tableau de repérage**
 
 | Écriture / catégorie | Lecture / correspondance |
@@ -3180,6 +3331,10 @@ Un prix ne compte pas des personnes ou des stylos : ne transforme pas 3000 en un
    Choix : なんにんですか / いくらですか / いくつですか
 6. Reconstitue la lecture de 25 000 yens.
    Éléments : ごせん / えん / にまん
+7. Écris 1000 en kanji.
+8. Écris 3000 en kanji.
+9. Écris 8000 en kanji.
+10. Écris 10000 en kanji.
 
 **Corrigé expliqué**
 
@@ -3189,6 +3344,10 @@ Un prix ne compte pas des personnes ou des stylos : ne transforme pas 3000 en un
 4. **さんぜんごひゃく** — Trois milliers puis cinq centaines.
 5. **いくらですか** — いくら porte ici sur le montant à payer.
 6. **にまんごせんえん** — Deux dizaines de milliers, cinq milliers, monnaie.
+7. **千** — 千 se lit せん. 千 représente mille et 万 dix mille.
+8. **三千** — 三千 se lit さんぜん. 千 représente mille et 万 dix mille.
+9. **八千** — 八千 se lit はっせん. 千 représente mille et 万 dix mille.
+10. **一万** — 一万 se lit いちまん. 千 représente mille et 万 dix mille.
 
 **Pour compléter**
 

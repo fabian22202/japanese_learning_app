@@ -79,6 +79,4 @@ for m in p['modules']:
    assert count>0;total_pool+=count
 assert total_pool<=30000
 assert 1<=len(p['modules'])<=50
-if len(p['modules'])>1 and p['modules'][1]['id']=='m2':
- assert sum(bool(re.search('[\u4e00-\u9fff]',w['writing'])) for u in p['modules'][1]['mcos'] for w in u['words'])<=10
 print(json.dumps({'modules':len(p['modules']),'lessons':sum(len(m['lessons']) for m in p['modules']),'mcos':sum(len(m['mcos']) for m in p['modules']),'vocabulary_entries':len(word_ids),'original_corrected_exercises':len(exercise_ids),'pool_upper_bound':total_pool,'examples_with_reading_and_translation':sum(len(s.get('examples',[])) for m in p['modules'] for u in m['lessons'] for s in u['sections'])},ensure_ascii=False))

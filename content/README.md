@@ -7,7 +7,7 @@ Ce dossier contient les cours, indépendamment des sources de l’application.
 - **verify_courses.py** : vérification du format, des contraintes MCO et de la cohérence technique des exercices.
 - **export_coursebook.py** : régénération du livre depuis le JSON de référence.
 
-Le parcours contient 12 modules et 50 leçons : les 25 premières fiches sont approfondies, 25 nouvelles leçons sont ajoutées. Il comprend 28 MCO, 220 entrées de vocabulaire, 203 exemples lus et traduits, 234 exercices rédigés et corrigés. Le moteur existant produit au total 2 498 variantes en comptant les exercices et le vocabulaire.
+Le parcours contient 12 modules et 51 leçons : les 25 premières fiches sont approfondies, 26 nouvelles leçons sont ajoutées. Il comprend 29 MCO, 230 entrées de vocabulaire, 221 exemples lus et traduits, 259 exercices rédigés et corrigés. Le moteur existant produit au total 2 603 variantes en comptant les exercices et le vocabulaire.
 
 ## Utiliser
 
