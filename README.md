@@ -1,57 +1,82 @@
-# Kotoba — japanese_learning_app
+# Kotoba — japanese_learning_app · 0.2
 
-Application de japonais en français, conçue d’abord pour le téléphone et utilisable sur PC. Cette première version est une **PWA installable**, avec un parcours guidé et des cartes à répétition espacée. Les cours et exercices fonctionnent hors ligne après une première ouverture ; les ressources YouTube nécessitent Internet.
+Application de japonais en français, conçue d’abord pour le téléphone et utilisable sur PC. PWA installable, parcours guidé et révision espacée. Les fiches, exercices et cartes fonctionnent hors ligne après une première ouverture ; les cours vidéo nécessitent Internet.
 
 ## Démarrer
 
-Prérequis : Python 3 pour le serveur de développement. Node.js 20+ pour les tests. Aucun paquet n’est nécessaire pour exécuter l’application.
+Python 3 pour le serveur local ; Node.js 20+ pour les tests. Aucun paquet requis pour exécuter l’application.
 
 ```sh
 python3 -m http.server 8080
 ```
 
-Ouvrir http://localhost:8080. Sur Windows, `py -m http.server 8080` convient aussi. Pour essayer sur un téléphone, un hébergement HTTPS est nécessaire à l’installation et au mode hors ligne. Ne pas ouvrir `index.html` directement avec `file://` : les modules JavaScript nécessitent un serveur HTTP.
+Ouvrir http://localhost:8080. Sous Windows : `py -m http.server 8080`. Ne pas ouvrir `index.html` en `file://`, car les modules JavaScript nécessitent un serveur HTTP.
 
-Installation : Chrome/Edge → Installer l’application ; iPhone → Safari → Partager → Sur l’écran d’accueil. Le même code fonctionne sur Android, iOS et ordinateur via un navigateur compatible. Ce dépôt ne fournit pas encore d’APK, de paquet iOS ou d’installeur Windows.
+Sur Android et PC, utiliser « Installer l’application » dans Chrome/Edge. Sur iPhone : Safari → Partager → Sur l’écran d’accueil. L’installation sur téléphone nécessite un hébergement HTTPS. Ce dépôt ne fournit pas encore d’APK ni de paquet iOS/Windows.
 
-## Parcours disponible
+## Ce qui change en 0.2
 
-| Module | Leçons | MCO obligatoires | Vocabulaire |
-| --- | --- | --- | --- |
-| 1 · Hiragana & katakana | 46 hiragana, 46 katakana, accents, combinaisons, pauses | Quotidien ; mots en katakana | 16 mots, sans kanji |
-| 2 · Arabiasūji & premiers kanji | Chiffres 0–10 ; sens et lectures des kanji | Nature ; autour de soi | Exactement 10 mots en kanji |
-| 3 · Particules de base | は / の / も ; を / に / で | Personnes et lieux ; actions | 14 mots en kana |
+Les trois modules de départ étaient des exemples de structure, pas un programme complet. Le parcours s’étend à **8 modules, 25 leçons et 16 MCO**, avec 124 entrées de vocabulaire réparties en groupes de dix mots maximum. Certains mots reviennent dans un autre contexte. Les dix mots en kanji du module 2 restent une introduction limitée ; les autres notions s’appuient largement sur les kana.
 
-Chaque module possède deux MCO (le format permet de deux à quatre), de huit mots au plus dans cette version, et un DS. Le schéma impose un maximum de dix mots par MCO.
+| Module | Objectif et notions |
+| --- | --- |
+| 1 · Hiragana & katakana | Syllabaires, accents, combinaisons, pauses, allongements et lecture de mots |
+| 2 · Nombres & kanji | Arabiasūji, composition des nombres jusqu’à 99, premiers mots en kanji |
+| 3 · Première phrase | Thème, possession, « aussi », questions, négation nominale, objets et lieux d’action |
+| 4 · Montrer & situer | これ/それ/あれ, この/その/あの, lieux, あります et います |
+| 5 · Actions & moments | ます/ません, repères temporels, heures, transport et accompagnement |
+| 6 · Descriptions & goûts | Adjectifs en い et な, négation, すき, intensité |
+| 7 · Raconter & proposer | Passé poli, invitations, propositions, première approche des demandes en てください |
+| 8 · Situations | Commander, demander un prix ou un lieu, comprendre des échanges simples |
 
-- Séances de dix questions maximum pour les grands syllabaires. Un kana doit avoir été reconnu correctement au moins une fois pour que sa leçon soit terminée.
-- Leçons courtes et MCO : au moins 80 % de bonnes réponses. Les MCO demandent de retrouver le mot à partir du français ; les mots en kanji sont également testés en lecture.
-- DS disponible après toutes les leçons et tous les MCO. Le tirage aléatoire couvre chaque leçon et chaque MCO. Aucune correction intermédiaire ; bilan détaillé à la fin.
-- Score de 80 % au DS pour ouvrir le module suivant. Le meilleur score est conservé ; une nouvelle tentative moins bonne ne referme pas un module.
-- Révision active des mots des MCO terminés. « À revoir » programme un rappel après dix minutes ; les autres notes espacent progressivement les rappels. La séance reste bornée à vingt cartes.
-- Objectif quotidien, série de jours d’activité, progression locale, export/import JSON pour passer manuellement d’un appareil à l’autre.
-- Lecture audio si une voix de synthèse japonaise est installée sur l’appareil. Aucun fichier audio n’est fourni, et une voix japonaise est requise pour cette fonction.
+Les radicaux verbaux et les formes en て sont fournis avant une étude complète des groupes de verbes. Le parcours ne prétend pas couvrir tout le niveau N5. Chaque fiche propose des explications, des exemples et, pour la grammaire combinable, un lexique consultable.
 
-## Ressources et direction artistique
+## Un moteur de défis, plutôt qu’une petite liste fixe
 
-Référence indiquée : [Cours de japonais !, Julien Fontanier](https://www.youtube.com/@coursdejaponais). Liens vérifiés vers [la présentation des hiragana](https://www.youtube.com/watch?v=_PCJnq_-oT8), [les nombres japonais](https://www.youtube.com/watch?v=-a8A0Bf3sxo) et [la particule は](https://www.youtube.com/watch?v=z9dU8wwFEEs). Les autres fiches pointent vers les vidéos de la chaîne sans inventer de correspondance précise.
+`src/engine.js` produit les exercices à partir des données linguistiques des leçons :
 
-Les fiches et exercices sont originaux : ils ne sont pas des transcriptions des vidéos ni les exercices officiels de la chaîne. Le regroupement en modules suit le cahier des charges de ce projet, et ne prétend pas reproduire l’ordre intégral des cours de Julien Fontanier. Projet indépendant, sans affiliation.
+- Kana : lecture écrite, reconnaissance du caractère, choix du son. Les graphies qui ont la même lecture ne sont pas présentées comme deux réponses concurrentes correctes.
+- MCO : rappel du mot depuis le français, choix du sens, reconnaissance de l’écriture et reconstruction du mot / lecture des kanji.
+- Nombres : les lectures de 0 à 99 sont composées par règle, puis travaillées dans plusieurs directions.
+- Grammaire : des domaines de mots compatibles sont combinés dans des structures contrôlées ; chaque contexte donne une phrase à compléter, une phrase à reconstruire et une question de compréhension.
 
-La direction graphique de cette version utilise un carnet clair, des couleurs papier, corail et sauge, ainsi que des repères japonais. Les illustrations et logos de la chaîne ne sont pas repris. Les caractères japonais utilisés par le parcours disposent d’une police Noto Sans JP embarquée et réduite aux caractères de l’application, sous licence SIL Open Font License (`fonts/OFL.txt`). Une adaptation visuelle plus précise pourra s’appuyer sur des références choisies avec le propriétaire du projet.
+Le corpus produit plus de **1 800 variantes** de défis, incluant plusieurs tâches sur une même notion. Ce nombre mesure des variantes de questions, pas autant de notions distinctes. Les phrases restent issues de règles et de données contrôlées ; aucune génération libre par IA n’est utilisée.
+
+Les séances mélangent les modalités. Les 80 derniers identifiants sont mémorisés pour éviter la répétition immédiate quand d’autres variantes restent disponibles. Les erreurs augmentent la priorité des notions ; les réussites réduisent progressivement cette priorité. Les distracteurs et les tuiles sont mélangés. La répétition reste nécessaire pour mémoriser, mais elle ne se limite plus au même petit quiz dans un ordre différent.
+
+## Progression & révision
+
+- Séances de dix défis maximum pour les leçons. Les sons doivent être réussis au moins une fois pour valider leur fiche ; les autres leçons demandent 80 %.
+- Un MCO teste chacun de ses mots une fois par séance, avec une forme de défi variable. Objectif : 80 %.
+- DS disponible après les leçons et les MCO. Chaque unité est représentée ; aucun indice/correction intermédiaire. Corrections détaillées à la fin.
+- 80 % au DS ouvre le module suivant. Les meilleurs scores et acquis de 0.1 sont conservés ; les nouvelles fiches restent à faire. Une mauvaise nouvelle tentative ne referme pas un module acquis.
+- Les mots des MCO terminés alimentent une révision espacée. « À revoir » : dix minutes ; les autres notes espacent les rappels. Maximum vingt cartes par séance.
+- Sauvegarde locale, objectif quotidien, série de jours d’activité, export/import JSON. L’historique des exercices fait partie du carnet.
+
+## Ressource pédagogique de base
+
+Référence choisie par le projet : **[Cours de japonais !, Julien Fontanier](https://www.youtube.com/@coursdejaponais/videos)**. La page de vidéos est disponible depuis les fiches ; des liens précis sont associés lorsque la correspondance est identifiée :
+
+- [Présentation des hiragana](https://www.youtube.com/watch?v=_PCJnq_-oT8)
+- [Les nombres japonais](https://www.youtube.com/watch?v=-a8A0Bf3sxo)
+- [La particule は](https://www.youtube.com/watch?v=z9dU8wwFEEs)
+- [La particule の](https://www.youtube.com/watch?v=LDevjw4zit0)
+- [Les préfixes démonstratifs こ・そ・あ・ど](https://www.youtube.com/watch?v=-ML1OqJxCz8)
+
+Les fiches et exercices sont originaux et ne reproduisent pas les supports officiels. Le découpage est propre à Kotoba : il ne prétend pas reproduire l’ordre intégral de la chaîne. Projet indépendant, sans affiliation. Le site Irodori de la Fondation du Japon a également été consulté pour vérifier la cohérence des thèmes du quotidien : https://www.irodori.jpf.go.jp/en/starter/pdf.html. Aucune de ses illustrations n’est utilisée.
+
+La charte papier, corail et sauge de 0.1 est conservée. Une police japonaise locale assure l’affichage des caractères du parcours hors ligne, sous SIL Open Font License (`fonts/OFL.txt`). Les logos et illustrations de la chaîne ne sont pas repris.
 
 ## Architecture
 
-- `src/content.js` : données du parcours, séparées de l’interface.
-- `scripts/content.py` : source éditable qui régénère le parcours avec `python3 scripts/content.py` (pas de bibliothèque externe).
-- `src/core.js` : correction, progression, tirage des DS, calendrier de révision et validation des sauvegardes.
-- `src/app.js` : interface, navigation, séances, stockage et import/export.
-- `src/style.css` : interface responsive, navigation inférieure sur mobile, focus clavier et réduction des animations.
-- `sw.js` : cache hors ligne des fichiers de l’application. Lors d’une modification, augmenter la version du cache ; fermer les anciennes fenêtres permet ensuite l’activation de la nouvelle version.
+- `scripts/content.py` + `scripts/curriculum.py` : sources des contenus, génération avec `python3 scripts/content.py`.
+- `src/content.js` : contenus et domaines linguistiques, séparés de l’interface.
+- `src/engine.js` : génération, sélection des modalités, historique et adaptation aux erreurs.
+- `src/core.js` : correction, prérequis, DS, calendrier de révision et sauvegardes.
+- `src/app.js` / `src/style.css` : fiches, séances, choix, tuiles et interface responsive.
+- `sw.js` : cache hors ligne, version 2. Une mise à jour s’active après fermeture des anciennes fenêtres de l’application.
 
-Lors de l’ajout de nouveaux caractères, compléter le sous-ensemble de police embarqué pour les appareils sans police japonaise.
-
-Les données restent dans `localStorage`, sans compte ni serveur de données. La suppression des données du navigateur efface le carnet : utiliser l’export pour le conserver. Il n’y a pas encore de synchronisation automatique, de reconnaissance de tracé ou de notation de prononciation.
+Lorsqu’on ajoute des caractères japonais, compléter le sous-ensemble de police embarqué. Les données du carnet restent dans `localStorage` : effacer les données du navigateur efface la progression. Exporter pour la conserver ou la transférer. Pas encore de comptes, synchronisation automatique, reconnaissance de tracé ou notation de prononciation. L’écoute utilise la synthèse vocale de l’appareil et nécessite une voix japonaise installée.
 
 ## Vérifier
 
@@ -60,9 +85,9 @@ npm test
 npm run check
 ```
 
-Les tests couvrent les contraintes du contenu, la correction des réponses, les prérequis, les DS, les rappels et les sauvegardes. Une action GitHub exécute ces contrôles à chaque push et PR.
+Les 16 tests couvrent les contraintes du contenu, la progression, les DS, la cohérence des exercices générés, les variantes phonétiques, la composition des nombres, l’adaptation aux erreurs et l’historique anti-répétition.
 
-Contrôle navigateur facultatif (Playwright et Chromium requis) :
+Contrôle navigateur facultatif, avec Playwright et Chromium :
 
 ```sh
 npm install --no-save playwright@1.63.0
@@ -71,11 +96,8 @@ npx playwright install chromium
 node scripts/browser-check.mjs
 ```
 
-Ce contrôle vérifie le format mobile, un MCO complet, la révision, un DS complet, le déblocage, la persistance, le mode hors ligne et le format PC. Les captures sont écrites dans le dossier temporaire du système.
+Le contrôle vérifie les formats mobile/PC, les exercices de MCO, un DS complet, la révision, la progression, les tuiles et choix de grammaire, la persistance et le mode hors ligne. Les captures sont écrites dans le dossier temporaire du système. GitHub Actions exécute les contrôles métier et navigateur.
 
-## Suite du projet
+## Suite pédagogique
 
-1. Faire relire les trois modules et enrichir les exercices (écoute, choix de particules en contexte, ordre des mots).
-2. Étendre les nombres et les particules, puis ajouter les modules suivants avec deux à quatre MCO chacun.
-3. Ajouter des comptes et une synchronisation optionnelle après choix du backend.
-4. Préparer les paquets mobiles natifs si une distribution en boutiques est souhaitée.
+Étendre les groupes de verbes et la formation des formes en て ; ajouter les compteurs, les dates et les comparaisons ; enrichir les dialogues contextualisés et l’écoute. Faire relire le contenu avant une diffusion pédagogique plus large.

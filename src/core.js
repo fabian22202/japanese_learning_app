@@ -1,7 +1,8 @@
+import {lessonPool,vocabularyPool,selectSession} from './engine.js';
 export const PASS = 80;
 export const DAY = 86400000;
 export function normalize(value) {
-  return String(value).normalize('NFKC').trim().toLocaleLowerCase('fr').replace(/\s+/g, ' ');
+  return String(value).normalize('NFKC').trim().toLocaleLowerCase('fr').replace(/\s+/g, ' ').replace(/(?<=[\u3000-\u9fff])\s+(?=[\u3000-\u9fff])/g,'');
 }
 export function correct(question, value) {
   return [question.answer, ...(question.alternatives || [])].some(a => normalize(a) === normalize(value));
@@ -11,6 +12,8 @@ export function validState(s) {
   return s && s.version === 1 && Array.isArray(s.completed) && s.completed.every(x=>typeof x==='string') &&
     s.exams && typeof s.exams==='object' && !Array.isArray(s.exams) && Object.values(s.exams).every(x=>x && Number.isFinite(x.score) && x.score>=0 && x.score<=100 && Number.isFinite(x.at)) &&
     s.cards && typeof s.cards==='object' && !Array.isArray(s.cards) && Object.values(s.cards).every(x=>x && Number.isFinite(x.due) && Number.isFinite(x.interval) && x.interval>=0 && Number.isFinite(x.ease) && x.ease>=1.3 && Number.isInteger(x.repetitions) && x.repetitions>=0) &&
+    (s.recentQuestions===undefined||(Array.isArray(s.recentQuestions)&&s.recentQuestions.length<=80&&s.recentQuestions.every(x=>typeof x==='string'))) &&
+    (s.exerciseStats===undefined||(s.exerciseStats&&typeof s.exerciseStats==='object'&&!Array.isArray(s.exerciseStats)&&Object.values(s.exerciseStats).every(x=>x&&Number.isInteger(x.right)&&x.right>=0&&Number.isInteger(x.wrong)&&x.wrong>=0))) &&
     s.activity && typeof s.activity==='object' && !Array.isArray(s.activity) && Object.values(s.activity).every(x=>Number.isInteger(x)&&x>=0) && Number.isInteger(s.goal) && s.goal>=5 && s.goal<=50;
 }
 export function required(module) { return [...module.lessons, ...module.mcos].map(x=>x.id); }
@@ -27,12 +30,9 @@ export function schedule(previous, grade, now=Date.now()) {
 export function shuffle(items, random=Math.random) {
   const copy=[...items]; for(let i=copy.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];} return copy;
 }
-export function wordQuestions(mco) {
-  return mco.words.flatMap(w=>[{prompt:`Écris en kana : « ${w.meaning} »`,answer:w.reading,explanation:`${w.writing} se lit ${w.reading} : ${w.meaning}.`}, ...(/\p{Script=Han}/u.test(w.writing)?[{prompt:`Lis ce mot en kanji : ${w.writing}`,answer:w.reading,explanation:`${w.writing} se lit ${w.reading} : ${w.meaning}.`}]:[])]);
-}
-export function examQuestions(module, random=Math.random) {
-  // Every lesson and every mandatory vocabulary group is represented.
-  return shuffle([...module.lessons.flatMap(l=>shuffle(l.questions,random).slice(0,4)),...module.mcos.flatMap(m=>shuffle(wordQuestions(m),random).slice(0,4))],random);
+export function wordQuestions(mco) { return vocabularyPool(mco); }
+export function examQuestions(module, random=Math.random, recent=[]) {
+  return shuffle([...module.lessons.flatMap(l=>selectSession(lessonPool(l,module),{count:4,random,recent})),...module.mcos.flatMap(m=>selectSession(vocabularyPool(m),{count:4,random,recent,coverConcepts:true}))],random);
 }
 export function score(questions, answers) {return Math.round(questions.filter((q,i)=>correct(q,answers[i]??'')).length/questions.length*100);}
 export function recordExam(state, module, result, now=Date.now()) {

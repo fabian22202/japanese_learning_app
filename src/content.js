@@ -478,6 +478,15 @@ export const modules = [
             "ん",
             "n"
           ]
+        ],
+        "generator": {
+          "kind": "kana"
+        },
+        "resources": [
+          {
+            "title": "Lire les hiragana",
+            "url": "https://www.youtube.com/watch?v=_PCJnq_-oT8"
+          }
         ]
       },
       {
@@ -951,6 +960,15 @@ export const modules = [
             "ン",
             "n"
           ]
+        ],
+        "generator": {
+          "kind": "kana"
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
         ]
       },
       {
@@ -1003,7 +1021,327 @@ export const modules = [
           }
         ],
         "video": null,
-        "table": null
+        "table": [
+          [
+            "が",
+            "ga"
+          ],
+          [
+            "ぎ",
+            "gi"
+          ],
+          [
+            "ぐ",
+            "gu"
+          ],
+          [
+            "げ",
+            "ge"
+          ],
+          [
+            "ご",
+            "go"
+          ],
+          [
+            "ざ",
+            "za"
+          ],
+          [
+            "じ",
+            "ji"
+          ],
+          [
+            "ず",
+            "zu"
+          ],
+          [
+            "ぜ",
+            "ze"
+          ],
+          [
+            "ぞ",
+            "zo"
+          ],
+          [
+            "だ",
+            "da"
+          ],
+          [
+            "ぢ",
+            "ji"
+          ],
+          [
+            "づ",
+            "zu"
+          ],
+          [
+            "で",
+            "de"
+          ],
+          [
+            "ど",
+            "do"
+          ],
+          [
+            "ば",
+            "ba"
+          ],
+          [
+            "び",
+            "bi"
+          ],
+          [
+            "ぶ",
+            "bu"
+          ],
+          [
+            "べ",
+            "be"
+          ],
+          [
+            "ぼ",
+            "bo"
+          ],
+          [
+            "ぱ",
+            "pa"
+          ],
+          [
+            "ぴ",
+            "pi"
+          ],
+          [
+            "ぷ",
+            "pu"
+          ],
+          [
+            "ぺ",
+            "pe"
+          ],
+          [
+            "ぽ",
+            "po"
+          ],
+          [
+            "きゃ",
+            "kya"
+          ],
+          [
+            "きゅ",
+            "kyu"
+          ],
+          [
+            "きょ",
+            "kyo"
+          ],
+          [
+            "ぎゃ",
+            "gya"
+          ],
+          [
+            "ぎゅ",
+            "gyu"
+          ],
+          [
+            "ぎょ",
+            "gyo"
+          ],
+          [
+            "しゃ",
+            "sha"
+          ],
+          [
+            "しゅ",
+            "shu"
+          ],
+          [
+            "しょ",
+            "sho"
+          ],
+          [
+            "じゃ",
+            "ja"
+          ],
+          [
+            "じゅ",
+            "ju"
+          ],
+          [
+            "じょ",
+            "jo"
+          ],
+          [
+            "ちゃ",
+            "cha"
+          ],
+          [
+            "ちゅ",
+            "chu"
+          ],
+          [
+            "ちょ",
+            "cho"
+          ],
+          [
+            "にゃ",
+            "nya"
+          ],
+          [
+            "にゅ",
+            "nyu"
+          ],
+          [
+            "にょ",
+            "nyo"
+          ],
+          [
+            "ひゃ",
+            "hya"
+          ],
+          [
+            "ひゅ",
+            "hyu"
+          ],
+          [
+            "ひょ",
+            "hyo"
+          ],
+          [
+            "びゃ",
+            "bya"
+          ],
+          [
+            "びゅ",
+            "byu"
+          ],
+          [
+            "びょ",
+            "byo"
+          ],
+          [
+            "ぴゃ",
+            "pya"
+          ],
+          [
+            "ぴゅ",
+            "pyu"
+          ],
+          [
+            "ぴょ",
+            "pyo"
+          ],
+          [
+            "みゃ",
+            "mya"
+          ],
+          [
+            "みゅ",
+            "myu"
+          ],
+          [
+            "みょ",
+            "myo"
+          ],
+          [
+            "りゃ",
+            "rya"
+          ],
+          [
+            "りゅ",
+            "ryu"
+          ],
+          [
+            "りょ",
+            "ryo"
+          ],
+          [
+            "きって",
+            "kitte"
+          ],
+          [
+            "コーヒー",
+            "koohii"
+          ],
+          [
+            "おかあさん",
+            "okaasan"
+          ],
+          [
+            "がっこう",
+            "gakkou"
+          ],
+          [
+            "ケーキ",
+            "keeki"
+          ]
+        ],
+        "generator": {
+          "kind": "kana"
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "writing-context",
+        "title": "Lire des mots, pas seulement des signes",
+        "paragraphs": [
+          "Un son connu doit aussi être reconnu dans un mot. Les exercices mélangent maintenant lecture, reconnaissance et reconstruction.",
+          "Le petit や est différent du petit ゃ : きや contient deux syllabes, きゃ un son combiné. Même vigilance pour っ et つ."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{word}"
+              ],
+              "french": "{word}",
+              "domains": {
+                "word": [
+                  {
+                    "jp": "ねこ",
+                    "fr": "chat"
+                  },
+                  {
+                    "jp": "いぬ",
+                    "fr": "chien"
+                  },
+                  {
+                    "jp": "かさ",
+                    "fr": "parapluie"
+                  },
+                  {
+                    "jp": "くつ",
+                    "fr": "chaussures"
+                  },
+                  {
+                    "jp": "カメラ",
+                    "fr": "appareil photo"
+                  },
+                  {
+                    "jp": "バス",
+                    "fr": "bus"
+                  }
+                ]
+              },
+              "focus": 0,
+              "explanation": "Retrouve le mot dans son ensemble ; chaque kana contribue à sa lecture."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
       }
     ],
     "mcos": [
@@ -1253,6 +1591,39 @@ export const modules = [
             "10",
             "じゅう"
           ]
+        ],
+        "generator": {
+          "kind": "numbers",
+          "min": 0,
+          "max": 10
+        },
+        "resources": [
+          {
+            "title": "Les nombres de 0 à 10",
+            "url": "https://www.youtube.com/watch?v=-a8A0Bf3sxo"
+          }
+        ]
+      },
+      {
+        "id": "tens",
+        "title": "Construire les nombres jusqu’à 99",
+        "paragraphs": [
+          "11 se lit じゅういち : dix puis un. 20 se lit にじゅう : deux dizaines. 23 se lit にじゅうさん : deux dizaines puis trois.",
+          "Pour ces nombres sans compteur, nous utilisons よん, なな et きゅう. Les lectures des heures et des compteurs obéissent à d’autres règles, introduites plus tard."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "numbers",
+          "min": 11,
+          "max": 99
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
         ]
       },
       {
@@ -1279,7 +1650,16 @@ export const modules = [
           }
         ],
         "video": null,
-        "table": null
+        "table": null,
+        "generator": {
+          "kind": "kanji"
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
       }
     ],
     "mcos": [
@@ -1359,8 +1739,8 @@ export const modules = [
   },
   {
     "id": "m3",
-    "title": "Les particules de base",
-    "subtitle": "Construire et comprendre tes premières phrases",
+    "title": "Construire sa première phrase",
+    "subtitle": "Se présenter, relier des noms et comprendre les rôles",
     "symbol": "は",
     "color": "blue",
     "lessons": [
@@ -1401,7 +1781,166 @@ export const modules = [
           }
         ],
         "video": "https://www.youtube.com/watch?v=z9dU8wwFEEs",
-        "table": null
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "わたし",
+                "は",
+                "{role}",
+                "です"
+              ],
+              "french": "Je suis {role}.",
+              "domains": {
+                "role": [
+                  {
+                    "jp": "がくせい",
+                    "fr": "étudiant"
+                  },
+                  {
+                    "jp": "せんせい",
+                    "fr": "professeur"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "は marque le thème. La phrase nominale se termine ici par です."
+            },
+            {
+              "tokens": [
+                "わたし",
+                "も",
+                "{role}",
+                "です"
+              ],
+              "french": "Moi aussi, je suis {role}.",
+              "domains": {
+                "role": [
+                  {
+                    "jp": "がくせい",
+                    "fr": "étudiant"
+                  },
+                  {
+                    "jp": "せんせい",
+                    "fr": "professeur"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "も ajoute le sens « aussi » ; elle remplace ici は."
+            },
+            {
+              "tokens": [
+                "わたし",
+                "の",
+                "{noun}"
+              ],
+              "french": "{noun}",
+              "domains": {
+                "noun": [
+                  {
+                    "jp": "ほん",
+                    "fr": "Mon livre"
+                  },
+                  {
+                    "jp": "かさ",
+                    "fr": "Mon parapluie"
+                  },
+                  {
+                    "jp": "くつ",
+                    "fr": "Mes chaussures"
+                  },
+                  {
+                    "jp": "カメラ",
+                    "fr": "Mon appareil photo"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "の relie le possesseur au nom."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "La particule は",
+            "url": "https://www.youtube.com/watch?v=z9dU8wwFEEs"
+          },
+          {
+            "title": "La particule の",
+            "url": "https://www.youtube.com/watch?v=LDevjw4zit0"
+          }
+        ]
+      },
+      {
+        "id": "questions-negative",
+        "title": "Poser une question et dire non",
+        "paragraphs": [
+          "か en fin de phrase transforme une phrase polie en question : がくせいですか = êtes-vous étudiant(e) ? Le sujet peut être omis quand il est évident.",
+          "Pour nier une phrase nominale, on emploie notamment ではありません. じゃありません est une variante plus courante à l’oral.",
+          "いいえ、がくせいではありません signifie « Non, je ne suis pas étudiant(e) ». Ce modèle concerne les noms, pas tous les verbes ni les adjectifs."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{role}",
+                "です",
+                "か"
+              ],
+              "french": "Êtes-vous {role} ?",
+              "domains": {
+                "role": [
+                  {
+                    "jp": "がくせい",
+                    "fr": "étudiant"
+                  },
+                  {
+                    "jp": "せんせい",
+                    "fr": "professeur"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "か termine une question polie."
+            },
+            {
+              "tokens": [
+                "わたし",
+                "は",
+                "{role}",
+                "ではありません"
+              ],
+              "french": "Je ne suis pas {role}.",
+              "domains": {
+                "role": [
+                  {
+                    "jp": "がくせい",
+                    "fr": "étudiant"
+                  },
+                  {
+                    "jp": "せんせい",
+                    "fr": "professeur"
+                  }
+                ]
+              },
+              "focus": 3,
+              "explanation": "La négation polie d’une phrase nominale est ici ではありません."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
       },
       {
         "id": "action",
@@ -1440,7 +1979,88 @@ export const modules = [
           }
         ],
         "video": null,
-        "table": null
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{drink}",
+                "を",
+                "のみます"
+              ],
+              "french": "Je bois {drink}.",
+              "domains": {
+                "drink": [
+                  {
+                    "jp": "みず",
+                    "fr": "de l’eau"
+                  },
+                  {
+                    "jp": "コーヒー",
+                    "fr": "du café"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "を marque l’objet bu."
+            },
+            {
+              "tokens": [
+                "{place}",
+                "に",
+                "いきます"
+              ],
+              "french": "Je vais {place}.",
+              "domains": {
+                "place": [
+                  {
+                    "jp": "がっこう",
+                    "fr": "à l’école"
+                  },
+                  {
+                    "jp": "いえ",
+                    "fr": "à la maison"
+                  },
+                  {
+                    "jp": "ホテル",
+                    "fr": "à l’hôtel"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "に marque ici la destination, tandis que le verbe reste à la fin."
+            },
+            {
+              "tokens": [
+                "{place}",
+                "で",
+                "べんきょうします"
+              ],
+              "french": "J’étudie {place}.",
+              "domains": {
+                "place": [
+                  {
+                    "jp": "がっこう",
+                    "fr": "à l’école"
+                  },
+                  {
+                    "jp": "いえ",
+                    "fr": "à la maison"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "で indique le lieu où l’action d’étudier se déroule."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
       }
     ],
     "mcos": [
@@ -1537,6 +2157,1961 @@ export const modules = [
             "writing": "べんきょうします",
             "reading": "べんきょうします",
             "meaning": "étudier (forme polie)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "title": "Montrer & situer",
+    "subtitle": "Parler des objets, des lieux et de ce qui s’y trouve",
+    "symbol": "こ",
+    "color": "sage",
+    "lessons": [
+      {
+        "id": "demonstratives",
+        "title": "これ・それ・あれ et この・その・あの",
+        "paragraphs": [
+          "これ désigne une chose près de la personne qui parle ; それ près de l’interlocuteur ; あれ éloignée des deux. Ils remplacent un nom.",
+          "この, その et あの accompagnent obligatoirement un nom : このほん = ce livre-ci. Pour demander « lequel ? », utilise どれ ; devant un nom, どの."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{demo}",
+                "は",
+                "{object}",
+                "です"
+              ],
+              "french": "{demo} est {object}.",
+              "domains": {
+                "demo": [
+                  {
+                    "jp": "これ",
+                    "fr": "Cette chose près de moi"
+                  },
+                  {
+                    "jp": "それ",
+                    "fr": "Cette chose près de vous"
+                  },
+                  {
+                    "jp": "あれ",
+                    "fr": "Cette chose là-bas"
+                  }
+                ],
+                "object": [
+                  {
+                    "jp": "ほん",
+                    "fr": "un livre"
+                  },
+                  {
+                    "jp": "かさ",
+                    "fr": "un parapluie"
+                  },
+                  {
+                    "jp": "カメラ",
+                    "fr": "un appareil photo"
+                  },
+                  {
+                    "jp": "くつ",
+                    "fr": "des chaussures"
+                  },
+                  {
+                    "jp": "かばん",
+                    "fr": "un sac"
+                  }
+                ]
+              },
+              "focus": 0,
+              "explanation": "これ・それ・あれ remplacent un nom et distinguent la distance."
+            },
+            {
+              "tokens": [
+                "{demo}",
+                "{object}"
+              ],
+              "french": "{object} : {demo}.",
+              "domains": {
+                "demo": [
+                  {
+                    "jp": "この",
+                    "fr": "près de moi"
+                  },
+                  {
+                    "jp": "その",
+                    "fr": "près de vous"
+                  },
+                  {
+                    "jp": "あの",
+                    "fr": "là-bas"
+                  }
+                ],
+                "object": [
+                  {
+                    "jp": "ほん",
+                    "fr": "livre"
+                  },
+                  {
+                    "jp": "かさ",
+                    "fr": "parapluie"
+                  },
+                  {
+                    "jp": "カメラ",
+                    "fr": "appareil photo"
+                  },
+                  {
+                    "jp": "くつ",
+                    "fr": "chaussures"
+                  },
+                  {
+                    "jp": "かばん",
+                    "fr": "sac"
+                  }
+                ]
+              },
+              "focus": 0,
+              "explanation": "この・その・あの sont suivis du nom désigné."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Les préfixes démonstratifs こ・そ・あ・ど",
+            "url": "https://www.youtube.com/watch?v=-ML1OqJxCz8"
+          }
+        ]
+      },
+      {
+        "id": "where",
+        "title": "Où ? ここ・そこ・あそこ",
+        "paragraphs": [
+          "ここ signifie ici, そこ là près de l’autre personne, あそこ là-bas. どこ demande où.",
+          "トイレはどこですか signifie « Où sont les toilettes ? ». Une réponse courte peut être そこです. Ces mots désignent un lieu, pas un objet."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{place}",
+                "は",
+                "どこ",
+                "です",
+                "か"
+              ],
+              "french": "Où se trouve cet endroit : {place} ?",
+              "domains": {
+                "place": [
+                  {
+                    "jp": "トイレ",
+                    "fr": "toilettes"
+                  },
+                  {
+                    "jp": "ホテル",
+                    "fr": "hôtel"
+                  },
+                  {
+                    "jp": "えき",
+                    "fr": "gare"
+                  },
+                  {
+                    "jp": "がっこう",
+                    "fr": "école"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "どこ interroge sur un lieu ; か termine la question."
+            },
+            {
+              "tokens": [
+                "{place}",
+                "は",
+                "{where}",
+                "です"
+              ],
+              "french": "Cet endroit ({place}) est {where}.",
+              "domains": {
+                "place": [
+                  {
+                    "jp": "トイレ",
+                    "fr": "toilettes"
+                  },
+                  {
+                    "jp": "えき",
+                    "fr": "gare"
+                  }
+                ],
+                "where": [
+                  {
+                    "jp": "ここ",
+                    "fr": "ici"
+                  },
+                  {
+                    "jp": "そこ",
+                    "fr": "là, près de vous"
+                  },
+                  {
+                    "jp": "あそこ",
+                    "fr": "là-bas"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "ここ・そこ・あそこ situent un lieu par rapport aux personnes qui parlent."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Les préfixes démonstratifs こ・そ・あ・ど",
+            "url": "https://www.youtube.com/watch?v=-ML1OqJxCz8"
+          }
+        ]
+      },
+      {
+        "id": "existence",
+        "title": "Il y a : あります et います",
+        "paragraphs": [
+          "あります sert ici à indiquer la présence d’une chose inanimée ; います celle d’une personne ou d’un animal.",
+          "いえにねこがいます = il y a un chat dans la maison. に marque le lieu d’existence et が introduit ce qui est présent. On n’utilise pas で pour ce lieu d’existence."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{place}",
+                "に",
+                "{object}",
+                "が",
+                "あります"
+              ],
+              "french": "Il y a {object} {place}.",
+              "domains": {
+                "place": [
+                  {
+                    "jp": "いえ",
+                    "fr": "dans la maison"
+                  },
+                  {
+                    "jp": "へや",
+                    "fr": "dans la chambre"
+                  }
+                ],
+                "object": [
+                  {
+                    "jp": "ほん",
+                    "fr": "un livre"
+                  },
+                  {
+                    "jp": "かさ",
+                    "fr": "un parapluie"
+                  },
+                  {
+                    "jp": "カメラ",
+                    "fr": "un appareil photo"
+                  },
+                  {
+                    "jp": "くつ",
+                    "fr": "des chaussures"
+                  },
+                  {
+                    "jp": "かばん",
+                    "fr": "un sac"
+                  }
+                ]
+              },
+              "focus": 4,
+              "explanation": "Un objet inanimé est présent : あります. に marque le lieu et が ce qui existe."
+            },
+            {
+              "tokens": [
+                "{place}",
+                "に",
+                "{being}",
+                "が",
+                "います"
+              ],
+              "french": "Il y a {being} {place}.",
+              "domains": {
+                "place": [
+                  {
+                    "jp": "いえ",
+                    "fr": "dans la maison"
+                  },
+                  {
+                    "jp": "こうえん",
+                    "fr": "dans le parc"
+                  }
+                ],
+                "being": [
+                  {
+                    "jp": "ねこ",
+                    "fr": "un chat"
+                  },
+                  {
+                    "jp": "いぬ",
+                    "fr": "un chien"
+                  },
+                  {
+                    "jp": "ともだち",
+                    "fr": "un ami"
+                  }
+                ]
+              },
+              "focus": 4,
+              "explanation": "Pour un animal ou une personne présents, on utilise います."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      }
+    ],
+    "mcos": [
+      {
+        "id": "m4-objects",
+        "title": "Objets & repères",
+        "words": [
+          {
+            "id": "m4-objects-0",
+            "writing": "かばん",
+            "reading": "かばん",
+            "meaning": "sac"
+          },
+          {
+            "id": "m4-objects-1",
+            "writing": "つくえ",
+            "reading": "つくえ",
+            "meaning": "bureau / table"
+          },
+          {
+            "id": "m4-objects-2",
+            "writing": "いす",
+            "reading": "いす",
+            "meaning": "chaise"
+          },
+          {
+            "id": "m4-objects-3",
+            "writing": "へや",
+            "reading": "へや",
+            "meaning": "chambre"
+          },
+          {
+            "id": "m4-objects-4",
+            "writing": "まど",
+            "reading": "まど",
+            "meaning": "fenêtre"
+          },
+          {
+            "id": "m4-objects-5",
+            "writing": "でんわ",
+            "reading": "でんわ",
+            "meaning": "téléphone"
+          },
+          {
+            "id": "m4-objects-6",
+            "writing": "ドア",
+            "reading": "ドア",
+            "meaning": "porte"
+          },
+          {
+            "id": "m4-objects-7",
+            "writing": "とけい",
+            "reading": "とけい",
+            "meaning": "horloge / montre"
+          }
+        ]
+      },
+      {
+        "id": "m4-places",
+        "title": "Se repérer",
+        "words": [
+          {
+            "id": "m4-places-0",
+            "writing": "えき",
+            "reading": "えき",
+            "meaning": "gare"
+          },
+          {
+            "id": "m4-places-1",
+            "writing": "トイレ",
+            "reading": "トイレ",
+            "meaning": "toilettes"
+          },
+          {
+            "id": "m4-places-2",
+            "writing": "こうえん",
+            "reading": "こうえん",
+            "meaning": "parc"
+          },
+          {
+            "id": "m4-places-3",
+            "writing": "みせ",
+            "reading": "みせ",
+            "meaning": "magasin"
+          },
+          {
+            "id": "m4-places-4",
+            "writing": "びょういん",
+            "reading": "びょういん",
+            "meaning": "hôpital"
+          },
+          {
+            "id": "m4-places-5",
+            "writing": "としょかん",
+            "reading": "としょかん",
+            "meaning": "bibliothèque"
+          },
+          {
+            "id": "m4-places-6",
+            "writing": "ここ",
+            "reading": "ここ",
+            "meaning": "ici"
+          },
+          {
+            "id": "m4-places-7",
+            "writing": "そこ",
+            "reading": "そこ",
+            "meaning": "là près de vous"
+          },
+          {
+            "id": "m4-places-8",
+            "writing": "あそこ",
+            "reading": "あそこ",
+            "meaning": "là-bas"
+          },
+          {
+            "id": "m4-places-9",
+            "writing": "どこ",
+            "reading": "どこ",
+            "meaning": "où"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m5",
+    "title": "Actions & moments",
+    "subtitle": "Décrire sa journée avec les formes polies",
+    "symbol": "時",
+    "color": "blue",
+    "lessons": [
+      {
+        "id": "polite-verbs",
+        "title": "ます et ません : agir ou ne pas agir",
+        "paragraphs": [
+          "Une forme polie comme よみます décrit selon le contexte une habitude, le présent ou le futur. Pour la nier, remplace ます par ません : よみません.",
+          "Pour l’instant, les radicaux sont donnés. On ne fabrique pas le radical de tous les verbes en supprimant simplement leur dernier kana : les groupes de verbes demandent une leçon dédiée."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{action}",
+                "ます"
+              ],
+              "french": "Je {action}.",
+              "domains": {
+                "action": [
+                  {
+                    "jp": "ほんをよみ",
+                    "fr": "lis un livre"
+                  },
+                  {
+                    "jp": "みずをのみ",
+                    "fr": "bois de l’eau"
+                  },
+                  {
+                    "jp": "パンをたべ",
+                    "fr": "mange du pain"
+                  },
+                  {
+                    "jp": "べんきょうし",
+                    "fr": "étudie"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "ます est la terminaison polie affirmative non passée."
+            },
+            {
+              "tokens": [
+                "{action}",
+                "ません"
+              ],
+              "french": "{action}",
+              "domains": {
+                "action": [
+                  {
+                    "jp": "ほんをよみ",
+                    "fr": "Je ne lis pas de livre."
+                  },
+                  {
+                    "jp": "みずをのみ",
+                    "fr": "Je ne bois pas d’eau."
+                  },
+                  {
+                    "jp": "パンをたべ",
+                    "fr": "Je ne mange pas de pain."
+                  },
+                  {
+                    "jp": "べんきょうし",
+                    "fr": "Je n’étudie pas."
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "ません est la terminaison polie négative non passée."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "time",
+        "title": "Quand ? 今日・明日, puis les heures",
+        "paragraphs": [
+          "きょう signifie aujourd’hui, あした demain et きのう hier. Les mots relatifs comme きょう ne prennent généralement pas に dans ces phrases.",
+          "Une heure précise peut prendre に : しちじにおきます = je me lève à sept heures. Retiens les lectures particulières よじ (4 h), しちじ (7 h), くじ (9 h).",
+          "Une activité régulière : まいにちべんきょうします = j’étudie chaque jour. Ces exemples n’utilisent pas encore les minutes ni les dates."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{day}",
+                "べんきょうします"
+              ],
+              "french": "J’étudie : {day}.",
+              "domains": {
+                "day": [
+                  {
+                    "jp": "きょう",
+                    "fr": "aujourd’hui"
+                  },
+                  {
+                    "jp": "あした",
+                    "fr": "demain"
+                  },
+                  {
+                    "jp": "まいにち",
+                    "fr": "chaque jour"
+                  }
+                ]
+              },
+              "focus": 0,
+              "explanation": "Un repère relatif comme きょう se place ici sans に."
+            },
+            {
+              "tokens": [
+                "{hour}",
+                "に",
+                "おきます"
+              ],
+              "french": "Je me lève à {hour}.",
+              "domains": {
+                "hour": [
+                  {
+                    "jp": "ろくじ",
+                    "fr": "six heures"
+                  },
+                  {
+                    "jp": "しちじ",
+                    "fr": "sept heures"
+                  },
+                  {
+                    "jp": "はちじ",
+                    "fr": "huit heures"
+                  },
+                  {
+                    "jp": "くじ",
+                    "fr": "neuf heures"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "Une heure précise est suivie ici de に."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "transport",
+        "title": "Aller quelque part, avec quelqu’un",
+        "paragraphs": [
+          "に ou へ peut indiquer une destination avec いきます. La particule へ se prononce e.",
+          "で peut indiquer un moyen de transport : バスでいきます = j’y vais en bus. と accompagne une personne : ともだちといきます = j’y vais avec un ami.",
+          "Les exercices séparent les emplois de で (lieu d’action ou moyen), pour apprendre à les lire dans leur contexte."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{vehicle}",
+                "で",
+                "{place}",
+                "に",
+                "いきます"
+              ],
+              "french": "Je vais {place} en {vehicle}.",
+              "domains": {
+                "vehicle": [
+                  {
+                    "jp": "バス",
+                    "fr": "bus"
+                  },
+                  {
+                    "jp": "タクシー",
+                    "fr": "taxi"
+                  },
+                  {
+                    "jp": "でんしゃ",
+                    "fr": "train"
+                  }
+                ],
+                "place": [
+                  {
+                    "jp": "えき",
+                    "fr": "à la gare"
+                  },
+                  {
+                    "jp": "がっこう",
+                    "fr": "à l’école"
+                  },
+                  {
+                    "jp": "みせ",
+                    "fr": "au magasin"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "で marque le moyen de transport ; に marque la destination."
+            },
+            {
+              "tokens": [
+                "{person}",
+                "と",
+                "{place}",
+                "に",
+                "いきます"
+              ],
+              "french": "Je vais {place} avec {person}.",
+              "domains": {
+                "person": [
+                  {
+                    "jp": "ともだち",
+                    "fr": "un ami"
+                  },
+                  {
+                    "jp": "かぞく",
+                    "fr": "ma famille"
+                  }
+                ],
+                "place": [
+                  {
+                    "jp": "こうえん",
+                    "fr": "au parc"
+                  },
+                  {
+                    "jp": "みせ",
+                    "fr": "au magasin"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "と marque ici la personne qui accompagne."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      }
+    ],
+    "mcos": [
+      {
+        "id": "m5-days",
+        "title": "Le temps",
+        "words": [
+          {
+            "id": "m5-days-0",
+            "writing": "きょう",
+            "reading": "きょう",
+            "meaning": "aujourd’hui"
+          },
+          {
+            "id": "m5-days-1",
+            "writing": "あした",
+            "reading": "あした",
+            "meaning": "demain"
+          },
+          {
+            "id": "m5-days-2",
+            "writing": "きのう",
+            "reading": "きのう",
+            "meaning": "hier"
+          },
+          {
+            "id": "m5-days-3",
+            "writing": "まいにち",
+            "reading": "まいにち",
+            "meaning": "chaque jour"
+          },
+          {
+            "id": "m5-days-4",
+            "writing": "あさ",
+            "reading": "あさ",
+            "meaning": "matin"
+          },
+          {
+            "id": "m5-days-5",
+            "writing": "ひる",
+            "reading": "ひる",
+            "meaning": "midi / journée"
+          },
+          {
+            "id": "m5-days-6",
+            "writing": "よる",
+            "reading": "よる",
+            "meaning": "soir / nuit"
+          },
+          {
+            "id": "m5-days-7",
+            "writing": "いま",
+            "reading": "いま",
+            "meaning": "maintenant"
+          }
+        ]
+      },
+      {
+        "id": "m5-day-actions",
+        "title": "La journée",
+        "words": [
+          {
+            "id": "m5-day-actions-0",
+            "writing": "おきます",
+            "reading": "おきます",
+            "meaning": "se lever (forme polie)"
+          },
+          {
+            "id": "m5-day-actions-1",
+            "writing": "ねます",
+            "reading": "ねます",
+            "meaning": "dormir (forme polie)"
+          },
+          {
+            "id": "m5-day-actions-2",
+            "writing": "はたらきます",
+            "reading": "はたらきます",
+            "meaning": "travailler (forme polie)"
+          },
+          {
+            "id": "m5-day-actions-3",
+            "writing": "かえります",
+            "reading": "かえります",
+            "meaning": "rentrer (forme polie)"
+          },
+          {
+            "id": "m5-day-actions-4",
+            "writing": "でんしゃ",
+            "reading": "でんしゃ",
+            "meaning": "train"
+          },
+          {
+            "id": "m5-day-actions-5",
+            "writing": "かぞく",
+            "reading": "かぞく",
+            "meaning": "famille"
+          },
+          {
+            "id": "m5-day-actions-6",
+            "writing": "ろくじ",
+            "reading": "ろくじ",
+            "meaning": "six heures"
+          },
+          {
+            "id": "m5-day-actions-7",
+            "writing": "しちじ",
+            "reading": "しちじ",
+            "meaning": "sept heures"
+          },
+          {
+            "id": "m5-day-actions-8",
+            "writing": "はちじ",
+            "reading": "はちじ",
+            "meaning": "huit heures"
+          },
+          {
+            "id": "m5-day-actions-9",
+            "writing": "くじ",
+            "reading": "くじ",
+            "meaning": "neuf heures"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m6",
+    "title": "Décrire & exprimer ses goûts",
+    "subtitle": "Adjectifs en い et な, préférences et intensité",
+    "symbol": "好",
+    "color": "coral",
+    "lessons": [
+      {
+        "id": "adjectives",
+        "title": "Qualifier un nom : い ou な ?",
+        "paragraphs": [
+          "Un adjectif en い précède directement un nom : おおきいかばん = un grand sac. Un adjectif en な utilise な devant un nom : しずかなへや = une chambre calme.",
+          "Attention : la seule apparence du mot ne suffit pas. きれい se termine graphiquement par い mais appartient au groupe en な.",
+          "En fin de phrase polie : このへやはしずかです. On n’ajoute pas な juste avant です."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{adj}",
+                "{noun}"
+              ],
+              "french": "Un {noun} {adj}.",
+              "domains": {
+                "adj": [
+                  {
+                    "jp": "おおきい",
+                    "fr": "grand"
+                  },
+                  {
+                    "jp": "ちいさい",
+                    "fr": "petit"
+                  },
+                  {
+                    "jp": "あたらしい",
+                    "fr": "neuf"
+                  },
+                  {
+                    "jp": "ふるい",
+                    "fr": "ancien"
+                  }
+                ],
+                "noun": [
+                  {
+                    "jp": "かばん",
+                    "fr": "sac"
+                  },
+                  {
+                    "jp": "ほん",
+                    "fr": "livre"
+                  },
+                  {
+                    "jp": "カメラ",
+                    "fr": "appareil photo"
+                  }
+                ]
+              },
+              "focus": 0,
+              "explanation": "Un adjectif en い accompagne directement le nom."
+            },
+            {
+              "tokens": [
+                "{adj}",
+                "な",
+                "{noun}"
+              ],
+              "french": "Un {noun} {adj}.",
+              "domains": {
+                "adj": [
+                  {
+                    "jp": "しずか",
+                    "fr": "calme"
+                  },
+                  {
+                    "jp": "きれい",
+                    "fr": "propre"
+                  },
+                  {
+                    "jp": "べんり",
+                    "fr": "pratique"
+                  }
+                ],
+                "noun": [
+                  {
+                    "jp": "こうえん",
+                    "fr": "parc"
+                  },
+                  {
+                    "jp": "みせ",
+                    "fr": "magasin"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "Un adjectif en な nécessite な devant le nom, même pour きれい."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "likes",
+        "title": "すき・きらい : dire ce que l’on aime",
+        "paragraphs": [
+          "すき signifie aimé / apprécié et se comporte comme un adjectif en な. わたしはコーヒーがすきです = j’aime le café. L’objet de la préférence est marqué ici par が.",
+          "きらい exprime une aversion. Il est souvent plus doux de dire あまりすきではありません : je n’aime pas beaucoup.",
+          "とても renforce une qualité positive : とてもすきです = j’aime beaucoup. Nous n’utilisons pas とても avec toutes les formes de négation."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "わたし",
+                "は",
+                "{thing}",
+                "が",
+                "すき",
+                "です"
+              ],
+              "french": "J’aime {thing}.",
+              "domains": {
+                "thing": [
+                  {
+                    "jp": "コーヒー",
+                    "fr": "le café"
+                  },
+                  {
+                    "jp": "ねこ",
+                    "fr": "les chats"
+                  },
+                  {
+                    "jp": "おんがく",
+                    "fr": "la musique"
+                  },
+                  {
+                    "jp": "えいが",
+                    "fr": "les films"
+                  },
+                  {
+                    "jp": "にほんご",
+                    "fr": "le japonais"
+                  }
+                ]
+              },
+              "focus": 3,
+              "explanation": "Avec すき, が marque ici ce qui est aimé."
+            },
+            {
+              "tokens": [
+                "わたし",
+                "は",
+                "{thing}",
+                "が",
+                "とても",
+                "すき",
+                "です"
+              ],
+              "french": "J’aime beaucoup {thing}.",
+              "domains": {
+                "thing": [
+                  {
+                    "jp": "おんがく",
+                    "fr": "la musique"
+                  },
+                  {
+                    "jp": "えいが",
+                    "fr": "les films"
+                  },
+                  {
+                    "jp": "にほんご",
+                    "fr": "le japonais"
+                  }
+                ]
+              },
+              "focus": 4,
+              "explanation": "とても augmente l’intensité de la préférence."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "negative-adjectives",
+        "title": "Nier une description",
+        "paragraphs": [
+          "Pour nier un adjectif en い, on remplace le dernier い par くない : おおきい → おおきくない. Dans ces phrases polies, on ajoute です.",
+          "Pour un adjectif en な : しずかではありません. N’applique pas la transformation en くない aux adjectifs en な.",
+          "いい (bon) est irrégulier : sa négation est よくない. Cette exception est travaillée explicitement."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{noun}",
+                "は",
+                "{negative}",
+                "です"
+              ],
+              "french": "{noun} n’est {negative}.",
+              "domains": {
+                "noun": [
+                  {
+                    "jp": "かばん",
+                    "fr": "Le sac"
+                  },
+                  {
+                    "jp": "ほん",
+                    "fr": "Le livre"
+                  }
+                ],
+                "negative": [
+                  {
+                    "jp": "おおきくない",
+                    "fr": "pas grand"
+                  },
+                  {
+                    "jp": "ちいさくない",
+                    "fr": "pas petit"
+                  },
+                  {
+                    "jp": "あたらしくない",
+                    "fr": "pas neuf"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "Adjectif en い : remplacer い par くない, puis ajouter です pour cette forme polie."
+            },
+            {
+              "tokens": [
+                "{noun}",
+                "は",
+                "{adj}",
+                "ではありません"
+              ],
+              "french": "{noun} n’est pas {adj}.",
+              "domains": {
+                "noun": [
+                  {
+                    "jp": "へや",
+                    "fr": "La chambre"
+                  },
+                  {
+                    "jp": "みせ",
+                    "fr": "Le magasin"
+                  }
+                ],
+                "adj": [
+                  {
+                    "jp": "しずか",
+                    "fr": "calme"
+                  },
+                  {
+                    "jp": "きれい",
+                    "fr": "propre / joli"
+                  },
+                  {
+                    "jp": "べんり",
+                    "fr": "pratique"
+                  }
+                ]
+              },
+              "focus": 3,
+              "explanation": "Adjectif en な : utiliser ici ではありません."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      }
+    ],
+    "mcos": [
+      {
+        "id": "m6-description",
+        "title": "Décrire",
+        "words": [
+          {
+            "id": "m6-description-0",
+            "writing": "おおきい",
+            "reading": "おおきい",
+            "meaning": "grand"
+          },
+          {
+            "id": "m6-description-1",
+            "writing": "ちいさい",
+            "reading": "ちいさい",
+            "meaning": "petit"
+          },
+          {
+            "id": "m6-description-2",
+            "writing": "あたらしい",
+            "reading": "あたらしい",
+            "meaning": "neuf"
+          },
+          {
+            "id": "m6-description-3",
+            "writing": "ふるい",
+            "reading": "ふるい",
+            "meaning": "ancien"
+          },
+          {
+            "id": "m6-description-4",
+            "writing": "しずか",
+            "reading": "しずか",
+            "meaning": "calme"
+          },
+          {
+            "id": "m6-description-5",
+            "writing": "きれい",
+            "reading": "きれい",
+            "meaning": "propre / joli"
+          },
+          {
+            "id": "m6-description-6",
+            "writing": "べんり",
+            "reading": "べんり",
+            "meaning": "pratique"
+          },
+          {
+            "id": "m6-description-7",
+            "writing": "いい",
+            "reading": "いい",
+            "meaning": "bon"
+          }
+        ]
+      },
+      {
+        "id": "m6-tastes",
+        "title": "Goûts & loisirs",
+        "words": [
+          {
+            "id": "m6-tastes-0",
+            "writing": "すき",
+            "reading": "すき",
+            "meaning": "aimé / apprécié"
+          },
+          {
+            "id": "m6-tastes-1",
+            "writing": "きらい",
+            "reading": "きらい",
+            "meaning": "détesté"
+          },
+          {
+            "id": "m6-tastes-2",
+            "writing": "とても",
+            "reading": "とても",
+            "meaning": "très"
+          },
+          {
+            "id": "m6-tastes-3",
+            "writing": "あまり",
+            "reading": "あまり",
+            "meaning": "pas très (avec négation)"
+          },
+          {
+            "id": "m6-tastes-4",
+            "writing": "おんがく",
+            "reading": "おんがく",
+            "meaning": "musique"
+          },
+          {
+            "id": "m6-tastes-5",
+            "writing": "えいが",
+            "reading": "えいが",
+            "meaning": "film"
+          },
+          {
+            "id": "m6-tastes-6",
+            "writing": "にほんご",
+            "reading": "にほんご",
+            "meaning": "langue japonaise"
+          },
+          {
+            "id": "m6-tastes-7",
+            "writing": "ゲーム",
+            "reading": "ゲーム",
+            "meaning": "jeu vidéo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m7",
+    "title": "Raconter & proposer",
+    "subtitle": "Passé poli, invitations et demandes simples",
+    "symbol": "話",
+    "color": "sage",
+    "lessons": [
+      {
+        "id": "past",
+        "title": "ます → ました : raconter hier",
+        "paragraphs": [
+          "Le passé poli affirmatif remplace ます par ました. よみます → よみました. La négation passée utilise ませんでした.",
+          "きのうほんをよみました = hier, j’ai lu un livre. Le mot きのう situe la phrase dans le passé.",
+          "Pour une phrase nominale, です devient でした. Ne remplace pas directement です par ました."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "きのう",
+                "{action}",
+                "ました"
+              ],
+              "french": "{action}",
+              "domains": {
+                "action": [
+                  {
+                    "jp": "ほんをよみ",
+                    "fr": "Hier, j’ai lu un livre."
+                  },
+                  {
+                    "jp": "みずをのみ",
+                    "fr": "Hier, j’ai bu de l’eau."
+                  },
+                  {
+                    "jp": "パンをたべ",
+                    "fr": "Hier, j’ai mangé du pain."
+                  },
+                  {
+                    "jp": "べんきょうし",
+                    "fr": "Hier, j’ai étudié."
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "Le radical est conservé ; ました marque le passé poli affirmatif."
+            },
+            {
+              "tokens": [
+                "きのう",
+                "{action}",
+                "ませんでした"
+              ],
+              "french": "{action}",
+              "domains": {
+                "action": [
+                  {
+                    "jp": "ほんをよみ",
+                    "fr": "Hier, je n’ai pas lu de livre."
+                  },
+                  {
+                    "jp": "みずをのみ",
+                    "fr": "Hier, je n’ai pas bu d’eau."
+                  },
+                  {
+                    "jp": "パンをたべ",
+                    "fr": "Hier, je n’ai pas mangé de pain."
+                  },
+                  {
+                    "jp": "べんきょうし",
+                    "fr": "Hier, je n’ai pas étudié."
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "ませんでした est la forme polie négative passée."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "invitations",
+        "title": "ませんか et ましょう",
+        "paragraphs": [
+          "ませんか sert à proposer une activité : いっしょにたべませんか = voulez-vous manger ensemble ? Malgré sa forme négative, cette tournure fonctionne comme une invitation.",
+          "ましょう propose de faire quelque chose ensemble : いきましょう = allons-y.",
+          "Les radicaux sont donnés pour concentrer l’exercice sur le choix de la terminaison."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "いっしょに",
+                "{action}",
+                "ません",
+                "か"
+              ],
+              "french": "{action}",
+              "domains": {
+                "action": [
+                  {
+                    "jp": "ほんをよみ",
+                    "fr": "Voulez-vous lire un livre ensemble ?"
+                  },
+                  {
+                    "jp": "みずをのみ",
+                    "fr": "Voulez-vous boire de l’eau ensemble ?"
+                  },
+                  {
+                    "jp": "パンをたべ",
+                    "fr": "Voulez-vous manger du pain ensemble ?"
+                  },
+                  {
+                    "jp": "べんきょうし",
+                    "fr": "Voulez-vous étudier ensemble ?"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "ませんか est une invitation formulée comme une question."
+            },
+            {
+              "tokens": [
+                "いっしょに",
+                "{action}",
+                "ましょう"
+              ],
+              "french": "{action}",
+              "domains": {
+                "action": [
+                  {
+                    "jp": "ほんをよみ",
+                    "fr": "Lisons un livre ensemble."
+                  },
+                  {
+                    "jp": "みずをのみ",
+                    "fr": "Buvons de l’eau ensemble."
+                  },
+                  {
+                    "jp": "パンをたべ",
+                    "fr": "Mangeons du pain ensemble."
+                  },
+                  {
+                    "jp": "べんきょうし",
+                    "fr": "Étudions ensemble."
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "ましょう exprime ici une proposition d’action commune."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "Une première demande : てください",
+        "paragraphs": [
+          "La forme en て suivie de ください permet de formuler une demande : みてください = regardez, s’il vous plaît.",
+          "Les formes en て ont différentes règles selon les verbes. Elles sont données dans cette leçon : みて, たべて, のんで, よんで. Une future leçon expliquera leurs groupes et leur formation.",
+          "Ne fabrique pas une forme en て à partir de ます par une simple substitution : のみます donne のんで, pas のみて."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{verb}",
+                "ください"
+              ],
+              "french": "{verb}, s’il vous plaît.",
+              "domains": {
+                "verb": [
+                  {
+                    "jp": "みて",
+                    "fr": "regardez"
+                  },
+                  {
+                    "jp": "たべて",
+                    "fr": "mangez"
+                  },
+                  {
+                    "jp": "のんで",
+                    "fr": "buvez"
+                  },
+                  {
+                    "jp": "よんで",
+                    "fr": "lisez"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "La forme en て fournie est suivie de ください pour exprimer une demande."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      }
+    ],
+    "mcos": [
+      {
+        "id": "m7-social",
+        "title": "Ensemble",
+        "words": [
+          {
+            "id": "m7-social-0",
+            "writing": "いっしょに",
+            "reading": "いっしょに",
+            "meaning": "ensemble"
+          },
+          {
+            "id": "m7-social-1",
+            "writing": "しゅうまつ",
+            "reading": "しゅうまつ",
+            "meaning": "week-end"
+          },
+          {
+            "id": "m7-social-2",
+            "writing": "やすみ",
+            "reading": "やすみ",
+            "meaning": "repos / congé"
+          },
+          {
+            "id": "m7-social-3",
+            "writing": "りょこう",
+            "reading": "りょこう",
+            "meaning": "voyage"
+          },
+          {
+            "id": "m7-social-4",
+            "writing": "しゃしん",
+            "reading": "しゃしん",
+            "meaning": "photo"
+          },
+          {
+            "id": "m7-social-5",
+            "writing": "さんぽ",
+            "reading": "さんぽ",
+            "meaning": "promenade"
+          },
+          {
+            "id": "m7-social-6",
+            "writing": "あそびます",
+            "reading": "あそびます",
+            "meaning": "jouer (forme polie)"
+          },
+          {
+            "id": "m7-social-7",
+            "writing": "あいます",
+            "reading": "あいます",
+            "meaning": "rencontrer (forme polie)"
+          }
+        ]
+      },
+      {
+        "id": "m7-requests",
+        "title": "Demandes & réponses",
+        "words": [
+          {
+            "id": "m7-requests-0",
+            "writing": "ください",
+            "reading": "ください",
+            "meaning": "s’il vous plaît / donnez-moi"
+          },
+          {
+            "id": "m7-requests-1",
+            "writing": "みて",
+            "reading": "みて",
+            "meaning": "regarder (forme en te)"
+          },
+          {
+            "id": "m7-requests-2",
+            "writing": "たべて",
+            "reading": "たべて",
+            "meaning": "manger (forme en te)"
+          },
+          {
+            "id": "m7-requests-3",
+            "writing": "のんで",
+            "reading": "のんで",
+            "meaning": "boire (forme en te)"
+          },
+          {
+            "id": "m7-requests-4",
+            "writing": "よんで",
+            "reading": "よんで",
+            "meaning": "lire (forme en te)"
+          },
+          {
+            "id": "m7-requests-5",
+            "writing": "はい",
+            "reading": "はい",
+            "meaning": "oui"
+          },
+          {
+            "id": "m7-requests-6",
+            "writing": "いいえ",
+            "reading": "いいえ",
+            "meaning": "non"
+          },
+          {
+            "id": "m7-requests-7",
+            "writing": "すみません",
+            "reading": "すみません",
+            "meaning": "excusez-moi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m8",
+    "title": "Le japonais en situation",
+    "subtitle": "Commander, demander son chemin et comprendre une réponse",
+    "symbol": "旅",
+    "color": "blue",
+    "lessons": [
+      {
+        "id": "ordering",
+        "title": "Commander quelque chose",
+        "paragraphs": [
+          "Au restaurant, un nom suivi de をください permet de demander un objet ou une consommation : みずをください = de l’eau, s’il vous plaît.",
+          "これはいくらですか demande le prix de cette chose. Les compteurs et quantités détaillées seront étudiés ensuite.",
+          "Les situations de ce module réutilisent les structures déjà vues. Cherche le sens avant de lire la correction."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "{food}",
+                "を",
+                "ください"
+              ],
+              "french": "Commande : {food}, s’il vous plaît.",
+              "domains": {
+                "food": [
+                  {
+                    "jp": "みず",
+                    "fr": "de l’eau"
+                  },
+                  {
+                    "jp": "コーヒー",
+                    "fr": "un café"
+                  },
+                  {
+                    "jp": "おちゃ",
+                    "fr": "du thé"
+                  },
+                  {
+                    "jp": "パン",
+                    "fr": "du pain"
+                  },
+                  {
+                    "jp": "ごはん",
+                    "fr": "du riz"
+                  }
+                ]
+              },
+              "focus": 1,
+              "explanation": "を marque ici l’objet demandé ; ください exprime la demande polie."
+            },
+            {
+              "tokens": [
+                "{demo}",
+                "は",
+                "いくら",
+                "です",
+                "か"
+              ],
+              "french": "Quel est le prix de {demo} ?",
+              "domains": {
+                "demo": [
+                  {
+                    "jp": "これ",
+                    "fr": "cette chose près de moi"
+                  },
+                  {
+                    "jp": "それ",
+                    "fr": "cette chose près de vous"
+                  },
+                  {
+                    "jp": "あれ",
+                    "fr": "cette chose là-bas"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "いくら demande le prix ; か termine la question."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "directions",
+        "title": "Demander son chemin",
+        "paragraphs": [
+          "Réutilise どこですか pour demander un lieu. Ajoute すみません avant la demande pour attirer poliment l’attention.",
+          "Un nom de lieu suivi de にいきます indique une destination. Un moyen de transport suivi de で précise comment tu y vas.",
+          "Ne cherche pas à traduire chaque mot séparément : identifie le lieu, la particule et le verbe."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "すみません",
+                "{place}",
+                "は",
+                "どこ",
+                "です",
+                "か"
+              ],
+              "french": "Excusez-moi, où se trouve cet endroit : {place} ?",
+              "domains": {
+                "place": [
+                  {
+                    "jp": "えき",
+                    "fr": "gare"
+                  },
+                  {
+                    "jp": "トイレ",
+                    "fr": "toilettes"
+                  },
+                  {
+                    "jp": "びょういん",
+                    "fr": "hôpital"
+                  },
+                  {
+                    "jp": "みせ",
+                    "fr": "magasin"
+                  }
+                ]
+              },
+              "focus": 3,
+              "explanation": "どこ interroge sur un lieu, après le thème marqué par は."
+            },
+            {
+              "tokens": [
+                "{vehicle}",
+                "で",
+                "{place}",
+                "に",
+                "いきます"
+              ],
+              "french": "Je vais à cet endroit ({place}) en {vehicle}.",
+              "domains": {
+                "vehicle": [
+                  {
+                    "jp": "バス",
+                    "fr": "bus"
+                  },
+                  {
+                    "jp": "タクシー",
+                    "fr": "taxi"
+                  },
+                  {
+                    "jp": "でんしゃ",
+                    "fr": "train"
+                  }
+                ],
+                "place": [
+                  {
+                    "jp": "えき",
+                    "fr": "gare"
+                  },
+                  {
+                    "jp": "ホテル",
+                    "fr": "hôtel"
+                  },
+                  {
+                    "jp": "びょういん",
+                    "fr": "hôpital"
+                  }
+                ]
+              },
+              "focus": 3,
+              "explanation": "に indique la destination ; で indique le moyen de transport."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      },
+      {
+        "id": "dialogues",
+        "title": "Comprendre de petits échanges",
+        "paragraphs": [
+          "Une réponse courte reprend souvent seulement l’information demandée. À une question en どこ, on répond par un lieu ; à une question en いくら, par un prix.",
+          "いいえ n’est pas à lui seul une phrase négative : la terminaison qui suit indique ce qu’on nie.",
+          "Les exercices mélangent maintenant les formes étudiées pour travailler la compréhension et la construction."
+        ],
+        "questions": [],
+        "video": null,
+        "table": null,
+        "generator": {
+          "kind": "frames",
+          "frames": [
+            {
+              "tokens": [
+                "はい",
+                "{thing}",
+                "が",
+                "すき",
+                "です"
+              ],
+              "french": "Oui, j’aime {thing}.",
+              "domains": {
+                "thing": [
+                  {
+                    "jp": "コーヒー",
+                    "fr": "le café"
+                  },
+                  {
+                    "jp": "おちゃ",
+                    "fr": "le thé"
+                  },
+                  {
+                    "jp": "にほんご",
+                    "fr": "le japonais"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "が introduit ici ce qui est aimé ; すきです exprime la préférence."
+            },
+            {
+              "tokens": [
+                "いいえ",
+                "{role}",
+                "ではありません"
+              ],
+              "french": "Non, je ne suis pas {role}.",
+              "domains": {
+                "role": [
+                  {
+                    "jp": "がくせい",
+                    "fr": "étudiant"
+                  },
+                  {
+                    "jp": "せんせい",
+                    "fr": "professeur"
+                  }
+                ]
+              },
+              "focus": 2,
+              "explanation": "La réponse négative utilise ici ではありません pour nier un nom."
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "Explorer les cours de japonais de Julien Fontanier",
+            "url": "https://www.youtube.com/@coursdejaponais/videos"
+          }
+        ]
+      }
+    ],
+    "mcos": [
+      {
+        "id": "m8-food",
+        "title": "Au café",
+        "words": [
+          {
+            "id": "m8-food-0",
+            "writing": "おちゃ",
+            "reading": "おちゃ",
+            "meaning": "thé"
+          },
+          {
+            "id": "m8-food-1",
+            "writing": "ごはん",
+            "reading": "ごはん",
+            "meaning": "riz cuit / repas"
+          },
+          {
+            "id": "m8-food-2",
+            "writing": "さかな",
+            "reading": "さかな",
+            "meaning": "poisson"
+          },
+          {
+            "id": "m8-food-3",
+            "writing": "にく",
+            "reading": "にく",
+            "meaning": "viande"
+          },
+          {
+            "id": "m8-food-4",
+            "writing": "やさい",
+            "reading": "やさい",
+            "meaning": "légumes"
+          },
+          {
+            "id": "m8-food-5",
+            "writing": "くだもの",
+            "reading": "くだもの",
+            "meaning": "fruit"
+          },
+          {
+            "id": "m8-food-6",
+            "writing": "メニュー",
+            "reading": "メニュー",
+            "meaning": "menu"
+          },
+          {
+            "id": "m8-food-7",
+            "writing": "おいしい",
+            "reading": "おいしい",
+            "meaning": "délicieux"
+          }
+        ]
+      },
+      {
+        "id": "m8-travel",
+        "title": "En voyage",
+        "words": [
+          {
+            "id": "m8-travel-0",
+            "writing": "くうこう",
+            "reading": "くうこう",
+            "meaning": "aéroport"
+          },
+          {
+            "id": "m8-travel-1",
+            "writing": "きっぷ",
+            "reading": "きっぷ",
+            "meaning": "billet de transport"
+          },
+          {
+            "id": "m8-travel-2",
+            "writing": "ちず",
+            "reading": "ちず",
+            "meaning": "carte géographique"
+          },
+          {
+            "id": "m8-travel-3",
+            "writing": "いくら",
+            "reading": "いくら",
+            "meaning": "combien (prix)"
+          },
+          {
+            "id": "m8-travel-4",
+            "writing": "えん",
+            "reading": "えん",
+            "meaning": "yen"
+          },
+          {
+            "id": "m8-travel-5",
+            "writing": "みぎ",
+            "reading": "みぎ",
+            "meaning": "droite"
+          },
+          {
+            "id": "m8-travel-6",
+            "writing": "ひだり",
+            "reading": "ひだり",
+            "meaning": "gauche"
+          },
+          {
+            "id": "m8-travel-7",
+            "writing": "まっすぐ",
+            "reading": "まっすぐ",
+            "meaning": "tout droit"
           }
         ]
       }
