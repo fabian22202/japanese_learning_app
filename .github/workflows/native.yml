@@ -1,8 +1,5 @@
 name: Native Android and Windows
-on: [push, pull_request]
-concurrency:
-  group: native-${{ github.head_ref || github.ref_name }}
-  cancel-in-progress: true
+on: [push]
 permissions:
   contents: read
 jobs:
