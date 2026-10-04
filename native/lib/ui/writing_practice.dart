@@ -25,7 +25,7 @@ class _WritingPracticeState extends State<WritingPracticePage> {
     final character = widget.characters[index];
     return Scaffold(appBar: AppBar(title: const Text('Atelier d’écriture')), body: Center(
       child: ConstrainedBox(constraints: const BoxConstraints(maxWidth: 560),
-        child: ListView(padding: const EdgeInsets.all(20), children: [
+        child: SingleChildScrollView(padding: const EdgeInsets.all(20), child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           const Text('Trace au doigt, au stylet ou à la souris. Masque le modèle pour écrire de mémoire, puis compare.'),
           const SizedBox(height: 12),
           Wrap(spacing: 6, runSpacing: 6, children: widget.characters.asMap().entries.map((e) => ChoiceChip(
@@ -65,7 +65,7 @@ class _WritingPracticeState extends State<WritingPracticePage> {
           ]),
           const SizedBox(height: 12),
           const Text('Compare la forme, les proportions et les espaces entre les traits. Le modèle typographique ne montre pas l’ordre des traits. Cet atelier ne corrige pas automatiquement le dessin et ne valide pas les DS.'),
-        ]))));
+        ])))));
   }
 }
 class WritingPainter extends CustomPainter {
