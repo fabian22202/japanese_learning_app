@@ -44,6 +44,10 @@ Le corpus produit plus de **1 800 variantes** de défis, incluant plusieurs tâc
 
 Les séances mélangent les modalités. Les 80 derniers identifiants sont mémorisés pour éviter la répétition immédiate quand d’autres variantes restent disponibles. Les erreurs augmentent la priorité des notions ; les réussites réduisent progressivement cette priorité. Les distracteurs et les tuiles sont mélangés. La répétition reste nécessaire pour mémoriser, mais elle ne se limite plus au même petit quiz dans un ordre différent.
 
+## Clavier japonais intégré
+
+Les défis de saisie en kana/kanji disposent d’un clavier hiragana/katakana, avec petits kana, dakuten, handakuten, allongement, effacement et remplacement de la sélection. Un onglet kanji propose les caractères du vocabulaire déjà accessible dans le parcours. Il fonctionne aussi dans les DS et hors ligne, sans sélectionner les touches à partir de la réponse attendue. Masquer le clavier permet d’utiliser celui de l’appareil. Les exercices de rōmaji, les QCM et les tuiles conservent leur mode de saisie propre.
+
 ## Progression & révision
 
 - Séances de dix défis maximum pour les leçons. Les sons doivent être réussis au moins une fois pour valider leur fiche ; les autres leçons demandent 80 %.
@@ -74,7 +78,7 @@ La charte papier, corail et sauge de 0.1 est conservée. Une police japonaise lo
 - `src/engine.js` : génération, sélection des modalités, historique et adaptation aux erreurs.
 - `src/core.js` : correction, prérequis, DS, calendrier de révision et sauvegardes.
 - `src/app.js` / `src/style.css` : fiches, séances, choix, tuiles et interface responsive.
-- `sw.js` : cache hors ligne, version 2. Une mise à jour s’active après fermeture des anciennes fenêtres de l’application.
+- `sw.js` : cache hors ligne, version 3. Une mise à jour s’active après fermeture des anciennes fenêtres de l’application.
 
 Lorsqu’on ajoute des caractères japonais, compléter le sous-ensemble de police embarqué. Les données du carnet restent dans `localStorage` : effacer les données du navigateur efface la progression. Exporter pour la conserver ou la transférer. Pas encore de comptes, synchronisation automatique, reconnaissance de tracé ou notation de prononciation. L’écoute utilise la synthèse vocale de l’appareil et nécessite une voix japonaise installée.
 
@@ -85,7 +89,7 @@ npm test
 npm run check
 ```
 
-Les 16 tests couvrent les contraintes du contenu, la progression, les DS, la cohérence des exercices générés, les variantes phonétiques, la composition des nombres, l’adaptation aux erreurs et l’historique anti-répétition.
+Les 19 tests couvrent les contraintes du contenu, la progression, les DS, la cohérence des exercices générés, les variantes phonétiques, la composition des nombres, l’adaptation aux erreurs, l’historique anti-répétition et l’édition via le clavier japonais.
 
 Contrôle navigateur facultatif, avec Playwright et Chromium :
 

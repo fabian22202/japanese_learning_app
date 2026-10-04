@@ -28,6 +28,18 @@ async function answerCurrent(bank){
 for(let i=0;i<8;i++){await answerCurrent(vocabularyPool(modules[0].mcos[0]));await page.locator('#feedback button').click();}
 assert.match(await page.locator('h1').innerText(),/100 %/);
 assert.ok(await page.evaluate(()=>JSON.parse(localStorage.getItem('kotoba.progress.v1')).completed.includes('m1-life')));
+// The Japanese keyboard edits actual answers, including selections and script changes.
+await page.goto(base+'/#module/m1');
+await page.goto(base+'/#mco/m1/m1-life');await page.getByRole('button',{name:'Commencer les exercices'}).click();
+assert.equal(await page.locator('#japanese-keyboard').count(),1);
+const keys=page.locator('#japanese-keyboard');
+await keys.locator('[data-jkey="insert"][data-value="み"]').click();await keys.locator('[data-jkey="insert"][data-value="す"]').click();await keys.locator('[data-jkey="dakuten"]').click();assert.equal(await page.locator('#answer').inputValue(),'みず');
+await page.locator('#answer').evaluate(el=>{el.setSelectionRange(0,1);el.dispatchEvent(new Event('select'));});await keys.locator('[data-jkey="insert"][data-value="あ"]').click();assert.equal(await page.locator('#answer').inputValue(),'あず');
+await keys.locator('[data-jkey="clear"]').click();await keys.locator('[data-jkey="script"][data-value="katakana"]').click();await keys.locator('[data-jkey="insert"][data-value="ハ"]').click();await keys.locator('[data-jkey="handakuten"]').click();assert.equal(await page.locator('#answer').inputValue(),'パ');
+await keys.locator('[data-jkey="small"]').click();await keys.locator('[data-jkey="insert"][data-value="ッ"]').click();await keys.locator('[data-jkey="insert"][data-value="ー"]').click();assert.equal(await page.locator('#answer').inputValue(),'パッー');await keys.locator('[data-jkey="backspace"]').click();assert.equal(await page.locator('#answer').inputValue(),'パッ');
+await page.screenshot({path:join(tmpdir(),'kotoba-keyboard.png'),fullPage:true});
+await keys.locator('[data-jkey="toggle"]').click();assert.equal(await page.locator('#answer').getAttribute('inputmode'),'text');await keys.locator('[data-jkey="toggle"]').click();
+await page.locator('#answer-form button[type="submit"]').click();assert.equal(await keys.locator('button:not([disabled])').count(),0);
 await page.goto(base+'/#review');await page.getByRole('button',{name:'Réviser maintenant'}).click();await page.getByRole('button',{name:'Retourner la carte'}).click();await page.getByRole('button',{name:'Bien',exact:true}).click();
 assert.equal(await page.evaluate(()=>Object.keys(JSON.parse(localStorage.getItem('kotoba.progress.v1')).cards).length),1);
 // Seed completed units to verify the entire DS independently of lesson repetition.
@@ -41,7 +53,9 @@ assert.match(await page.locator('h1').innerText(),/100 %/);
 await page.goto(base+'/#module/m2');assert.match(await page.locator('h1').innerText(),/Arabiasūji/);
 await page.reload();assert.match(await page.locator('h1').innerText(),/Arabiasūji/);
 await page.evaluate(async()=>{await navigator.serviceWorker.ready;});await page.reload();await context.setOffline(true);await page.reload();assert.match(await page.locator('h1').innerText(),/Arabiasūji/);
-await page.goto(base+'/#mco/m2/m2-nature');assert.equal(await page.locator('.word-list article').count(),5);await context.setOffline(false);
+await page.goto(base+'/#mco/m2/m2-nature');assert.equal(await page.locator('.word-list article').count(),5);await page.getByRole('button',{name:'Commencer les exercices'}).click();
+const kanjiKeyboard=page.locator('#japanese-keyboard');await kanjiKeyboard.locator('[data-jkey="script"][data-value="kanji"]').click();await kanjiKeyboard.locator('[data-jkey="insert"][data-value="山"]').click();assert.equal(await page.locator('#answer').inputValue(),'山');
+await context.setOffline(false);
 // Exercise newer grammar with all three interactions, including ordering tiles.
 const advanced=freshState();for(const m of modules.slice(0,5)){advanced.exams[m.id]={score:100,at:Date.now()};advanced.completed.push(...required(m));}
 await page.evaluate(s=>localStorage.setItem('kotoba.progress.v1',JSON.stringify(s)),advanced);await page.reload();await page.goto(base+'/#lesson/m6/adjectives');await page.getByRole('button',{name:'Commencer les exercices'}).click();
