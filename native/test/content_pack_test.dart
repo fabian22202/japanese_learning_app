@@ -1,0 +1,47 @@
+// Course content validation only; no application behavior is changed.
+import 'dart:io';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:kotoba/domain/curriculum.dart';
+import 'package:kotoba/domain/engine.dart';
+import 'package:kotoba/controller.dart';
+
+void main() {
+  final path = File('../content/kotoba-cours-debutant.json');
+  final pack = Curriculum.parse(path.readAsStringSync());
+  test('Expanded course pack parses through the real importer and engine', () {
+    expect(pack.modules.length, 12);
+    expect(pack.modules.expand((m) => m.lessons).length, 50);
+    expect(pack.modules.expand((m) => m.mcos).length, 28);
+    expect(pack.modules.expand((m) => m.mcos).expand((u) => u.words).length, 220);
+    var total = 0;
+    final ids = <String>{};
+    for (final m in pack.modules) {
+      for (final u in m.units) {
+        final pool = u.isVocabulary ? vocabularyPool(u) : lessonPool(u, m);
+        expect(pool, isNotEmpty, reason: u.id);
+        total += pool.length;
+        for (final q in pool) {
+          expect(ids.add(q.id), isTrue, reason: q.id);
+          expect(correct(q, q.answer), isTrue, reason: q.id);
+          if (q.type == 'choice') expect(q.choices, contains(q.answer));
+          if (q.type == 'order') expect(correct(q, q.tokens.join()), isTrue, reason: q.id);
+        }
+      }
+    }
+    expect(total, 2498);
+  });
+  test('Course pack installs with current progress and exports for a restart', () async {
+    final old = Curriculum.parse(File('assets/curriculum.json').readAsStringSync());
+    final content = MemoryProgressStore();
+    final c = LearningController(old.modules, MemoryProgressStore(), curriculum: old, contentStore: content);
+    for (final u in old.modules.first.units) { c.progress.complete(u.id); }
+    c.progress.recordExam(old.modules.first, 100);
+    await c.installCurriculum(pack);
+    expect(c.progress.done('hiragana'), isFalse);
+    expect(c.progress.done('m1-life'), isTrue);
+    expect(c.progress.unlocked(1, c.modules), isFalse);
+    final reloaded = Curriculum.parse(content.value!);
+    expect(reloaded.modules.last.lessons.last.id, 'abilities-hobbies');
+    expect(canonical(reloaded.document), canonical(pack.document));
+  });
+}
