@@ -54,7 +54,7 @@ class _WritingPracticeState extends State<WritingPracticePage> {
                 child: CustomPaint(painter: WritingPainter(strokes.map((s) => List<Offset>.of(s)).toList()),
                   child: Center(child: IgnorePointer(child: Text(model ? character : '',
                     style: TextStyle(fontFamily: 'KotobaJapanese', fontSize: bounds.maxWidth * .72,
-                      color: const Color(0xff72886d).withValues(alpha: .25)))))))));
+                      color: const Color(0xff72886d).withValues(alpha: .25))))))))));
           })),
           const SizedBox(height: 12),
           Text('${strokes.length} trait${strokes.length == 1 ? '' : 's'} dessiné${strokes.length == 1 ? '' : 's'}'),
