@@ -21,9 +21,9 @@ void main(){
    await tester.pumpWidget(MaterialApp(home:SessionPage(c:c,module:c.modules.first,unit:c.modules.first.lessons.first,questions:[q])));
    await tester.tap(find.byKey(const ValueKey('key:insert:あ')));await tester.pump();
    expect(find.widgetWithText(TextField,'あ'),findsOneWidget);
-   await tester.ensureVisible(find.text('Vérifier'));await tester.tap(find.text('Vérifier'));await tester.pump();
+   await tester.scrollUntilVisible(find.text('Vérifier'),200,scrollable:find.byType(Scrollable).first);await tester.tap(find.text('Vérifier'));await tester.pump();
    expect(find.text('Bien joué !'),findsOneWidget);
-   await tester.ensureVisible(find.text('Continuer'));await tester.tap(find.text('Continuer'));await tester.pumpAndSettle();
+   await tester.scrollUntilVisible(find.text('Continuer'),200,scrollable:find.byType(Scrollable).first);await tester.tap(find.text('Continuer'));await tester.pumpAndSettle();
    expect(find.text('100 %'),findsOneWidget);
    expect(c.progress.done(c.modules.first.lessons.first.id),isFalse);
    expect(tester.takeException(),isNull);
