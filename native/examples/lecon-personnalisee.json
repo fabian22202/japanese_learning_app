@@ -1,0 +1,60 @@
+{
+  "format": "kotoba.lesson",
+  "version": 1,
+  "moduleId": "m1",
+  "lesson": {
+    "id": "premiere-phrase",
+    "title": "Ma première phrase japonaise",
+    "sections": [
+      {
+        "title": "Construire une phrase",
+        "paragraphs": [
+          "Dans cet exemple, は indique le thème et です termine poliment la phrase. La particule は se prononce wa."
+        ],
+        "examples": [
+          {
+            "jp": "わたしはがくせいです",
+            "reading": "わたし わ がくせい です",
+            "fr": "Je suis étudiant."
+          }
+        ],
+        "note": "Cet exemple suppose que tu sais lire les hiragana. Adapte les explications à ton public."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "theme",
+        "type": "choice",
+        "prompt": "Quelle particule marque le thème dans cet exemple ?",
+        "choices": [
+          "は",
+          "を",
+          "で"
+        ],
+        "answer": "は",
+        "explanation": "は indique de qui ou de quoi on parle."
+      },
+      {
+        "id": "ecriture",
+        "type": "input",
+        "prompt": "Écris en hiragana : watashi",
+        "answer": "わたし",
+        "alternatives": [],
+        "explanation": "わたし signifie « je » dans cet exemple."
+      },
+      {
+        "id": "phrase",
+        "type": "order",
+        "prompt": "Reconstruis : Je suis étudiant.",
+        "tokens": [
+          "わたし",
+          "は",
+          "がくせい",
+          "です"
+        ],
+        "answer": "わたしはがくせいです",
+        "explanation": "Thème + は + nom + です."
+      }
+    ]
+  }
+}

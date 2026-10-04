@@ -13,11 +13,11 @@ class Unit {
   final String id, title;
   final List<String> paragraphs;
   final List<Word> words;
-  final List<Json> facts, resources;
+  final List<Json> facts, resources, exercises, sections;
   final List<List<String>> table;
   final Json generator;
   Unit.fromJson(Json j) : id=j['id'],title=j['title'],paragraphs=strings(j['paragraphs']),
-    words=objects(j['words']).map(Word.fromJson).toList(),facts=objects(j['questions']),resources=objects(j['resources']),
+    words=objects(j['words']).map(Word.fromJson).toList(),facts=objects(j['questions']),resources=objects(j['resources']),exercises=objects(j['exercises']),sections=objects(j['sections']),
     table=(j['table'] as List? ?? []).map((r)=>strings(r)).toList(),generator=j['generator']==null?{}:object(j['generator']);
   bool get isVocabulary => words.isNotEmpty;
   bool get isKana => generator['kind']=='kana';

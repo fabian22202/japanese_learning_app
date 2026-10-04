@@ -1,8 +1,10 @@
-# Kotoba — japanese_learning_app · 0.3
+# Kotoba — japanese_learning_app · 0.3.1
 
 La version principale est désormais une **application Flutter en Dart pour Android et Windows**, sans WebView. Elle reprend le parcours, les exercices variés, le clavier japonais et la charte visuelle.
 
 [Instructions de compilation et installation](native/README.md) · [Télécharger les builds dans GitHub Actions](https://github.com/fabian22202/japanese_learning_app/actions/workflows/native.yml)
+
+[Rédiger et importer des cours JSON](native/COURS.md), sans recompilation.
 
 Les sources de l’application sont dans `native/`. La première version web est conservée ci-dessous comme prototype ; son carnet JSON peut être importé dans l’application native.
 

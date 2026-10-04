@@ -52,6 +52,7 @@ List<Question> lessonPool(Unit u,LearningModule m){
       for(var i=0;i<u.facts.length;i++){final q=u.facts[i],concept='${u.id}:fact:$i';result.add(make('$concept:input',concept,'input',q['prompt'],q['answer'],q['explanation'],alternatives:strings(q['alternatives'])));
         final choices=options(q['answer'],u.facts.map((x)=>x['answer'] as String));if(choices.length>1)result.add(make('$concept:choice',concept,'choice',q['prompt'],q['answer'],q['explanation'],choices:choices));}
   }
+  for(final e in u.exercises){result.add(make('${u.id}:custom:${e['id']}','${u.id}:custom:${e['id']}',e['type'],e['prompt'],e['answer'],e['explanation'],choices:strings(e['choices']),tokens:strings(e['tokens']),alternatives:strings(e['alternatives'])));}
   return result;
 }
 List<Question> selectSession(List<Question> pool,Progress p,{int count=10,bool cover=false,List<String>? unmastered,Random? random}){
