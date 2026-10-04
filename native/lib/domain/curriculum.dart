@@ -59,6 +59,7 @@ class Curriculum {
           for (final word in words) {
             final w = _map(word, '$p.words'); unique(w, '$p.words', wordIds);
             for (final f in ['writing', 'reading', 'meaning']) { _text(w[f], '$p.words.$f'); }
+            _strings(w['readingAlternatives'], '$p.words.readingAlternatives');
           }
           for (final resource in _optionalList(u['resources'], '$p.resources')) {
             final r = _map(resource, '$p.resources'); _text(r['title'], '$p.resources.title');

@@ -2,16 +2,16 @@
 
 Ce dossier contient les cours, indépendamment des sources de l’application.
 
-- **kotoba-cours-debutant.json** : programme complet importable dans Kotoba 0.3.1.
+- **kotoba-cours-debutant.json** : programme complet importable dans Kotoba 0.3.3.
 - **Kotoba-cours-debutant.md** : cours lisible, exercices et corrigés expliqués.
 - **verify_courses.py** : vérification du format, des contraintes MCO et de la cohérence technique des exercices.
 - **export_coursebook.py** : régénération du livre depuis le JSON de référence.
 
-Le parcours contient 12 modules et 51 leçons : les 25 premières fiches sont approfondies, 26 nouvelles leçons sont ajoutées. Il comprend 29 MCO, 230 entrées de vocabulaire, 221 exemples lus et traduits, 259 exercices rédigés et corrigés. Le moteur existant produit au total 2 603 variantes en comptant les exercices et le vocabulaire.
+Le parcours contient 12 modules et 51 leçons : les 25 premières fiches sont approfondies, 26 nouvelles leçons sont ajoutées. Il comprend 29 MCO, 230 entrées de vocabulaire, 282 exemples lus et traduits, 497 exercices rédigés et corrigés. Le moteur existant produit au total 2 867 variantes en comptant les exercices et le vocabulaire.
 
 ## Utiliser
 
-Dans l’application : **Carnet → Mes cours → Importer des cours JSON**, puis choisir le programme. Le contenu actif est remplacé après confirmation ; aucune mise à jour de l’application n’est nécessaire. Les étapes modifiées et les DS concernés sont à revalider. Exporte le carnet et le programme actuel pour conserver l’état précédent.
+Dans l’application : **Carnet → Mes cours → Importer des cours JSON**, puis choisir le programme. Le contenu actif est remplacé après confirmation ; Kotoba 0.3.3 est nécessaire pour les exercices rédigés des MCO et les variantes de lecture. Les étapes modifiées et les DS concernés sont à revalider. Exporte le carnet et le programme actuel pour conserver l’état précédent.
 
 ## Modifier
 
@@ -27,3 +27,11 @@ Le JSON est la source pédagogique. Le livre est un export. Les contrôles techn
 Le test `native/test/content_pack_test.dart` vérifie également ce pack avec le véritable importeur et le moteur Dart existants. Il ne modifie pas le fonctionnement de l’application.
 
 Le livre donne les références complémentaires, notamment la chaîne de Julien Fontanier et les programmes Irodori de la Japan Foundation. Les textes et exercices sont originaux ; ce contenu ne prétend pas reproduire les vidéos ni certifier un niveau JLPT complet.
+
+## MCO et kanji
+
+Les 29 MCO sont des cours de vocabulaire avec sens, écriture usuelle, kana, repères kun’yomi/on’yomi, exemples et exercices. 184 entrées contiennent des kanji, pour 167 caractères distincts ; chaque MCO reste limité à dix entrées. Les mots courants en kana ne sont pas artificiellement convertis en kanji.
+
+`kanji-reference.json` rassemble les références des caractères, avec provenance. Les données Kanji alive sont adaptées sous CC BY 4.0 ; les quatre caractères absents de cette référence ont été vérifiés dans KanjiPedia. Voir les attributions du livre et du JSON.
+
+Une fiche de mot possède `kana`, `kanji` (caractère, `kunyomi`, `onyomi`, source) et `readingAlternatives`. Les sections sont le cours affiché dans l’application : si tu changes une référence ou une explication, mets aussi à jour la section correspondante. La lecture du mot ne se déduit pas automatiquement des lectures de chaque caractère.

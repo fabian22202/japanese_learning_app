@@ -1,0 +1,1829 @@
+{
+  "description": "Lectures de référence des caractères rencontrés dans les MCO. Sélection non exhaustive ; le point sépare les okurigana.",
+  "sources": [
+    {
+      "title": "Kanji alive — données des lectures",
+      "url": "https://github.com/kanjialive/kanji-data-media",
+      "revision": "e1e24d39fc43e839948a8c7e99743b0994dedad5",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Sélection de 163 caractères, suppression des doublons de radical de lecture, mise en forme de lectures avec okurigana ; textes, exemples et exercices français originaux."
+    },
+    {
+      "title": "KanjiPedia — vérification de 傘・撮・椅・鍵",
+      "url": "https://www.kanjipedia.jp/",
+      "changes": "Lectures vérifiées ; aucune définition ou illustration reproduite."
+    }
+  ],
+  "characters": [
+    {
+      "character": "一",
+      "kunyomi": [
+        "ひと",
+        "ひと.つ"
+      ],
+      "onyomi": [
+        "イチ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "七",
+      "kunyomi": [
+        "なな",
+        "なな.つ",
+        "なの"
+      ],
+      "onyomi": [
+        "シチ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "三",
+      "kunyomi": [
+        "み",
+        "みっ.つ"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "上",
+      "kunyomi": [
+        "うえ",
+        "うわ",
+        "かみ",
+        "あげる",
+        "あがる",
+        "のぼる"
+      ],
+      "onyomi": [
+        "ジョウ",
+        "ショウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "下",
+      "kunyomi": [
+        "した",
+        "しも",
+        "さがる",
+        "さげる",
+        "くだる",
+        "ください",
+        "おろす",
+        "おりる"
+      ],
+      "onyomi": [
+        "カ",
+        "ゲ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "中",
+      "kunyomi": [
+        "なか"
+      ],
+      "onyomi": [
+        "チュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "九",
+      "kunyomi": [
+        "ここの",
+        "ここの.つ"
+      ],
+      "onyomi": [
+        "キュウ",
+        "ク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "二",
+      "kunyomi": [
+        "ふた",
+        "ふた.つ"
+      ],
+      "onyomi": [
+        "ニ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "五",
+      "kunyomi": [
+        "いつ",
+        "いつ.つ"
+      ],
+      "onyomi": [
+        "ゴ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "人",
+      "kunyomi": [
+        "ひと"
+      ],
+      "onyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "今",
+      "kunyomi": [
+        "いま"
+      ],
+      "onyomi": [
+        "コン",
+        "キン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "休",
+      "kunyomi": [
+        "やす.む",
+        "やす.まる",
+        "やす.める"
+      ],
+      "onyomi": [
+        "キュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "会",
+      "kunyomi": [
+        "あ.う"
+      ],
+      "onyomi": [
+        "カイ",
+        "エ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "何",
+      "kunyomi": [
+        "なに",
+        "なん"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "作",
+      "kunyomi": [
+        "つく.る"
+      ],
+      "onyomi": [
+        "サク",
+        "サ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "使",
+      "kunyomi": [
+        "つか.う"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "便",
+      "kunyomi": [
+        "たより"
+      ],
+      "onyomi": [
+        "ビン",
+        "ベン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "傘",
+      "kunyomi": [
+        "かさ"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0002659100"
+    },
+    {
+      "character": "備",
+      "kunyomi": [
+        "そなえる",
+        "そなわる"
+      ],
+      "onyomi": [
+        "ビ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "働",
+      "kunyomi": [
+        "はたら.く"
+      ],
+      "onyomi": [
+        "ドウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "先",
+      "kunyomi": [
+        "さき"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "入",
+      "kunyomi": [
+        "はい.る",
+        "い.る",
+        "い.れる"
+      ],
+      "onyomi": [
+        "ニュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "八",
+      "kunyomi": [
+        "や",
+        "やっ.つ",
+        "よう"
+      ],
+      "onyomi": [
+        "ハチ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "公",
+      "kunyomi": [
+        "おおやけ"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "六",
+      "kunyomi": [
+        "む",
+        "むっ.つ"
+      ],
+      "onyomi": [
+        "ロク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "円",
+      "kunyomi": [
+        "まるい"
+      ],
+      "onyomi": [
+        "エン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "写",
+      "kunyomi": [
+        "うつす",
+        "うつる"
+      ],
+      "onyomi": [
+        "シャ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "分",
+      "kunyomi": [
+        "わ.かる",
+        "わ.ける",
+        "わ.かれる"
+      ],
+      "onyomi": [
+        "ブン",
+        "フン",
+        "ブ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "切",
+      "kunyomi": [
+        "きる",
+        "きり",
+        "きれる"
+      ],
+      "onyomi": [
+        "セツ",
+        "サイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "利",
+      "kunyomi": [
+        "きく",
+        "きき"
+      ],
+      "onyomi": [
+        "リ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "前",
+      "kunyomi": [
+        "まえ"
+      ],
+      "onyomi": [
+        "ゼン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "勉",
+      "kunyomi": [],
+      "onyomi": [
+        "ベン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "十",
+      "kunyomi": [
+        "とお",
+        "と"
+      ],
+      "onyomi": [
+        "ジュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "友",
+      "kunyomi": [
+        "とも"
+      ],
+      "onyomi": [
+        "ユウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "口",
+      "kunyomi": [
+        "くち"
+      ],
+      "onyomi": [
+        "コウ",
+        "ク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "古",
+      "kunyomi": [
+        "ふる.い",
+        "ふる.す"
+      ],
+      "onyomi": [
+        "コ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "右",
+      "kunyomi": [
+        "みぎ"
+      ],
+      "onyomi": [
+        "ウ",
+        "ユウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "問",
+      "kunyomi": [
+        "とう",
+        "とい",
+        "とん"
+      ],
+      "onyomi": [
+        "モン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "四",
+      "kunyomi": [
+        "よ",
+        "よん",
+        "よっ.つ"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "回",
+      "kunyomi": [
+        "まわる",
+        "まわす"
+      ],
+      "onyomi": [
+        "カイ",
+        "エ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "図",
+      "kunyomi": [
+        "はかる"
+      ],
+      "onyomi": [
+        "ズ",
+        "ト"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "園",
+      "kunyomi": [
+        "その"
+      ],
+      "onyomi": [
+        "エン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "土",
+      "kunyomi": [
+        "つち"
+      ],
+      "onyomi": [
+        "ド",
+        "ト"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "地",
+      "kunyomi": [],
+      "onyomi": [
+        "チ",
+        "ジ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "夜",
+      "kunyomi": [
+        "よる"
+      ],
+      "onyomi": [
+        "ヤ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "大",
+      "kunyomi": [
+        "おお",
+        "おお.きい",
+        "おお.いに"
+      ],
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "好",
+      "kunyomi": [
+        "す.く",
+        "この.む"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "嫌",
+      "kunyomi": [
+        "きら.う",
+        "いや"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "子",
+      "kunyomi": [
+        "こ"
+      ],
+      "onyomi": [
+        "シ",
+        "ス"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "学",
+      "kunyomi": [
+        "まな.ぶ"
+      ],
+      "onyomi": [
+        "ガク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "安",
+      "kunyomi": [
+        "やす.い"
+      ],
+      "onyomi": [
+        "アン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "家",
+      "kunyomi": [
+        "いえ",
+        "や"
+      ],
+      "onyomi": [
+        "カ",
+        "ケ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "寝",
+      "kunyomi": [
+        "ね.る",
+        "ね.かす"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "小",
+      "kunyomi": [
+        "ちい.さい",
+        "こ",
+        "お"
+      ],
+      "onyomi": [
+        "ショウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "屋",
+      "kunyomi": [
+        "や"
+      ],
+      "onyomi": [
+        "オク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "山",
+      "kunyomi": [
+        "やま"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "川",
+      "kunyomi": [
+        "かわ"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "左",
+      "kunyomi": [
+        "ひだり"
+      ],
+      "onyomi": [
+        "サ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "帰",
+      "kunyomi": [
+        "かえ.る",
+        "かえ.す"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "店",
+      "kunyomi": [
+        "みせ"
+      ],
+      "onyomi": [
+        "テン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "度",
+      "kunyomi": [
+        "たび"
+      ],
+      "onyomi": [
+        "ド",
+        "ト",
+        "タク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "座",
+      "kunyomi": [
+        "すわ.る"
+      ],
+      "onyomi": [
+        "ザ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "強",
+      "kunyomi": [
+        "つよい",
+        "つよめる",
+        "つよまる",
+        "しいる"
+      ],
+      "onyomi": [
+        "キョウ",
+        "ゴウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "弾",
+      "kunyomi": [
+        "ひ.く",
+        "はず.む"
+      ],
+      "onyomi": [
+        "ダン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "待",
+      "kunyomi": [
+        "ま.つ"
+      ],
+      "onyomi": [
+        "タイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "後",
+      "kunyomi": [
+        "のち",
+        "うしろ",
+        "あと",
+        "おくれ"
+      ],
+      "onyomi": [
+        "ゴ",
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "忙",
+      "kunyomi": [
+        "いそが.しい"
+      ],
+      "onyomi": [
+        "ボウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "手",
+      "kunyomi": [
+        "て",
+        "た"
+      ],
+      "onyomi": [
+        "シュ",
+        "ズ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "持",
+      "kunyomi": [
+        "も.つ"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "撮",
+      "kunyomi": [
+        "と.る"
+      ],
+      "onyomi": [
+        "サツ"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0002601800"
+    },
+    {
+      "character": "散",
+      "kunyomi": [
+        "ちる",
+        "ちらす",
+        "ちらかす",
+        "ちらかる",
+        "ちらばる",
+        "ちらばす"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "料",
+      "kunyomi": [],
+      "onyomi": [
+        "リョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "新",
+      "kunyomi": [
+        "あたら.しい",
+        "あら.た",
+        "にい"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "旅",
+      "kunyomi": [
+        "たび"
+      ],
+      "onyomi": [
+        "リョ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "族",
+      "kunyomi": [],
+      "onyomi": [
+        "ゾク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "日",
+      "kunyomi": [
+        "ひ",
+        "か"
+      ],
+      "onyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "明",
+      "kunyomi": [
+        "あける",
+        "あかるい",
+        "あからむ",
+        "あきらか"
+      ],
+      "onyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "映",
+      "kunyomi": [
+        "うつる",
+        "うつす",
+        "はえる"
+      ],
+      "onyomi": [
+        "エイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "昨",
+      "kunyomi": [],
+      "onyomi": [
+        "サク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "昼",
+      "kunyomi": [
+        "ひる"
+      ],
+      "onyomi": [
+        "チュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "時",
+      "kunyomi": [
+        "とき"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "晩",
+      "kunyomi": [],
+      "onyomi": [
+        "バン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "曜",
+      "kunyomi": [],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "書",
+      "kunyomi": [
+        "か.く"
+      ],
+      "onyomi": [
+        "ショ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "月",
+      "kunyomi": [
+        "つき"
+      ],
+      "onyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "朝",
+      "kunyomi": [
+        "あさ"
+      ],
+      "onyomi": [
+        "チョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "木",
+      "kunyomi": [
+        "き",
+        "こ"
+      ],
+      "onyomi": [
+        "ボク",
+        "モク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "末",
+      "kunyomi": [
+        "すえ"
+      ],
+      "onyomi": [
+        "マツ",
+        "バツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "本",
+      "kunyomi": [
+        "もと"
+      ],
+      "onyomi": [
+        "ホン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "机",
+      "kunyomi": [
+        "つくえ"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "束",
+      "kunyomi": [
+        "たばねる"
+      ],
+      "onyomi": [
+        "ソク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "来",
+      "kunyomi": [
+        "く.る",
+        "きた.る"
+      ],
+      "onyomi": [
+        "ライ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "果",
+      "kunyomi": [
+        "はたす",
+        "はてる"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "校",
+      "kunyomi": [],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "椅",
+      "kunyomi": [],
+      "onyomi": [
+        "イ"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0000160300"
+    },
+    {
+      "character": "楽",
+      "kunyomi": [
+        "たの.しい",
+        "たの.しむ"
+      ],
+      "onyomi": [
+        "ガク",
+        "ラク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "歌",
+      "kunyomi": [
+        "うた",
+        "うた.う"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "歩",
+      "kunyomi": [
+        "あるく",
+        "あゆむ",
+        "あゆみ"
+      ],
+      "onyomi": [
+        "ホ",
+        "ブ",
+        "フ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "毎",
+      "kunyomi": [
+        "ごと"
+      ],
+      "onyomi": [
+        "マイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "水",
+      "kunyomi": [
+        "みず"
+      ],
+      "onyomi": [
+        "スイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "泳",
+      "kunyomi": [
+        "およ.ぐ"
+      ],
+      "onyomi": [
+        "エイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "港",
+      "kunyomi": [
+        "みなと"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "準",
+      "kunyomi": [],
+      "onyomi": [
+        "ジュン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "火",
+      "kunyomi": [
+        "ひ"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "物",
+      "kunyomi": [
+        "もの"
+      ],
+      "onyomi": [
+        "ブツ",
+        "モツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "犬",
+      "kunyomi": [
+        "いぬ"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "猫",
+      "kunyomi": [
+        "ねこ"
+      ],
+      "onyomi": [
+        "ビョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "理",
+      "kunyomi": [],
+      "onyomi": [
+        "リ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "生",
+      "kunyomi": [
+        "いきる",
+        "うまれる",
+        "うむ",
+        "お",
+        "はえる",
+        "はやす",
+        "なま",
+        "き"
+      ],
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "画",
+      "kunyomi": [],
+      "onyomi": [
+        "ガ",
+        "カク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "病",
+      "kunyomi": [
+        "やむ",
+        "やみ",
+        "やまい"
+      ],
+      "onyomi": [
+        "ビョウ",
+        "ヘイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "白",
+      "kunyomi": [
+        "しら",
+        "しろい"
+      ],
+      "onyomi": [
+        "ハク",
+        "ビャク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "目",
+      "kunyomi": [
+        "め",
+        "ま"
+      ],
+      "onyomi": [
+        "モク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "直",
+      "kunyomi": [
+        "ただす",
+        "なおる",
+        "なおす"
+      ],
+      "onyomi": [
+        "チョク",
+        "ジキ",
+        "ジカ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "真",
+      "kunyomi": [
+        "ま"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "私",
+      "kunyomi": [
+        "わたし",
+        "わたくし"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "空",
+      "kunyomi": [
+        "そら",
+        "から",
+        "あく",
+        "あき",
+        "あける",
+        "むなしい",
+        "むなしさ"
+      ],
+      "onyomi": [
+        "クウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "窓",
+      "kunyomi": [
+        "まど"
+      ],
+      "onyomi": [
+        "ソウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "立",
+      "kunyomi": [
+        "た.つ",
+        "た.てる"
+      ],
+      "onyomi": [
+        "リツ",
+        "リュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "符",
+      "kunyomi": [],
+      "onyomi": [
+        "フ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "約",
+      "kunyomi": [],
+      "onyomi": [
+        "ヤク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "緒",
+      "kunyomi": [
+        "お"
+      ],
+      "onyomi": [
+        "ショ",
+        "チョ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "習",
+      "kunyomi": [
+        "なら.う"
+      ],
+      "onyomi": [
+        "シュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "聞",
+      "kunyomi": [
+        "き.く",
+        "き.こえる"
+      ],
+      "onyomi": [
+        "ブン",
+        "モン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "肉",
+      "kunyomi": [],
+      "onyomi": [
+        "ニク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "花",
+      "kunyomi": [
+        "はな"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "茶",
+      "kunyomi": [],
+      "onyomi": [
+        "チャ",
+        "サ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "菜",
+      "kunyomi": [
+        "な"
+      ],
+      "onyomi": [
+        "サイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "葉",
+      "kunyomi": [
+        "は"
+      ],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "行",
+      "kunyomi": [
+        "い.く",
+        "ゆ.く",
+        "おこな.う"
+      ],
+      "onyomi": [
+        "コウ",
+        "ギョウ",
+        "アン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "見",
+      "kunyomi": [
+        "み.る",
+        "み.える",
+        "み.せる"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "言",
+      "kunyomi": [
+        "いう",
+        "こと"
+      ],
+      "onyomi": [
+        "ゲン",
+        "ゴン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "計",
+      "kunyomi": [
+        "はかる",
+        "はかり",
+        "はからう"
+      ],
+      "onyomi": [
+        "ケイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "話",
+      "kunyomi": [
+        "はな.す",
+        "はなし"
+      ],
+      "onyomi": [
+        "ワ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "語",
+      "kunyomi": [
+        "かたる"
+      ],
+      "onyomi": [
+        "ゴ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "読",
+      "kunyomi": [
+        "よ.む"
+      ],
+      "onyomi": [
+        "ドク",
+        "トク",
+        "トウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "買",
+      "kunyomi": [
+        "か.う"
+      ],
+      "onyomi": [
+        "バイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "質",
+      "kunyomi": [],
+      "onyomi": [
+        "シツ",
+        "シチ",
+        "チ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "起",
+      "kunyomi": [
+        "お.きる",
+        "お.こる",
+        "お.こす"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "踊",
+      "kunyomi": [
+        "おど.る"
+      ],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "車",
+      "kunyomi": [
+        "くるま"
+      ],
+      "onyomi": [
+        "シャ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "近",
+      "kunyomi": [
+        "ちか.い"
+      ],
+      "onyomi": [
+        "キン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "週",
+      "kunyomi": [],
+      "onyomi": [
+        "シュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "遊",
+      "kunyomi": [
+        "あそ.ぶ"
+      ],
+      "onyomi": [
+        "ユウ",
+        "ユ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "達",
+      "kunyomi": [
+        "たち"
+      ],
+      "onyomi": [
+        "タツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "遠",
+      "kunyomi": [
+        "とお.い"
+      ],
+      "onyomi": [
+        "エン",
+        "オン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "部",
+      "kunyomi": [],
+      "onyomi": [
+        "ブ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "野",
+      "kunyomi": [
+        "の"
+      ],
+      "onyomi": [
+        "ヤ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "金",
+      "kunyomi": [
+        "かね",
+        "かな"
+      ],
+      "onyomi": [
+        "キン",
+        "コン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "鍵",
+      "kunyomi": [
+        "かぎ"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0001970700"
+    },
+    {
+      "character": "閉",
+      "kunyomi": [
+        "し.める",
+        "し.まる",
+        "と.じる"
+      ],
+      "onyomi": [
+        "ヘイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "開",
+      "kunyomi": [
+        "あ.ける",
+        "あ.く",
+        "ひら.く"
+      ],
+      "onyomi": [
+        "カイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "院",
+      "kunyomi": [],
+      "onyomi": [
+        "イン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "隣",
+      "kunyomi": [
+        "となり"
+      ],
+      "onyomi": [
+        "リン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "難",
+      "kunyomi": [
+        "むずか.しい",
+        "かた.い"
+      ],
+      "onyomi": [
+        "ナン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "電",
+      "kunyomi": [],
+      "onyomi": [
+        "デン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "静",
+      "kunyomi": [
+        "しず.か",
+        "しず.まる",
+        "しず.める"
+      ],
+      "onyomi": [
+        "セイ",
+        "ジョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "面",
+      "kunyomi": [
+        "おもて",
+        "つら"
+      ],
+      "onyomi": [
+        "メン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "靴",
+      "kunyomi": [
+        "くつ"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "音",
+      "kunyomi": [
+        "おと",
+        "ね"
+      ],
+      "onyomi": [
+        "オン",
+        "ノン",
+        "イン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "食",
+      "kunyomi": [
+        "た.べる",
+        "く.う"
+      ],
+      "onyomi": [
+        "ショク",
+        "ジキ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "飯",
+      "kunyomi": [
+        "めし"
+      ],
+      "onyomi": [
+        "ハン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "飲",
+      "kunyomi": [
+        "の.む"
+      ],
+      "onyomi": [
+        "イン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "館",
+      "kunyomi": [
+        "たて"
+      ],
+      "onyomi": [
+        "カン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "駅",
+      "kunyomi": [],
+      "onyomi": [
+        "エキ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "高",
+      "kunyomi": [
+        "たか.い",
+        "たか",
+        "たか.まる",
+        "たか.める"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    },
+    {
+      "character": "魚",
+      "kunyomi": [
+        "うお",
+        "さかな"
+      ],
+      "onyomi": [
+        "ギョ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv"
+    }
+  ]
+}

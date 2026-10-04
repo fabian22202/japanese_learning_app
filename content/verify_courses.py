@@ -35,9 +35,15 @@ for m in p['modules']:
    if kind=='mcos':
     assert 1<=len(u['words'])<=10
     for w in u['words']:
-     for f in ['id','writing','reading','meaning']:text(w[f])
+     for f in ['id','writing','reading','meaning','kana']:text(w[f])
+     assert w['kana']==w['reading']
+     texts(w.get('readingAlternatives'))
+     expected=set(re.findall('[\u4e00-\u9fff]',w['writing']))
+     assert {k['character'] for k in w['kanji']}==expected
+     for k in w['kanji']:
+      text(k['character']);texts(k['kunyomi']);texts(k['onyomi']);assert k['source'].startswith('https://')
      assert w['id'] not in word_ids;word_ids.add(w['id'])
-    total_pool+=4*len(u['words']);continue
+    total_pool+=4*len(u['words'])
    assert u['sections'],u['id']
    for q in u.get('questions',[]):
     for f in ['prompt','answer','explanation']:text(q[f])
@@ -53,10 +59,12 @@ for m in p['modules']:
      # No distractor is also an accepted answer.
      assert all(not exact(q,x) for x in q['choices'] if x!=q['answer'])
     if q['type']=='order':assert len(q['tokens'])>=2 and exact(q,''.join(q['tokens']));texts(q['tokens'])
+   if kind=='mcos':
+    total_pool+=len(u['exercises']);continue
    g=u.get('generator') or {};count=len(u['exercises'])
    if g.get('kind')=='kana':assert u['table'];count+=3*len(u['table'])
    elif g.get('kind')=='numbers':assert 0<=g['min']<=g['max']<=99;count+=3*(g['max']-g['min']+1)
-   elif g.get('kind')=='kanji':count+=4*sum(len(w['words']) for w in m['mcos'])
+   elif g.get('kind')=='kanji':count+=sum(4*len(w['words'])+len(w.get('exercises',[])) for w in m['mcos'])
    elif g.get('kind')=='frames':
     for f in g['frames']:
      assert 0<=f['focus']<len(f['tokens']);text(f['explanation']);text(f['french'])
@@ -79,4 +87,4 @@ for m in p['modules']:
    assert count>0;total_pool+=count
 assert total_pool<=30000
 assert 1<=len(p['modules'])<=50
-print(json.dumps({'modules':len(p['modules']),'lessons':sum(len(m['lessons']) for m in p['modules']),'mcos':sum(len(m['mcos']) for m in p['modules']),'vocabulary_entries':len(word_ids),'original_corrected_exercises':len(exercise_ids),'pool_upper_bound':total_pool,'examples_with_reading_and_translation':sum(len(s.get('examples',[])) for m in p['modules'] for u in m['lessons'] for s in u['sections'])},ensure_ascii=False))
+print(json.dumps({'modules':len(p['modules']),'lessons':sum(len(m['lessons']) for m in p['modules']),'mcos':sum(len(m['mcos']) for m in p['modules']),'vocabulary_entries':len(word_ids),'original_corrected_exercises':len(exercise_ids),'pool_upper_bound':total_pool,'examples_with_reading_and_translation':sum(len(s.get('examples',[])) for m in p['modules'] for u in m['lessons']+m['mcos'] for s in u['sections'])},ensure_ascii=False))

@@ -13,11 +13,12 @@ Question make(String id,String concept,String type,String prompt,String answer,S
 
 List<Question> vocabularyPool(Unit u)=>u.words.expand((w){final concept='word:${w.id}',explanation='${w.writing} se lit ${w.reading} : ${w.meaning}.';
   final kanji=RegExp(r'[\u4e00-\u9fff]').hasMatch(w.writing);
-  return [make('${w.id}:produce',concept,'input','Écris en kana : « ${w.meaning} »',w.reading,explanation),
+  return [make('${w.id}:produce',concept,'input','Écris en kana : « ${w.meaning} »',w.reading,explanation,alternatives:w.readingAlternatives),
     make('${w.id}:meaning',concept,'choice','Quel est le sens de ${w.writing} ?',w.meaning,explanation,choices:options(w.meaning,u.words.map((x)=>x.meaning))),
     make('${w.id}:recognize',concept,'choice','Choisis le mot : « ${w.meaning} »',w.writing,explanation,choices:options(w.writing,u.words.map((x)=>x.writing))),
-    kanji?make('${w.id}:read',concept,'input','Lis ce mot en kanji : ${w.writing}',w.reading,explanation):make('${w.id}:spell',concept,'order','Reconstruis en kana : « ${w.meaning} »',w.reading,explanation,tokens:w.reading.split(''))];
-}).toList();
+    kanji?make('${w.id}:read',concept,'input','Lis ce mot en kanji : ${w.writing}',w.reading,explanation,alternatives:w.readingAlternatives):make('${w.id}:spell',concept,'order','Reconstruis en kana : « ${w.meaning} »',w.reading,explanation,tokens:w.reading.split(''))];
+}).toList()..addAll(authoredQuestions(u));
+List<Question> authoredQuestions(Unit u)=>u.exercises.map((e)=>make('${u.id}:custom:${e['id']}','${u.id}:custom:${e['id']}',e['type'],e['prompt'],e['answer'],e['explanation'],choices:strings(e['choices']),tokens:strings(e['tokens']),alternatives:strings(e['alternatives']))).toList();
 List<Json> cartesian(Json domains){var rows=<Json>[{}];for(final entry in domains.entries){rows=rows.expand((r)=>(entry.value as List).map((v)=><String,dynamic>{...r,entry.key:object(v)})).toList();}return rows;}
 String interpolate(String template,Json row,String field)=>template.replaceAllMapped(RegExp(r'\{([^}]+)\}'),(m)=>row[m[1]][field] as String);
 List<Json> contexts(Unit u){final result=<Json>[];final frames=objects(u.generator['frames']);for(var fi=0;fi<frames.length;fi++){final f=frames[fi],rows=cartesian(object(f['domains']));for(var ri=0;ri<rows.length;ri++){final tokens=strings(f['tokens']).map((t)=>interpolate(t,rows[ri],'jp')).toList();result.add({'id':'${u.id}:f$fi:r$ri','concept':'${u.id}:frame:$fi','tokens':tokens,'japanese':tokens.join(),'french':interpolate(f['french'],rows[ri],'fr'),'focus':f['focus'],'explanation':f['explanation']});}}return result;}
@@ -52,7 +53,7 @@ List<Question> lessonPool(Unit u,LearningModule m){
       for(var i=0;i<u.facts.length;i++){final q=u.facts[i],concept='${u.id}:fact:$i';result.add(make('$concept:input',concept,'input',q['prompt'],q['answer'],q['explanation'],alternatives:strings(q['alternatives'])));
         final choices=options(q['answer'],u.facts.map((x)=>x['answer'] as String));if(choices.length>1)result.add(make('$concept:choice',concept,'choice',q['prompt'],q['answer'],q['explanation'],choices:choices));}
   }
-  for(final e in u.exercises){result.add(make('${u.id}:custom:${e['id']}','${u.id}:custom:${e['id']}',e['type'],e['prompt'],e['answer'],e['explanation'],choices:strings(e['choices']),tokens:strings(e['tokens']),alternatives:strings(e['alternatives'])));}
+  result.addAll(authoredQuestions(u));
   return result;
 }
 List<Question> selectSession(List<Question> pool,Progress p,{int count=10,bool cover=false,List<String>? unmastered,Random? random}){

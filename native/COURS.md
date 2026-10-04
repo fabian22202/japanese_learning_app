@@ -54,3 +54,9 @@ L’import affiche un aperçu et demande confirmation après validation. Un fich
 Les étapes dont le contenu est inchangé restent validées. Une étape modifiée doit être repassée. Les DS du premier module modifié et des modules suivants doivent être repassés pour respecter les prérequis. Les cartes des mots inchangés sont conservées ; l’activité quotidienne et l’objectif restent conservés. Exporte aussi ton carnet avant une révision importante.
 
 **Restaurer les cours fournis** réinstalle le programme embarqué. Exporte d’abord tes cours personnalisés pour les conserver. L’application n’a pas encore d’éditeur de cours intégré : l’édition se fait dans le fichier JSON.
+
+## Vocabulaire et lectures (0.3.3)
+
+Un MCO peut combiner `words`, `sections` et `exercises`. Les sections portent les explications de vocabulaire ; les exercices rédigés complètent les questions générées depuis les mots. Pour les lectures alternatives du mot, ajoute `readingAlternatives: ["あす"]` à l’entrée de 明日 ; elles sont admises dans les questions de lecture et de production en kana. Elles ne représentent pas toutes les lectures de chaque caractère.
+
+Le pack de cours ajoute `kana` et une liste `kanji` avec `character`, `kunyomi`, `onyomi` et `source`. Ces champs documentent les références ; les sections affichent leur explication. Conserve les deux cohérents lorsque tu édites. Une liste de lectures vide n’autorise pas à inventer une lecture. Les points des références comme `た.べる` indiquent les okurigana et ne s’écrivent pas dans une phrase.

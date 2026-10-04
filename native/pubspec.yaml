@@ -1,7 +1,7 @@
 name: kotoba
 publish_to: none
 description: Apprentissage du japonais en français, sur Android et Windows.
-version: 0.3.2+5
+version: 0.3.3+6
 environment:
   sdk: '>=3.8.0 <4.0.0'
 dependencies:
