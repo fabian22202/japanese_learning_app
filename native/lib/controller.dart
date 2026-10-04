@@ -65,7 +65,18 @@ class LearningController extends ChangeNotifier {
   Future<void> restoreCurriculum()async=>installCurriculum(Curriculum.parse(await rootBundle.loadString('assets/curriculum.json')));
   List<Word> get learnedWords=>modules.asMap().entries.where((e)=>progress.unlocked(e.key,modules)).expand((e)=>e.value.mcos.where((u)=>progress.done(u.id)).expand((u)=>u.words)).toList();
   List<Word> dueWords([int? now])=>learnedWords.where((w){final card=progress.cards[w.id];return card==null||(card['due'] as num)<= (now??DateTime.now().millisecondsSinceEpoch);}).toList();
-  List<String> kanji(LearningModule current){final index=modules.indexOf(current);return modules.take(index+1).expand((m)=>m.mcos.where((u)=>m.id==current.id||progress.done(u.id)).expand((u)=>u.words.expand((w)=>w.writing.split('').where((c)=>RegExp(r'[\u4e00-\u9fff]').hasMatch(c))))).toSet().toList();}
+  List<String> kanji(LearningModule current) {
+    final index=modules.indexOf(current);
+    final texts=modules.take(index+1).expand((m)=>m.units
+      .where((u)=>m.id==current.id||progress.done(u.id))
+      .expand((u)=>[
+        ...u.words.map((w)=>w.writing),
+        ...u.table.map((row)=>row.first),
+        ...u.sections.expand((s)=>objects(s['examples']).map((e)=>e['jp'] as String)),
+      ]));
+    return texts.expand((text)=>text.split(''))
+      .where((c)=>RegExp(r'[\u4e00-\u9fff]').hasMatch(c)).toSet().toList();
+  }
   Future<void> rate(Word word,int grade)async{final cards=progress.cards;cards[word.id]=schedule(cards[word.id]==null?null:object(cards[word.id]),grade,DateTime.now().millisecondsSinceEpoch);progress.data['cards']=cards;
     final days=progress.activity,key=dateKey(DateTime.now());days[key]=(days[key] as num? ?? 0).toInt()+1;progress.data['activity']=days;await save();}
 }
