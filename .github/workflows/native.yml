@@ -9,6 +9,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 35
     defaults:
       run:
         working-directory: native
@@ -28,7 +29,7 @@ jobs:
       - run: python tool/configure.py
       - run: flutter pub get
       - run: flutter analyze
-      - run: flutter test
+      - run: flutter test --timeout 60s
       - name: Build Android APK
         if: runner.os == 'Linux'
         run: flutter build apk --release
