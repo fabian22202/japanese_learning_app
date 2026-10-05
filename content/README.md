@@ -34,6 +34,6 @@ Les 29 MCO sont des cours de vocabulaire avec sens, écriture usuelle, kana, rep
 
 `kanji-reference.json` rassemble les références des caractères, avec provenance. Les données Kanji alive sont adaptées sous CC BY 4.0 ; les quatre caractères absents de cette référence ont été vérifiés dans KanjiPedia. Voir les attributions du livre et du JSON.
 
-Une fiche de mot possède `kana`, `kanji` (caractère, `kunyomi`, `onyomi`, source) et `readingAlternatives`. Les sections sont le cours affiché dans l’application : si tu changes une référence ou une explication, mets aussi à jour la section correspondante. La lecture du mot ne se déduit pas automatiquement des lectures de chaque caractère.
+Une fiche de mot possède `kana`, `kanji` (caractère, `kunyomi`, `onyomi`, source) et `readingAlternatives`. Les champs `usage` et `kanji`, avec leurs exemples, sont affichés directement dans la fiche du mot ; les sections présentent le contexte et les explications communes au MCO. La lecture du mot ne se déduit pas automatiquement des lectures de chaque caractère.
 
 Les fiches de mots des MCO 1 à 8, comme celles de la suite, affichent leurs références directement avec des exemples de vocabulaire pour kun et on. `kanji-reference.json` comporte 312 illustrations de lecture. Elles n’ajoutent pas de cartes obligatoires aux dix entrées maximales du MCO. Pour modifier l’affichage d’une fiche, édite `usage` et les données `kanji` du mot ; l’application les affiche directement.

@@ -59,7 +59,7 @@ Les étapes dont le contenu est inchangé restent validées. Une étape modifié
 
 Un MCO peut combiner `words`, `sections` et `exercises`. Les sections portent les explications de vocabulaire ; les exercices rédigés complètent les questions générées depuis les mots. Pour les lectures alternatives du mot, ajoute `readingAlternatives: ["あす"]` à l’entrée de 明日 ; elles sont admises dans les questions de lecture et de production en kana. Elles ne représentent pas toutes les lectures de chaque caractère.
 
-Le pack de cours ajoute `kana` et une liste `kanji` avec `character`, `kunyomi`, `onyomi` et `source`. Ces champs documentent les références ; les sections affichent leur explication. Conserve les deux cohérents lorsque tu édites. Une liste de lectures vide n’autorise pas à inventer une lecture. Les points des références comme `た.べる` indiquent les okurigana et ne s’écrivent pas dans une phrase.
+Le pack de cours ajoute `kana` et une liste `kanji` avec `character`, `kunyomi`, `onyomi` et `source`. Depuis la version 0.3.4, ces références sont affichées directement dans la fiche du mot, avec les exemples structurés décrits ci-dessous. Une liste de lectures vide n’autorise pas à inventer une lecture. Les points des références comme `た.べる` indiquent les okurigana et ne s’écrivent pas dans une phrase.
 
 ## Fiches de vocabulaire (0.3.4)
 
