@@ -27,6 +27,8 @@ jobs:
       - name: Generate platform shells
         run: flutter create --platforms=android,windows --project-name kotoba --org fr.kotoba .
       - run: python tool/configure.py
+      - run: python -m pip install fonttools==4.61.1
+      - run: python tool/font.py
       - run: flutter pub get
       - run: flutter analyze
       - run: flutter test --timeout 60s
