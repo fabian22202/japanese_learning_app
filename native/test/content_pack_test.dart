@@ -46,7 +46,7 @@ void main() {
     expect(nature.sections.expand((s)=>s['paragraphs'] as List? ?? []).any((s)=>s.toString().contains('スイ')), isTrue);
   });
   test('Course pack installs with current progress and exports for a restart', () async {
-    final old = Curriculum.parse(File('assets/curriculum.json').readAsStringSync());
+    final old = Curriculum.parse(File('test/fixtures/legacy-curriculum.json').readAsStringSync());
     final content = MemoryProgressStore();
     final c = LearningController(old.modules, MemoryProgressStore(), curriculum: old, contentStore: content);
     for (final u in old.modules.first.units) { c.progress.complete(u.id); }

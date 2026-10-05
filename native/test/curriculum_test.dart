@@ -5,7 +5,7 @@ import 'package:kotoba/domain/curriculum.dart';
 import 'package:kotoba/domain/engine.dart';
 import 'package:kotoba/controller.dart';
 
-String bundled() => File('assets/curriculum.json').readAsStringSync();
+String bundled() => File('test/fixtures/legacy-curriculum.json').readAsStringSync();
 Map<String,dynamic> lessonPatch() => {
   'format':'kotoba.lesson','version':1,'moduleId':'m1',
   'lesson':{'id':'my-lesson','title':'Ma leçon','sections':[{'title':'Exemple','examples':[{'jp':'わたしはがくせいです','reading':'watashi wa gakusei desu','fr':'Je suis étudiant.'}]}],

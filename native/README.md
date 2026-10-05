@@ -1,4 +1,4 @@
-# Kotoba 0.3.3 — Android et Windows
+# Kotoba 0.3.4 — Android et Windows
 
 Application Flutter en Dart, avec des composants natifs Flutter, sans WebView ni serveur HTML. Parcours, contenus et police japonaise intégrés ; sauvegarde locale, clavier japonais, DS et cartes espacées. Import/export JSON compatible avec le carnet de la version web.
 
@@ -40,6 +40,10 @@ Les cours sont désormais importables et exportables depuis **Carnet → Mes cou
 
 Depuis une leçon ou un MCO : « Pratiquer l’écriture à la main ». Dessine au doigt, au stylet ou à la souris dans le quadrillage ; affiche ou masque le modèle, annule un trait, efface ou compare. Le modèle est typographique : aucun ordre des traits ni reconnaissance automatique n’est fourni. Les dessins restent temporaires et ne valident pas les DS.
 
-Importe `content/kotoba-cours-debutant.json` pour utiliser les 51 leçons, dont les kanji des nombres.
+Les 51 leçons et les 29 MCO enrichis sont directement fournis dans l’application. Aucune importation n’est nécessaire pour voir les kanji.
 
 La version 0.3.3 entraîne aussi les exercices rédigés dans les MCO et accepte les variantes de lecture définies par le cours. Le pack contient désormais 29 cours de vocabulaire enrichis, avec 167 kanji distincts et leurs références kun/on.
+
+## Cours fournis dans la version 0.3.4
+
+Le programme embarqué est identique à `content/kotoba-cours-debutant.json` : 12 modules, 51 leçons, 29 MCO, 167 kanji distincts. Les anciennes versions fournies, si elles sont intactes, sont mises à jour automatiquement au démarrage. Les cours personnalisés sont conservés ; Carnet affiche le programme actif et permet de restaurer les nouveaux cours fournis. Les étapes modifiées et leurs DS sont à revalider, tandis que l’objectif quotidien et l’historique d’activité restent conservés.

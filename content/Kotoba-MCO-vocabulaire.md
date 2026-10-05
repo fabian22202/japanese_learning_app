@@ -2,7 +2,7 @@
 
 29 cours de vocabulaire, 230 entrées, dont 184 écrites avec des kanji ; 167 caractères distincts. Chaque MCO contient au maximum dix entrées. Étudie la lecture du mot et son sens, puis les références kun’yomi et on’yomi de ses caractères. Les emprunts et les expressions couramment écrits en kana gardent leur écriture naturelle.
 
-Les textes, exemples et exercices sont originaux. Les références de lectures proviennent des sources attribuées en fin de document. Dans Kotoba 0.3.3, importe le programme JSON depuis Carnet → Mes cours. Les dessins de l’atelier ne sont pas corrigés automatiquement.
+Les textes, exemples et exercices sont originaux. Les références de lectures proviennent des sources attribuées en fin de document. Kotoba 0.3.4 fournit directement ces MCO dans le programme embarqué ; aucun import JSON n’est nécessaire. Les dessins de l’atelier ne sont pas corrigés automatiquement.
 
 ## Module 1 — Hiragana & katakana
 

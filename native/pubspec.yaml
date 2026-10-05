@@ -1,7 +1,7 @@
 name: kotoba
 publish_to: none
 description: Apprentissage du japonais en français, sur Android et Windows.
-version: 0.3.3+6
+version: 0.3.4+7
 environment:
   sdk: '>=3.8.0 <4.0.0'
 dependencies:
@@ -19,6 +19,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/curriculum.json
+    - assets/builtin_history.json
     - assets/app_icon.png
   fonts:
     - family: KotobaJapanese

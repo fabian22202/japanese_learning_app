@@ -26,22 +26,69 @@ class LearningController extends ChangeNotifier {
   final ProgressStore store;
   Progress progress;
   String? storageError;
+  String? courseNotice;
+  String? _providedModules;
+  bool usingProvidedCourses = true;
   Future<void> _pending=Future.value();
   LearningController(this.modules,this.store,{Progress? progress,this.curriculum,ProgressStore? contentStore}):contentStore=contentStore??MemoryProgressStore(),progress=progress??Progress();
   static Future<LearningController> load({ProgressStore? store,ProgressStore? contentStore})async {
     final bundled=Curriculum.parse(await rootBundle.loadString('assets/curriculum.json'));
     final content=contentStore??(store is MemoryProgressStore?MemoryProgressStore():NativeProgressStore(key:'kotoba.curriculum.v1'));
     final c=LearningController(bundled.modules,store??NativeProgressStore(),curriculum:bundled,contentStore:content);
-    try{final raw=await content.read();if(raw!=null&&raw.isNotEmpty){c.curriculum=Curriculum.parse(raw);c.modules=c.curriculum!.modules;}}catch(_){c.storageError='Le programme enregistré n’a pas pu être chargé. Le programme fourni est utilisé.';}
-    try{final raw=await c.store.read();if(raw!=null)c.progress=Progress.fromJson(object(jsonDecode(raw)));}catch(_){c.storageError='Le carnet n’a pas pu être chargé. Tu peux importer une sauvegarde.';}
+    c._providedModules=canonical(bundled.document['modules']);
+    bool storedProgram=false,hasProgress=false,programReadSucceeded=false;
+    String? rawProgram;
+    try {
+      rawProgram=await content.read();programReadSucceeded=true;
+      if(rawProgram!=null&&rawProgram.isNotEmpty) {
+        c.curriculum=Curriculum.parse(rawProgram);c.modules=c.curriculum!.modules;
+        storedProgram=true;
+        c.usingProvidedCourses=canonical(c.curriculum!.document['modules'])==c._providedModules;
+      }
+    } catch(_) {c.storageError='Le programme enregistré n’a pas pu être chargé. Les nouveaux cours fournis sont affichés.';}
+    try {
+      final raw=await c.store.read();
+      if(raw!=null) {c.progress=Progress.fromJson(object(jsonDecode(raw)));hasProgress=true;}
+    } catch(_) {c.storageError='Le carnet n’a pas pu être chargé. Tu peux importer une sauvegarde.';}
+    final noStoredProgram=programReadSucceeded&&(rawProgram==null||rawProgram.isEmpty);
+    if((storedProgram&&!c.usingProvidedCourses)||(noStoredProgram&&hasProgress)) {
+      // Compare complete module data: a personal edit is never classified as an old supplied course.
+      final history=objects(jsonDecode(await rootBundle.loadString('assets/builtin_history.json')));
+      final active=canonical(c.curriculum!.document['modules']);
+      final legacy=history.where((entry)=>canonical(entry['document']['modules'])==active);
+      if((storedProgram&&legacy.isNotEmpty)||(noStoredProgram&&hasProgress)) {
+        if(!storedProgram) {
+          c.curriculum=Curriculum.parse(jsonEncode({'format':'kotoba.curriculum','version':1,
+            'modules':history.first['document']['modules']}));
+          c.modules=c.curriculum!.modules;
+        }
+        try {
+          await c.installCurriculum(bundled);
+        } catch(_) {
+          // Even if storage is unavailable, the new built-in courses must be usable this session.
+          c._applyCurriculum(bundled);await c.save();
+          c.storageError='Les nouveaux cours sont actifs, mais leur enregistrement a échoué. Exporte ton carnet pour le conserver.';
+        }
+        c.courseNotice='Les cours fournis ont été mis à jour : 29 MCO avec 167 kanji. Les fiches enrichies et leurs DS sont à revalider.';
+      }
+    } else if(noStoredProgram&&!hasProgress) {
+      // Persist the initial programme so a future update can distinguish it from a personal import.
+      try {await content.write(bundled.encode());}
+      catch(_) {c.storageError='Les nouveaux cours fournis sont affichés, mais leur enregistrement est indisponible.';}
+    }
     return c;
   }
+  void dismissCourseNotice(){courseNotice=null;notifyListeners();}
   Future<void> save(){final encoded=progress.encode();_pending=_pending.catchError((_){ }).then((_)async{try{await store.write(encoded);storageError=null;}catch(_){storageError='Sauvegarde indisponible. Exporte ton carnet pour le conserver.';}notifyListeners();});notifyListeners();return _pending;}
   Future<void> importJson(String source)async{if(source.length>2000000)throw const FormatException('Carnet trop volumineux.');final next=Progress.fromJson(object(jsonDecode(source)));progress=next;await save();}
   Future<void> installCurriculum(Curriculum next)async {
     if(curriculum==null)throw StateError('Programme indisponible.');
     // Commit content storage first: failed imports leave the active course intact.
     await contentStore.write(next.encode());
+    _applyCurriculum(next);
+    await save();
+  }
+  void _applyCurriculum(Curriculum next) {
     final oldModules=objects(curriculum!.document['modules']);
     final newModules=objects(next.document['modules']);
     final oldUnits=<String,Json>{for(final m in oldModules)for(final u in [...objects(m['lessons']),...objects(m['mcos'])])u['id']:u};
@@ -60,7 +107,7 @@ class LearningController extends ChangeNotifier {
     progress.data['cards']={for(final e in progress.cards.entries)if(sameWords.contains(e.key))e.key:e.value};
     progress.data['exerciseStats']=<String,dynamic>{};progress.data['recentQuestions']=<String>[];
     curriculum=next;modules=next.modules;
-    await save();
+    usingProvidedCourses=_providedModules!=null&&canonical(next.document['modules'])==_providedModules;
   }
   Future<void> restoreCurriculum()async=>installCurriculum(Curriculum.parse(await rootBundle.loadString('assets/curriculum.json')));
   List<Word> get learnedWords=>modules.asMap().entries.where((e)=>progress.unlocked(e.key,modules)).expand((e)=>e.value.mcos.where((u)=>progress.done(u.id)).expand((u)=>u.words)).toList();

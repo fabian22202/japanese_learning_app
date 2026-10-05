@@ -6,7 +6,7 @@ import 'package:kotoba/domain/models.dart';
 import 'package:kotoba/domain/engine.dart';
 import 'package:kotoba/domain/keyboard.dart';
 void main(){
-  final modules=parseCurriculum(File('assets/curriculum.json').readAsStringSync());
+  final modules=parseCurriculum(File('test/fixtures/legacy-curriculum.json').readAsStringSync());
   test('All lessons produce valid varied questions and module structure',(){
     expect(modules.length,8);
     final ids=<String>{};

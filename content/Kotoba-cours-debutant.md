@@ -7224,7 +7224,7 @@ Cette base n’épuise pas le niveau débutant. Une suite pourra traiter les exp
 
 ## Installer ou modifier les cours
 
-Dans Kotoba 0.3.3 : **Carnet → Mes cours → Importer des cours JSON** puis sélectionne `kotoba-cours-debutant.json`. Il remplace le programme actif après validation et confirmation. Les fiches modifiées et les DS concernés sont à revalider ; exporte le carnet et le programme actif si tu souhaites conserver un état antérieur. Kotoba 0.3.3 ajoute la prise en compte des exercices rédigés des MCO et des variantes de lecture ; les versions précédentes peuvent afficher les cours mais ne proposent pas ces exercices supplémentaires dans les MCO.
+Kotoba 0.3.4 fournit directement ce programme : aucun import n’est nécessaire pour les nouveaux MCO. Les anciennes versions fournies intactes sont mises à jour automatiquement, tandis que les programmes personnalisés sont conservés. Pour importer un programme modifié : **Carnet → Mes cours → Importer des cours JSON**. Il remplace le programme actif après validation et confirmation. Les fiches modifiées et les DS concernés sont à revalider ; exporte le carnet et le programme actif si tu souhaites conserver un état antérieur. Kotoba 0.3.3 ajoute la prise en compte des exercices rédigés des MCO et des variantes de lecture ; les versions précédentes peuvent afficher les cours mais ne proposent pas ces exercices supplémentaires dans les MCO.
 
 Pour éditer : les données pédagogiques de référence sont dans le JSON. Après modification, `python content/verify_courses.py` vérifie les identifiants, les contraintes MCO et la cohérence technique des réponses ; `python content/export_coursebook.py` régénère ce livre. Ces contrôles ne remplacent pas une relecture linguistique.
 

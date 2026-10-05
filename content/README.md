@@ -2,7 +2,7 @@
 
 Ce dossier contient les cours, indépendamment des sources de l’application.
 
-- **kotoba-cours-debutant.json** : programme complet importable dans Kotoba 0.3.3.
+- **kotoba-cours-debutant.json** : programme complet fourni dans Kotoba 0.3.4, également importable.
 - **Kotoba-cours-debutant.md** : cours lisible, exercices et corrigés expliqués.
 - **verify_courses.py** : vérification du format, des contraintes MCO et de la cohérence technique des exercices.
 - **export_coursebook.py** : régénération du livre depuis le JSON de référence.
@@ -11,7 +11,7 @@ Le parcours contient 12 modules et 51 leçons : les 25 premières fiches sont ap
 
 ## Utiliser
 
-Dans l’application : **Carnet → Mes cours → Importer des cours JSON**, puis choisir le programme. Le contenu actif est remplacé après confirmation ; Kotoba 0.3.3 est nécessaire pour les exercices rédigés des MCO et les variantes de lecture. Les étapes modifiées et les DS concernés sont à revalider. Exporte le carnet et le programme actuel pour conserver l’état précédent.
+Kotoba 0.3.4 embarque directement ce programme. Les anciennes versions fournies intactes sont mises à jour automatiquement ; les cours personnalisés sont conservés. Pour importer un programme modifié : **Carnet → Mes cours → Importer des cours JSON**. Le contenu actif est remplacé après confirmation ; Kotoba 0.3.3 est nécessaire pour les exercices rédigés des MCO et les variantes de lecture. Les étapes modifiées et les DS concernés sont à revalider. Exporte le carnet et le programme actuel pour conserver l’état précédent.
 
 ## Modifier
 
