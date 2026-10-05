@@ -47,3 +47,5 @@ La version 0.3.3 entraîne aussi les exercices rédigés dans les MCO et accepte
 ## Cours fournis dans la version 0.3.4
 
 Le programme embarqué est identique à `content/kotoba-cours-debutant.json` : 12 modules, 51 leçons, 29 MCO, 167 kanji distincts. Les anciennes versions fournies, si elles sont intactes, sont mises à jour automatiquement au démarrage. Les cours personnalisés sont conservés ; Carnet affiche le programme actif et permet de restaurer les nouveaux cours fournis. Les étapes modifiées et leurs DS sont à revalider, tandis que l’objectif quotidien et l’historique d’activité restent conservés.
+
+Les fiches des MCO affichent directement le mot en kanji, sa lecture en kana, son sens et, pour chaque caractère, des exemples de mots employant kun et on. Les 167 caractères sont accompagnés de 312 illustrations de lecture (dont des exemples répétés dans différentes fiches). Leurs lectures et traductions sont fournies ; les MCO conservent dix entrées obligatoires au maximum.

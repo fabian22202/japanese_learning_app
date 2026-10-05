@@ -31,8 +31,11 @@ void main() {
     await tester.binding.setSurfaceSize(const Size(390,844));
     addTearDown(()=>tester.binding.setSurfaceSize(null));
     await tester.pumpWidget(MaterialApp(home:LessonPage(c:c,module:c.modules.first,unit:c.modules.first.mcos.first)));
-    expect(find.text('猫 · ねこ'),findsOneWidget);
-    expect(find.textContaining('on’yomi : ビョウ'),findsOneWidget);
+    expect(find.byKey(const ValueKey('vocabulary:m1-life-0')),findsOneWidget);
+    expect(find.text('Exemple kun : 猫'),findsOneWidget);
+    expect(find.text('Exemple on : 愛猫家'),findsOneWidget);
+    expect(find.text('あいびょうか · amateur de chats'),findsOneWidget);
+    expect(find.text('On’yomi : ビョウ'),findsOneWidget);
     expect(tester.takeException(),isNull);
   });
   test('Each unmodified older supplied programme upgrades once and keeps daily settings', () async {

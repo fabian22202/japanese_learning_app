@@ -61,6 +61,16 @@ for i,m in enumerate(p['modules'],1):
     L.extend(['| Exemple | Lecture | Sens |','|---|---|---|'])
     for e in s['examples']:L.append(f"| {esc(e['jp'])} | {esc(e['reading'])} | {esc(e['fr'])} |")
     L.append('')
+  for w in u['words']:
+   L.extend([f"**Fiche — {w['writing']}（{w['reading']}）**",'',w['meaning'],''])
+   for note in w.get('usage',[]):L.extend([note,''])
+   for k in w.get('kanji',[]):
+    L.extend([f"{k['character']} — kun’yomi : {'・'.join(k['kunyomi']) or 'aucune lecture usuelle présentée'} ; on’yomi : {'・'.join(k['onyomi']) or 'aucune lecture usuelle présentée'}.",''])
+    if k.get('examples'):
+     L.extend(['| Famille pour ce kanji | Mot en kanji | Lecture en kana | Sens |','|---|---|---|---|'])
+     for e in k['examples']:L.append(f"| {'Kun' if e['kind']=='kun' else 'On'} | {e['writing']} | {e['reading']} | {esc(e['meaning'])} |")
+     L.append('')
+    if k.get('note'):L.extend([k['note'],''])
   L.extend(['**Exercices du MCO**',''])
   for qi,q in enumerate(u.get('exercises',[]),1):
    L.append(f"{qi}. {q['prompt']}")

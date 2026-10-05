@@ -60,6 +60,21 @@ class Curriculum {
             final w = _map(word, '$p.words'); unique(w, '$p.words', wordIds);
             for (final f in ['writing', 'reading', 'meaning']) { _text(w[f], '$p.words.$f'); }
             _strings(w['readingAlternatives'], '$p.words.readingAlternatives');
+            _strings(w['usage'], '$p.words.usage');
+            for(final info in _optionalList(w['kanji'], '$p.words.kanji')) {
+              final k=_map(info,'$p.words.kanji');
+              final character=_text(k['character'],'$p.words.kanji.character');
+              _strings(k['kunyomi'],'$p.words.kanji.kunyomi');
+              _strings(k['onyomi'],'$p.words.kanji.onyomi');
+              if(k['note']!=null) _text(k['note'],'$p.words.kanji.note');
+              for(final illustration in _optionalList(k['examples'],'$p.words.kanji.examples')) {
+                final e=_map(illustration,'$p.words.kanji.examples');
+                for(final field in ['writing','reading','meaning']) { _text(e[field],'$p.words.kanji.examples.$field'); }
+                if(!['kun','on'].contains(e['kind'])||!(e['writing'] as String).contains(character)) {
+                  throw FormatException('$p.words.kanji.examples : exemple kun/on contenant le caractère attendu.');
+                }
+              }
+            }
           }
           for (final resource in _optionalList(u['resources'], '$p.resources')) {
             final r = _map(resource, '$p.resources'); _text(r['title'], '$p.resources.title');

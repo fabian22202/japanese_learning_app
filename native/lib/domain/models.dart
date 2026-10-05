@@ -7,8 +7,9 @@ List<String> strings(dynamic value) => (value as List? ?? []).map((x) => x.toStr
 
 class Word {
   final String id, writing, reading, meaning;
-  final List<String> readingAlternatives;
-  Word.fromJson(Json j) : readingAlternatives=strings(j['readingAlternatives']), id=j['id'], writing=j['writing'], reading=j['reading'], meaning=j['meaning'];
+  final List<String> readingAlternatives, usage;
+  final List<Json> kanji;
+  Word.fromJson(Json j) : readingAlternatives=strings(j['readingAlternatives']), usage=strings(j['usage']), kanji=objects(j['kanji']), id=j['id'], writing=j['writing'], reading=j['reading'], meaning=j['meaning'];
 }
 class Unit {
   final String id, title;

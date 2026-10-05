@@ -43,7 +43,13 @@ void main() {
     expect(correct(bookReading,'もと'), isFalse);
     final nature=mcos.firstWhere((u)=>u.id=='m2-nature');
     expect(vocabularyPool(nature).any((q)=>q.id=='m2-nature:custom:kunyomi-reference'), isTrue);
-    expect(nature.sections.expand((s)=>s['paragraphs'] as List? ?? []).any((s)=>s.toString().contains('スイ')), isTrue);
+    expect(nature.words.firstWhere((w)=>w.writing=='水').kanji.first['onyomi'],contains('スイ'));
+    final words=pack.modules.take(8).expand((m)=>m.mcos).expand((u)=>u.words);
+    for(final w in words) {for(final k in w.kanji) {
+      final examples=k['examples'] as List;
+      if((k['kunyomi'] as List).isNotEmpty) expect(examples.any((e)=>e['kind']=='kun'),isTrue);
+      if((k['onyomi'] as List).isNotEmpty) expect(examples.any((e)=>e['kind']=='on'),isTrue);
+    }}
   });
   test('Course pack installs with current progress and exports for a restart', () async {
     final old = Curriculum.parse(File('test/fixtures/legacy-curriculum.json').readAsStringSync());

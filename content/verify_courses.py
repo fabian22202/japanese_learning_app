@@ -42,6 +42,13 @@ for m in p['modules']:
      assert {k['character'] for k in w['kanji']}==expected
      for k in w['kanji']:
       text(k['character']);texts(k['kunyomi']);texts(k['onyomi']);assert k['source'].startswith('https://')
+      families=set()
+      for e in k['examples']:
+       assert e['kind'] in ['kun','on'];families.add(e['kind'])
+       for field in ['writing','reading','meaning']:text(e[field])
+       assert k['character'] in e['writing']
+      if k['kunyomi']:assert 'kun' in families
+      if k['onyomi']:assert 'on' in families
      assert w['id'] not in word_ids;word_ids.add(w['id'])
     total_pool+=4*len(u['words'])
    assert u['sections'],u['id']
