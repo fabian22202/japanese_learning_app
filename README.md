@@ -20,9 +20,13 @@ To create courses check :
 [Create custom courses](https://github.com/fabian22202/japanese_learning_app/blob/main/native/COURS.md)
 [Check a custom course](https://github.com/fabian22202/japanese_learning_app/blob/main/native/examples/lecon-personnalisee.json)
 
-![image](https://github.com/fabian22202/japanese_learning_app/blob/main/icon-192.png)
+
 
 
 # Other things 
+
 Kotoba was originally planned to be a website but finally decided to go into a full built app, so some artifacts of that version  might still be in.
+
+
+![image](https://github.com/fabian22202/japanese_learning_app/blob/main/icon-192.png)
 &copy; Kotoba
