@@ -21,7 +21,8 @@ List<String> writingCharacters(Iterable<String> texts) => texts
 
 class WritingPracticePage extends StatefulWidget {
   final List<String> characters;
-  const WritingPracticePage({super.key, required this.characters});
+  final AssetBundle? strokeBundle;
+  const WritingPracticePage({super.key, required this.characters, this.strokeBundle});
   @override
   State<WritingPracticePage> createState() => _WritingPracticeState();
 }
@@ -49,7 +50,7 @@ class _WritingPracticeState extends State<WritingPracticePage>
   Future<void> loadModels() async {
     try {
       final data = jsonDecode(
-        await rootBundle.loadString('assets/stroke_models.json'),
+        await (widget.strokeBundle ?? rootBundle).loadString('assets/stroke_models.json'),
       ) as Map<String, dynamic>;
       final characters = data['characters'] as Map<String, dynamic>;
       for (final entry in characters.entries) {

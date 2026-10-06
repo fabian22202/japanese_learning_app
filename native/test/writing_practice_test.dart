@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'dart:io';
+import 'package:flutter/services.dart' show AssetBundle;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kotoba/ui/writing_practice.dart';
 
@@ -9,11 +10,8 @@ void main() {
   ) async {
     await tester.binding.setSurfaceSize(const Size(390, 844));
     addTearDown(() => tester.binding.setSurfaceSize(null));
-    await tester.runAsync(() async {
-      await rootBundle.loadString('assets/stroke_models.json');
-    });
     await tester.pumpWidget(
-      const MaterialApp(home: WritingPracticePage(characters: ['あ'])),
+      MaterialApp(home: WritingPracticePage(characters: ['あ'], strokeBundle: _StrokeBundle())),
     );
     await tester.pumpAndSettle();
     await tester.tap(find.text('Voir le tracé animé (efface l’essai)'));
@@ -34,11 +32,8 @@ void main() {
   ) async {
     await tester.binding.setSurfaceSize(const Size(390, 844));
     addTearDown(() => tester.binding.setSurfaceSize(null));
-    await tester.runAsync(() async {
-      await rootBundle.loadString('assets/stroke_models.json');
-    });
     await tester.pumpWidget(
-      const MaterialApp(home: WritingPracticePage(characters: ['一', '二'])),
+      MaterialApp(home: WritingPracticePage(characters: ['一', '二'], strokeBundle: _StrokeBundle())),
     );
     await tester.pumpAndSettle();
     final canvas = find.byKey(const ValueKey('writing-canvas'));
@@ -96,4 +91,11 @@ void main() {
     expect(find.text('0 traits dessinés'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
+}
+
+// Supply the real bundled data without isolate/file I/O in the fake clock.
+class _StrokeBundle extends Fake implements AssetBundle {
+  final String data = File('assets/stroke_models.json').readAsStringSync();
+  @override
+  Future<String> loadString(String key, {bool cache = true}) async => data;
 }
