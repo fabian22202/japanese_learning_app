@@ -15,7 +15,11 @@ Go to Release and download desired version (0.34) or download latest version by 
 
 #What's inside :
 
-For now these apps simply contains a French course over Japanese this app was in fact developed to learn Japanese 
+For now these apps simply contains a French course over Japanese this app was in fact developed to learn Japanese
+To create courses check : 
+[Create custom courses](https://github.com/fabian22202/japanese_learning_app/blob/main/native/COURS.md)
+[Check a custom course](https://github.com/fabian22202/japanese_learning_app/blob/main/native/examples/lecon-personnalisee.json)
 
-![image]https://github.com/fabian22202/japanese_learning_app/blob/main/icon-192.png 
+![image](https://github.com/fabian22202/japanese_learning_app/blob/main/icon-192.png)
+
 &copy; Kotoba
