@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kotoba/ui/writing_practice.dart';
 
@@ -8,6 +9,9 @@ void main() {
   ) async {
     await tester.binding.setSurfaceSize(const Size(390, 844));
     addTearDown(() => tester.binding.setSurfaceSize(null));
+    await tester.runAsync(() async {
+      await rootBundle.loadString('assets/stroke_models.json');
+    });
     await tester.pumpWidget(
       const MaterialApp(home: WritingPracticePage(characters: ['あ'])),
     );
@@ -30,6 +34,9 @@ void main() {
   ) async {
     await tester.binding.setSurfaceSize(const Size(390, 844));
     addTearDown(() => tester.binding.setSurfaceSize(null));
+    await tester.runAsync(() async {
+      await rootBundle.loadString('assets/stroke_models.json');
+    });
     await tester.pumpWidget(
       const MaterialApp(home: WritingPracticePage(characters: ['一', '二'])),
     );
