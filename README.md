@@ -13,7 +13,9 @@ Go to Release and download desired version (0.34) or download latest version by 
 [Download Android](https://github.com/fabian22202/japanese_learning_app/releases/download/0.1/Kotoba-Android.zip)
 [Download Windows](https://github.com/fabian22202/japanese_learning_app/releases/download/0.1/Kotoba-Windows.zip)
 
-#What's inside : 
-For now these apps simply contains a french course over Japanese this app was in fact developped to learn japanese 
+#What's inside :
 
-[](https://github.com/fabian22202/japanese_learning_app/blob/main/icon-192.png)
+For now these apps simply contains a French course over Japanese this app was in fact developed to learn Japanese 
+
+![image]https://github.com/fabian22202/japanese_learning_app/blob/main/icon-192.png 
+&copy; Kotoba
