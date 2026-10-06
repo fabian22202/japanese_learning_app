@@ -21,6 +21,8 @@ flutter:
     - assets/curriculum.json
     - assets/builtin_history.json
     - assets/app_icon.png
+    - assets/stroke_models.json
+    - assets/stroke_models_LICENSE.txt
   fonts:
     - family: KotobaJapanese
       fonts:
