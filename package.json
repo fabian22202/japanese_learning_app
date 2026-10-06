@@ -1,0 +1,1 @@
+{"name":"japanese-learning-app","version":"0.2.0","private":true,"type":"module","scripts":{"start":"python3 -m http.server 8080","test":"node --test","check":"node --check src/app.js && node --check src/core.js && node --check src/engine.js && node --check src/keyboard.js && node --check sw.js"},"engines":{"node":">=20"}}

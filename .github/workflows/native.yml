@@ -1,0 +1,50 @@
+name: Native Android and Windows
+on: [push]
+permissions:
+  contents: read
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: native
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        if: runner.os == 'Linux'
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Generate platform shells
+        run: flutter create --platforms=android,windows --project-name kotoba --org fr.kotoba .
+      - run: python tool/configure.py
+      - run: python -m pip install fonttools==4.61.1
+      - run: python tool/font.py
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test --timeout 60s
+      - name: Build Android APK
+        if: runner.os == 'Linux'
+        run: flutter build apk --release
+      - name: Build Windows app
+        if: runner.os == 'Windows'
+        run: flutter build windows --release
+      - uses: actions/upload-artifact@v4
+        if: runner.os == 'Linux'
+        with:
+          name: Kotoba-Android
+          path: native/build/app/outputs/flutter-apk/app-release.apk
+      - uses: actions/upload-artifact@v4
+        if: runner.os == 'Windows'
+        with:
+          name: Kotoba-Windows
+          path: native/build/windows/x64/runner/Release/

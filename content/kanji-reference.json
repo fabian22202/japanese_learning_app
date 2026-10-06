@@ -1,0 +1,4040 @@
+{
+  "description": "Lectures de référence des caractères rencontrés dans les MCO. Sélection non exhaustive ; le point sépare les okurigana.",
+  "sources": [
+    {
+      "title": "Kanji alive — données des lectures",
+      "url": "https://github.com/kanjialive/kanji-data-media",
+      "revision": "e1e24d39fc43e839948a8c7e99743b0994dedad5",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Sélection de 163 caractères, suppression des doublons de radical de lecture, mise en forme de lectures avec okurigana ; textes, exemples et exercices français originaux."
+    },
+    {
+      "title": "KanjiPedia — vérification de 傘・撮・椅・鍵",
+      "url": "https://www.kanjipedia.jp/",
+      "changes": "Lectures vérifiées ; aucune définition ou illustration reproduite."
+    }
+  ],
+  "characters": [
+    {
+      "character": "一",
+      "kunyomi": [
+        "ひと",
+        "ひと.つ"
+      ],
+      "onyomi": [
+        "イチ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "一つ",
+          "reading": "ひとつ",
+          "meaning": "un objet"
+        },
+        {
+          "kind": "on",
+          "writing": "一番",
+          "reading": "いちばん",
+          "meaning": "numéro un"
+        }
+      ]
+    },
+    {
+      "character": "七",
+      "kunyomi": [
+        "なな",
+        "なな.つ",
+        "なの"
+      ],
+      "onyomi": [
+        "シチ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "七つ",
+          "reading": "ななつ",
+          "meaning": "sept objets"
+        },
+        {
+          "kind": "on",
+          "writing": "七月",
+          "reading": "しちがつ",
+          "meaning": "juillet"
+        }
+      ]
+    },
+    {
+      "character": "三",
+      "kunyomi": [
+        "み",
+        "みっ.つ"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "三つ",
+          "reading": "みっつ",
+          "meaning": "trois objets"
+        },
+        {
+          "kind": "on",
+          "writing": "三月",
+          "reading": "さんがつ",
+          "meaning": "mars"
+        }
+      ]
+    },
+    {
+      "character": "上",
+      "kunyomi": [
+        "うえ",
+        "うわ",
+        "かみ",
+        "あげる",
+        "あがる",
+        "のぼる"
+      ],
+      "onyomi": [
+        "ジョウ",
+        "ショウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "上",
+          "reading": "うえ",
+          "meaning": "dessus"
+        },
+        {
+          "kind": "on",
+          "writing": "上手",
+          "reading": "じょうず",
+          "meaning": "habile"
+        }
+      ]
+    },
+    {
+      "character": "下",
+      "kunyomi": [
+        "した",
+        "しも",
+        "さがる",
+        "さげる",
+        "くだる",
+        "ください",
+        "おろす",
+        "おりる"
+      ],
+      "onyomi": [
+        "カ",
+        "ゲ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "下",
+          "reading": "した",
+          "meaning": "dessous"
+        },
+        {
+          "kind": "on",
+          "writing": "地下",
+          "reading": "ちか",
+          "meaning": "sous-sol"
+        }
+      ]
+    },
+    {
+      "character": "中",
+      "kunyomi": [
+        "なか"
+      ],
+      "onyomi": [
+        "チュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "中",
+          "reading": "なか",
+          "meaning": "intérieur"
+        },
+        {
+          "kind": "on",
+          "writing": "中国",
+          "reading": "ちゅうごく",
+          "meaning": "Chine"
+        }
+      ]
+    },
+    {
+      "character": "九",
+      "kunyomi": [
+        "ここの",
+        "ここの.つ"
+      ],
+      "onyomi": [
+        "キュウ",
+        "ク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "九つ",
+          "reading": "ここのつ",
+          "meaning": "neuf objets"
+        },
+        {
+          "kind": "on",
+          "writing": "九月",
+          "reading": "くがつ",
+          "meaning": "septembre"
+        }
+      ]
+    },
+    {
+      "character": "二",
+      "kunyomi": [
+        "ふた",
+        "ふた.つ"
+      ],
+      "onyomi": [
+        "ニ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "二つ",
+          "reading": "ふたつ",
+          "meaning": "deux objets"
+        },
+        {
+          "kind": "on",
+          "writing": "二月",
+          "reading": "にがつ",
+          "meaning": "février"
+        }
+      ]
+    },
+    {
+      "character": "五",
+      "kunyomi": [
+        "いつ",
+        "いつ.つ"
+      ],
+      "onyomi": [
+        "ゴ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "五つ",
+          "reading": "いつつ",
+          "meaning": "cinq objets"
+        },
+        {
+          "kind": "on",
+          "writing": "五月",
+          "reading": "ごがつ",
+          "meaning": "mai"
+        }
+      ]
+    },
+    {
+      "character": "人",
+      "kunyomi": [
+        "ひと"
+      ],
+      "onyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "人",
+          "reading": "ひと",
+          "meaning": "personne"
+        },
+        {
+          "kind": "on",
+          "writing": "人口",
+          "reading": "じんこう",
+          "meaning": "population"
+        }
+      ]
+    },
+    {
+      "character": "今",
+      "kunyomi": [
+        "いま"
+      ],
+      "onyomi": [
+        "コン",
+        "キン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "今",
+          "reading": "いま",
+          "meaning": "maintenant"
+        },
+        {
+          "kind": "on",
+          "writing": "今週",
+          "reading": "こんしゅう",
+          "meaning": "cette semaine"
+        }
+      ]
+    },
+    {
+      "character": "休",
+      "kunyomi": [
+        "やす.む",
+        "やす.まる",
+        "やす.める"
+      ],
+      "onyomi": [
+        "キュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "休む",
+          "reading": "やすむ",
+          "meaning": "se reposer"
+        },
+        {
+          "kind": "on",
+          "writing": "休日",
+          "reading": "きゅうじつ",
+          "meaning": "jour de repos"
+        }
+      ]
+    },
+    {
+      "character": "会",
+      "kunyomi": [
+        "あ.う"
+      ],
+      "onyomi": [
+        "カイ",
+        "エ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "会う",
+          "reading": "あう",
+          "meaning": "rencontrer"
+        },
+        {
+          "kind": "on",
+          "writing": "会社",
+          "reading": "かいしゃ",
+          "meaning": "entreprise"
+        }
+      ]
+    },
+    {
+      "character": "何",
+      "kunyomi": [
+        "なに",
+        "なん"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "何",
+          "reading": "なに",
+          "meaning": "quoi"
+        },
+        {
+          "kind": "on",
+          "writing": "幾何学",
+          "reading": "きかがく",
+          "meaning": "géométrie"
+        }
+      ]
+    },
+    {
+      "character": "作",
+      "kunyomi": [
+        "つく.る"
+      ],
+      "onyomi": [
+        "サク",
+        "サ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "作る",
+          "reading": "つくる",
+          "meaning": "fabriquer"
+        },
+        {
+          "kind": "on",
+          "writing": "作品",
+          "reading": "さくひん",
+          "meaning": "œuvre"
+        }
+      ]
+    },
+    {
+      "character": "使",
+      "kunyomi": [
+        "つか.う"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "使う",
+          "reading": "つかう",
+          "meaning": "utiliser"
+        },
+        {
+          "kind": "on",
+          "writing": "大使",
+          "reading": "たいし",
+          "meaning": "ambassadeur"
+        }
+      ]
+    },
+    {
+      "character": "便",
+      "kunyomi": [
+        "たより"
+      ],
+      "onyomi": [
+        "ビン",
+        "ベン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "便り",
+          "reading": "たより",
+          "meaning": "nouvelles par lettre"
+        },
+        {
+          "kind": "on",
+          "writing": "便利",
+          "reading": "べんり",
+          "meaning": "pratique"
+        }
+      ]
+    },
+    {
+      "character": "傘",
+      "kunyomi": [
+        "かさ"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0002659100",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "傘",
+          "reading": "かさ",
+          "meaning": "parapluie"
+        },
+        {
+          "kind": "on",
+          "writing": "傘下",
+          "reading": "さんか",
+          "meaning": "sous l’autorité de"
+        }
+      ]
+    },
+    {
+      "character": "備",
+      "kunyomi": [
+        "そなえる",
+        "そなわる"
+      ],
+      "onyomi": [
+        "ビ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "備える",
+          "reading": "そなえる",
+          "meaning": "préparer / équiper"
+        },
+        {
+          "kind": "on",
+          "writing": "準備",
+          "reading": "じゅんび",
+          "meaning": "préparation"
+        }
+      ]
+    },
+    {
+      "character": "働",
+      "kunyomi": [
+        "はたら.く"
+      ],
+      "onyomi": [
+        "ドウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "働く",
+          "reading": "はたらく",
+          "meaning": "travailler"
+        },
+        {
+          "kind": "on",
+          "writing": "労働",
+          "reading": "ろうどう",
+          "meaning": "travail"
+        }
+      ]
+    },
+    {
+      "character": "先",
+      "kunyomi": [
+        "さき"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "先",
+          "reading": "さき",
+          "meaning": "avant / ce qui précède"
+        },
+        {
+          "kind": "on",
+          "writing": "先生",
+          "reading": "せんせい",
+          "meaning": "professeur"
+        }
+      ]
+    },
+    {
+      "character": "入",
+      "kunyomi": [
+        "はい.る",
+        "い.る",
+        "い.れる"
+      ],
+      "onyomi": [
+        "ニュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "入る",
+          "reading": "はいる",
+          "meaning": "entrer"
+        },
+        {
+          "kind": "on",
+          "writing": "入学",
+          "reading": "にゅうがく",
+          "meaning": "entrée dans une école"
+        }
+      ]
+    },
+    {
+      "character": "八",
+      "kunyomi": [
+        "や",
+        "やっ.つ",
+        "よう"
+      ],
+      "onyomi": [
+        "ハチ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "八つ",
+          "reading": "やっつ",
+          "meaning": "huit objets"
+        },
+        {
+          "kind": "on",
+          "writing": "八月",
+          "reading": "はちがつ",
+          "meaning": "août"
+        }
+      ]
+    },
+    {
+      "character": "公",
+      "kunyomi": [
+        "おおやけ"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "公",
+          "reading": "おおやけ",
+          "meaning": "public"
+        },
+        {
+          "kind": "on",
+          "writing": "公園",
+          "reading": "こうえん",
+          "meaning": "parc"
+        }
+      ]
+    },
+    {
+      "character": "六",
+      "kunyomi": [
+        "む",
+        "むっ.つ"
+      ],
+      "onyomi": [
+        "ロク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "六つ",
+          "reading": "むっつ",
+          "meaning": "six objets"
+        },
+        {
+          "kind": "on",
+          "writing": "六月",
+          "reading": "ろくがつ",
+          "meaning": "juin"
+        }
+      ]
+    },
+    {
+      "character": "円",
+      "kunyomi": [
+        "まるい"
+      ],
+      "onyomi": [
+        "エン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "円い",
+          "reading": "まるい",
+          "meaning": "rond"
+        },
+        {
+          "kind": "on",
+          "writing": "円",
+          "reading": "えん",
+          "meaning": "yen"
+        }
+      ]
+    },
+    {
+      "character": "写",
+      "kunyomi": [
+        "うつす",
+        "うつる"
+      ],
+      "onyomi": [
+        "シャ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "写す",
+          "reading": "うつす",
+          "meaning": "copier"
+        },
+        {
+          "kind": "on",
+          "writing": "写真",
+          "reading": "しゃしん",
+          "meaning": "photo"
+        }
+      ]
+    },
+    {
+      "character": "分",
+      "kunyomi": [
+        "わ.かる",
+        "わ.ける",
+        "わ.かれる"
+      ],
+      "onyomi": [
+        "ブン",
+        "フン",
+        "ブ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "分かる",
+          "reading": "わかる",
+          "meaning": "comprendre"
+        },
+        {
+          "kind": "on",
+          "writing": "自分",
+          "reading": "じぶん",
+          "meaning": "soi-même"
+        }
+      ]
+    },
+    {
+      "character": "切",
+      "kunyomi": [
+        "きる",
+        "きり",
+        "きれる"
+      ],
+      "onyomi": [
+        "セツ",
+        "サイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "切る",
+          "reading": "きる",
+          "meaning": "couper"
+        },
+        {
+          "kind": "on",
+          "writing": "親切",
+          "reading": "しんせつ",
+          "meaning": "aimable"
+        }
+      ]
+    },
+    {
+      "character": "利",
+      "kunyomi": [
+        "きく",
+        "きき"
+      ],
+      "onyomi": [
+        "リ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "利く",
+          "reading": "きく",
+          "meaning": "être efficace"
+        },
+        {
+          "kind": "on",
+          "writing": "便利",
+          "reading": "べんり",
+          "meaning": "pratique"
+        }
+      ]
+    },
+    {
+      "character": "前",
+      "kunyomi": [
+        "まえ"
+      ],
+      "onyomi": [
+        "ゼン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "前",
+          "reading": "まえ",
+          "meaning": "devant"
+        },
+        {
+          "kind": "on",
+          "writing": "午前",
+          "reading": "ごぜん",
+          "meaning": "matinée / avant midi"
+        }
+      ]
+    },
+    {
+      "character": "勉",
+      "kunyomi": [],
+      "onyomi": [
+        "ベン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "勉強",
+          "reading": "べんきょう",
+          "meaning": "étude"
+        }
+      ]
+    },
+    {
+      "character": "十",
+      "kunyomi": [
+        "とお",
+        "と"
+      ],
+      "onyomi": [
+        "ジュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "十",
+          "reading": "とお",
+          "meaning": "dix dans le comptage général"
+        },
+        {
+          "kind": "on",
+          "writing": "十月",
+          "reading": "じゅうがつ",
+          "meaning": "octobre"
+        }
+      ]
+    },
+    {
+      "character": "友",
+      "kunyomi": [
+        "とも"
+      ],
+      "onyomi": [
+        "ユウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "友",
+          "reading": "とも",
+          "meaning": "ami"
+        },
+        {
+          "kind": "on",
+          "writing": "友情",
+          "reading": "ゆうじょう",
+          "meaning": "amitié"
+        }
+      ]
+    },
+    {
+      "character": "口",
+      "kunyomi": [
+        "くち"
+      ],
+      "onyomi": [
+        "コウ",
+        "ク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "口",
+          "reading": "くち",
+          "meaning": "bouche"
+        },
+        {
+          "kind": "on",
+          "writing": "人口",
+          "reading": "じんこう",
+          "meaning": "population"
+        }
+      ]
+    },
+    {
+      "character": "古",
+      "kunyomi": [
+        "ふる.い",
+        "ふる.す"
+      ],
+      "onyomi": [
+        "コ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "古い",
+          "reading": "ふるい",
+          "meaning": "ancien"
+        },
+        {
+          "kind": "on",
+          "writing": "中古",
+          "reading": "ちゅうこ",
+          "meaning": "d’occasion"
+        }
+      ]
+    },
+    {
+      "character": "右",
+      "kunyomi": [
+        "みぎ"
+      ],
+      "onyomi": [
+        "ウ",
+        "ユウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "右",
+          "reading": "みぎ",
+          "meaning": "droite"
+        },
+        {
+          "kind": "on",
+          "writing": "左右",
+          "reading": "さゆう",
+          "meaning": "gauche et droite"
+        }
+      ]
+    },
+    {
+      "character": "問",
+      "kunyomi": [
+        "とう",
+        "とい",
+        "とん"
+      ],
+      "onyomi": [
+        "モン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "問う",
+          "reading": "とう",
+          "meaning": "interroger"
+        },
+        {
+          "kind": "on",
+          "writing": "質問",
+          "reading": "しつもん",
+          "meaning": "question"
+        }
+      ]
+    },
+    {
+      "character": "四",
+      "kunyomi": [
+        "よ",
+        "よん",
+        "よっ.つ"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "四つ",
+          "reading": "よっつ",
+          "meaning": "quatre objets"
+        },
+        {
+          "kind": "on",
+          "writing": "四月",
+          "reading": "しがつ",
+          "meaning": "avril"
+        }
+      ]
+    },
+    {
+      "character": "回",
+      "kunyomi": [
+        "まわる",
+        "まわす"
+      ],
+      "onyomi": [
+        "カイ",
+        "エ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "回る",
+          "reading": "まわる",
+          "meaning": "tourner"
+        },
+        {
+          "kind": "on",
+          "writing": "一回",
+          "reading": "いっかい",
+          "meaning": "une fois"
+        }
+      ]
+    },
+    {
+      "character": "図",
+      "kunyomi": [
+        "はかる"
+      ],
+      "onyomi": [
+        "ズ",
+        "ト"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "図る",
+          "reading": "はかる",
+          "meaning": "chercher à réaliser"
+        },
+        {
+          "kind": "on",
+          "writing": "地図",
+          "reading": "ちず",
+          "meaning": "carte géographique"
+        }
+      ]
+    },
+    {
+      "character": "園",
+      "kunyomi": [
+        "その"
+      ],
+      "onyomi": [
+        "エン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "園",
+          "reading": "その",
+          "meaning": "jardin"
+        },
+        {
+          "kind": "on",
+          "writing": "公園",
+          "reading": "こうえん",
+          "meaning": "parc"
+        }
+      ]
+    },
+    {
+      "character": "土",
+      "kunyomi": [
+        "つち"
+      ],
+      "onyomi": [
+        "ド",
+        "ト"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "土",
+          "reading": "つち",
+          "meaning": "terre"
+        },
+        {
+          "kind": "on",
+          "writing": "土曜日",
+          "reading": "どようび",
+          "meaning": "samedi"
+        }
+      ]
+    },
+    {
+      "character": "地",
+      "kunyomi": [],
+      "onyomi": [
+        "チ",
+        "ジ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "地図",
+          "reading": "ちず",
+          "meaning": "carte géographique"
+        }
+      ]
+    },
+    {
+      "character": "夜",
+      "kunyomi": [
+        "よる"
+      ],
+      "onyomi": [
+        "ヤ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "夜",
+          "reading": "よる",
+          "meaning": "nuit"
+        },
+        {
+          "kind": "on",
+          "writing": "夜間",
+          "reading": "やかん",
+          "meaning": "pendant la nuit"
+        }
+      ]
+    },
+    {
+      "character": "大",
+      "kunyomi": [
+        "おお",
+        "おお.きい",
+        "おお.いに"
+      ],
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "大きい",
+          "reading": "おおきい",
+          "meaning": "grand"
+        },
+        {
+          "kind": "on",
+          "writing": "大学",
+          "reading": "だいがく",
+          "meaning": "université"
+        }
+      ]
+    },
+    {
+      "character": "好",
+      "kunyomi": [
+        "す.く",
+        "この.む"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "好む",
+          "reading": "このむ",
+          "meaning": "apprécier / préférer"
+        },
+        {
+          "kind": "on",
+          "writing": "好物",
+          "reading": "こうぶつ",
+          "meaning": "aliment favori"
+        }
+      ]
+    },
+    {
+      "character": "嫌",
+      "kunyomi": [
+        "きら.う",
+        "いや"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "嫌う",
+          "reading": "きらう",
+          "meaning": "détester"
+        },
+        {
+          "kind": "on",
+          "writing": "嫌悪",
+          "reading": "けんお",
+          "meaning": "aversion"
+        }
+      ]
+    },
+    {
+      "character": "子",
+      "kunyomi": [
+        "こ"
+      ],
+      "onyomi": [
+        "シ",
+        "ス"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "子",
+          "reading": "こ",
+          "meaning": "enfant"
+        },
+        {
+          "kind": "on",
+          "writing": "女子",
+          "reading": "じょし",
+          "meaning": "fille / femme"
+        }
+      ]
+    },
+    {
+      "character": "学",
+      "kunyomi": [
+        "まな.ぶ"
+      ],
+      "onyomi": [
+        "ガク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "学ぶ",
+          "reading": "まなぶ",
+          "meaning": "apprendre"
+        },
+        {
+          "kind": "on",
+          "writing": "学生",
+          "reading": "がくせい",
+          "meaning": "étudiant"
+        }
+      ]
+    },
+    {
+      "character": "安",
+      "kunyomi": [
+        "やす.い"
+      ],
+      "onyomi": [
+        "アン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "安い",
+          "reading": "やすい",
+          "meaning": "bon marché"
+        },
+        {
+          "kind": "on",
+          "writing": "安心",
+          "reading": "あんしん",
+          "meaning": "tranquillité d’esprit"
+        }
+      ]
+    },
+    {
+      "character": "家",
+      "kunyomi": [
+        "いえ",
+        "や"
+      ],
+      "onyomi": [
+        "カ",
+        "ケ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "家",
+          "reading": "いえ",
+          "meaning": "maison"
+        },
+        {
+          "kind": "on",
+          "writing": "家族",
+          "reading": "かぞく",
+          "meaning": "famille"
+        }
+      ]
+    },
+    {
+      "character": "寝",
+      "kunyomi": [
+        "ね.る",
+        "ね.かす"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "寝る",
+          "reading": "ねる",
+          "meaning": "dormir"
+        },
+        {
+          "kind": "on",
+          "writing": "就寝",
+          "reading": "しゅうしん",
+          "meaning": "le fait de se coucher"
+        }
+      ]
+    },
+    {
+      "character": "小",
+      "kunyomi": [
+        "ちい.さい",
+        "こ",
+        "お"
+      ],
+      "onyomi": [
+        "ショウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "小さい",
+          "reading": "ちいさい",
+          "meaning": "petit"
+        },
+        {
+          "kind": "on",
+          "writing": "小学校",
+          "reading": "しょうがっこう",
+          "meaning": "école primaire"
+        }
+      ]
+    },
+    {
+      "character": "屋",
+      "kunyomi": [
+        "や"
+      ],
+      "onyomi": [
+        "オク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "屋根",
+          "reading": "やね",
+          "meaning": "toit"
+        },
+        {
+          "kind": "on",
+          "writing": "屋上",
+          "reading": "おくじょう",
+          "meaning": "toit-terrasse"
+        }
+      ]
+    },
+    {
+      "character": "山",
+      "kunyomi": [
+        "やま"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "山",
+          "reading": "やま",
+          "meaning": "montagne"
+        },
+        {
+          "kind": "on",
+          "writing": "登山",
+          "reading": "とざん",
+          "meaning": "ascension d’une montagne"
+        }
+      ],
+      "note": "Dans 登山（とざん）, サン devient ザン : la lecture on peut se modifier dans un composé."
+    },
+    {
+      "character": "川",
+      "kunyomi": [
+        "かわ"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "川",
+          "reading": "かわ",
+          "meaning": "rivière"
+        },
+        {
+          "kind": "on",
+          "writing": "河川",
+          "reading": "かせん",
+          "meaning": "cours d’eau"
+        }
+      ]
+    },
+    {
+      "character": "左",
+      "kunyomi": [
+        "ひだり"
+      ],
+      "onyomi": [
+        "サ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "左",
+          "reading": "ひだり",
+          "meaning": "gauche"
+        },
+        {
+          "kind": "on",
+          "writing": "左右",
+          "reading": "さゆう",
+          "meaning": "gauche et droite"
+        }
+      ]
+    },
+    {
+      "character": "帰",
+      "kunyomi": [
+        "かえ.る",
+        "かえ.す"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "帰る",
+          "reading": "かえる",
+          "meaning": "rentrer"
+        },
+        {
+          "kind": "on",
+          "writing": "帰国",
+          "reading": "きこく",
+          "meaning": "retour dans son pays"
+        }
+      ]
+    },
+    {
+      "character": "店",
+      "kunyomi": [
+        "みせ"
+      ],
+      "onyomi": [
+        "テン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "店",
+          "reading": "みせ",
+          "meaning": "magasin"
+        },
+        {
+          "kind": "on",
+          "writing": "商店",
+          "reading": "しょうてん",
+          "meaning": "boutique"
+        }
+      ]
+    },
+    {
+      "character": "度",
+      "kunyomi": [
+        "たび"
+      ],
+      "onyomi": [
+        "ド",
+        "ト",
+        "タク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "度",
+          "reading": "たび",
+          "meaning": "fois"
+        },
+        {
+          "kind": "on",
+          "writing": "温度",
+          "reading": "おんど",
+          "meaning": "température"
+        }
+      ]
+    },
+    {
+      "character": "座",
+      "kunyomi": [
+        "すわ.る"
+      ],
+      "onyomi": [
+        "ザ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "座る",
+          "reading": "すわる",
+          "meaning": "s’asseoir"
+        },
+        {
+          "kind": "on",
+          "writing": "座席",
+          "reading": "ざせき",
+          "meaning": "place assise"
+        }
+      ]
+    },
+    {
+      "character": "強",
+      "kunyomi": [
+        "つよい",
+        "つよめる",
+        "つよまる",
+        "しいる"
+      ],
+      "onyomi": [
+        "キョウ",
+        "ゴウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "強い",
+          "reading": "つよい",
+          "meaning": "fort"
+        },
+        {
+          "kind": "on",
+          "writing": "勉強",
+          "reading": "べんきょう",
+          "meaning": "étude"
+        }
+      ]
+    },
+    {
+      "character": "弾",
+      "kunyomi": [
+        "ひ.く",
+        "はず.む"
+      ],
+      "onyomi": [
+        "ダン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "弾く",
+          "reading": "ひく",
+          "meaning": "jouer d’un instrument à cordes"
+        },
+        {
+          "kind": "on",
+          "writing": "弾力",
+          "reading": "だんりょく",
+          "meaning": "élasticité"
+        }
+      ]
+    },
+    {
+      "character": "待",
+      "kunyomi": [
+        "ま.つ"
+      ],
+      "onyomi": [
+        "タイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "待つ",
+          "reading": "まつ",
+          "meaning": "attendre"
+        },
+        {
+          "kind": "on",
+          "writing": "招待",
+          "reading": "しょうたい",
+          "meaning": "invitation"
+        }
+      ]
+    },
+    {
+      "character": "後",
+      "kunyomi": [
+        "のち",
+        "うしろ",
+        "あと",
+        "おくれ"
+      ],
+      "onyomi": [
+        "ゴ",
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "後ろ",
+          "reading": "うしろ",
+          "meaning": "derrière"
+        },
+        {
+          "kind": "on",
+          "writing": "午後",
+          "reading": "ごご",
+          "meaning": "après-midi"
+        }
+      ]
+    },
+    {
+      "character": "忙",
+      "kunyomi": [
+        "いそが.しい"
+      ],
+      "onyomi": [
+        "ボウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "occupé"
+        },
+        {
+          "kind": "on",
+          "writing": "多忙",
+          "reading": "たぼう",
+          "meaning": "très occupé"
+        }
+      ]
+    },
+    {
+      "character": "手",
+      "kunyomi": [
+        "て",
+        "た"
+      ],
+      "onyomi": [
+        "シュ",
+        "ズ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "手",
+          "reading": "て",
+          "meaning": "main"
+        },
+        {
+          "kind": "on",
+          "writing": "選手",
+          "reading": "せんしゅ",
+          "meaning": "joueur / athlète"
+        }
+      ]
+    },
+    {
+      "character": "持",
+      "kunyomi": [
+        "も.つ"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "持つ",
+          "reading": "もつ",
+          "meaning": "tenir"
+        },
+        {
+          "kind": "on",
+          "writing": "持参",
+          "reading": "じさん",
+          "meaning": "le fait d’apporter avec soi"
+        }
+      ]
+    },
+    {
+      "character": "撮",
+      "kunyomi": [
+        "と.る"
+      ],
+      "onyomi": [
+        "サツ"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0002601800",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "撮る",
+          "reading": "とる",
+          "meaning": "prendre une photo"
+        },
+        {
+          "kind": "on",
+          "writing": "撮影",
+          "reading": "さつえい",
+          "meaning": "prise de vues"
+        }
+      ]
+    },
+    {
+      "character": "散",
+      "kunyomi": [
+        "ちる",
+        "ちらす",
+        "ちらかす",
+        "ちらかる",
+        "ちらばる",
+        "ちらばす"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "散る",
+          "reading": "ちる",
+          "meaning": "se disperser / tomber"
+        },
+        {
+          "kind": "on",
+          "writing": "散歩",
+          "reading": "さんぽ",
+          "meaning": "promenade"
+        }
+      ]
+    },
+    {
+      "character": "料",
+      "kunyomi": [],
+      "onyomi": [
+        "リョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "料理",
+          "reading": "りょうり",
+          "meaning": "cuisine / plat"
+        }
+      ]
+    },
+    {
+      "character": "新",
+      "kunyomi": [
+        "あたら.しい",
+        "あら.た",
+        "にい"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "新しい",
+          "reading": "あたらしい",
+          "meaning": "nouveau"
+        },
+        {
+          "kind": "on",
+          "writing": "新聞",
+          "reading": "しんぶん",
+          "meaning": "journal"
+        }
+      ]
+    },
+    {
+      "character": "旅",
+      "kunyomi": [
+        "たび"
+      ],
+      "onyomi": [
+        "リョ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "旅",
+          "reading": "たび",
+          "meaning": "voyage"
+        },
+        {
+          "kind": "on",
+          "writing": "旅行",
+          "reading": "りょこう",
+          "meaning": "voyage"
+        }
+      ]
+    },
+    {
+      "character": "族",
+      "kunyomi": [],
+      "onyomi": [
+        "ゾク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "家族",
+          "reading": "かぞく",
+          "meaning": "famille"
+        }
+      ]
+    },
+    {
+      "character": "日",
+      "kunyomi": [
+        "ひ",
+        "か"
+      ],
+      "onyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "日",
+          "reading": "ひ",
+          "meaning": "jour / soleil"
+        },
+        {
+          "kind": "on",
+          "writing": "本日",
+          "reading": "ほんじつ",
+          "meaning": "aujourd’hui, registre formel"
+        }
+      ]
+    },
+    {
+      "character": "明",
+      "kunyomi": [
+        "あける",
+        "あかるい",
+        "あからむ",
+        "あきらか"
+      ],
+      "onyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "明るい",
+          "reading": "あかるい",
+          "meaning": "lumineux"
+        },
+        {
+          "kind": "on",
+          "writing": "説明",
+          "reading": "せつめい",
+          "meaning": "explication"
+        }
+      ]
+    },
+    {
+      "character": "映",
+      "kunyomi": [
+        "うつる",
+        "うつす",
+        "はえる"
+      ],
+      "onyomi": [
+        "エイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "映る",
+          "reading": "うつる",
+          "meaning": "se refléter"
+        },
+        {
+          "kind": "on",
+          "writing": "映画",
+          "reading": "えいが",
+          "meaning": "film"
+        }
+      ]
+    },
+    {
+      "character": "昨",
+      "kunyomi": [],
+      "onyomi": [
+        "サク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "昨日",
+          "reading": "さくじつ",
+          "meaning": "hier, registre formel"
+        }
+      ]
+    },
+    {
+      "character": "昼",
+      "kunyomi": [
+        "ひる"
+      ],
+      "onyomi": [
+        "チュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "昼",
+          "reading": "ひる",
+          "meaning": "midi / journée"
+        },
+        {
+          "kind": "on",
+          "writing": "昼食",
+          "reading": "ちゅうしょく",
+          "meaning": "déjeuner"
+        }
+      ]
+    },
+    {
+      "character": "時",
+      "kunyomi": [
+        "とき"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "時",
+          "reading": "とき",
+          "meaning": "moment"
+        },
+        {
+          "kind": "on",
+          "writing": "時間",
+          "reading": "じかん",
+          "meaning": "temps / durée"
+        }
+      ]
+    },
+    {
+      "character": "晩",
+      "kunyomi": [],
+      "onyomi": [
+        "バン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "今晩",
+          "reading": "こんばん",
+          "meaning": "ce soir"
+        }
+      ]
+    },
+    {
+      "character": "曜",
+      "kunyomi": [],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "月曜日",
+          "reading": "げつようび",
+          "meaning": "lundi"
+        }
+      ]
+    },
+    {
+      "character": "書",
+      "kunyomi": [
+        "か.く"
+      ],
+      "onyomi": [
+        "ショ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "書く",
+          "reading": "かく",
+          "meaning": "écrire"
+        },
+        {
+          "kind": "on",
+          "writing": "図書館",
+          "reading": "としょかん",
+          "meaning": "bibliothèque"
+        }
+      ]
+    },
+    {
+      "character": "月",
+      "kunyomi": [
+        "つき"
+      ],
+      "onyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "月",
+          "reading": "つき",
+          "meaning": "lune"
+        },
+        {
+          "kind": "on",
+          "writing": "月曜日",
+          "reading": "げつようび",
+          "meaning": "lundi"
+        }
+      ]
+    },
+    {
+      "character": "朝",
+      "kunyomi": [
+        "あさ"
+      ],
+      "onyomi": [
+        "チョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "朝",
+          "reading": "あさ",
+          "meaning": "matin"
+        },
+        {
+          "kind": "on",
+          "writing": "朝食",
+          "reading": "ちょうしょく",
+          "meaning": "petit-déjeuner"
+        }
+      ]
+    },
+    {
+      "character": "木",
+      "kunyomi": [
+        "き",
+        "こ"
+      ],
+      "onyomi": [
+        "ボク",
+        "モク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "木",
+          "reading": "き",
+          "meaning": "arbre"
+        },
+        {
+          "kind": "on",
+          "writing": "木曜日",
+          "reading": "もくようび",
+          "meaning": "jeudi"
+        }
+      ]
+    },
+    {
+      "character": "末",
+      "kunyomi": [
+        "すえ"
+      ],
+      "onyomi": [
+        "マツ",
+        "バツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "末",
+          "reading": "すえ",
+          "meaning": "fin"
+        },
+        {
+          "kind": "on",
+          "writing": "週末",
+          "reading": "しゅうまつ",
+          "meaning": "week-end"
+        }
+      ]
+    },
+    {
+      "character": "本",
+      "kunyomi": [
+        "もと"
+      ],
+      "onyomi": [
+        "ホン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "本",
+          "reading": "もと",
+          "meaning": "origine / base"
+        },
+        {
+          "kind": "on",
+          "writing": "本",
+          "reading": "ほん",
+          "meaning": "livre"
+        }
+      ],
+      "note": "本（もと）désigne l’origine ou la base ; 本（ほん）désigne le livre. Ce sont deux mots et deux sens, même si le kanji est identique."
+    },
+    {
+      "character": "机",
+      "kunyomi": [
+        "つくえ"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "机",
+          "reading": "つくえ",
+          "meaning": "bureau / table"
+        },
+        {
+          "kind": "on",
+          "writing": "机上",
+          "reading": "きじょう",
+          "meaning": "sur le bureau"
+        }
+      ]
+    },
+    {
+      "character": "束",
+      "kunyomi": [
+        "たばねる"
+      ],
+      "onyomi": [
+        "ソク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "束ねる",
+          "reading": "たばねる",
+          "meaning": "mettre en paquet"
+        },
+        {
+          "kind": "on",
+          "writing": "約束",
+          "reading": "やくそく",
+          "meaning": "promesse / rendez-vous"
+        }
+      ]
+    },
+    {
+      "character": "来",
+      "kunyomi": [
+        "く.る",
+        "きた.る"
+      ],
+      "onyomi": [
+        "ライ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "来る",
+          "reading": "くる",
+          "meaning": "venir"
+        },
+        {
+          "kind": "on",
+          "writing": "来週",
+          "reading": "らいしゅう",
+          "meaning": "la semaine prochaine"
+        }
+      ]
+    },
+    {
+      "character": "果",
+      "kunyomi": [
+        "はたす",
+        "はてる"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "果たす",
+          "reading": "はたす",
+          "meaning": "accomplir"
+        },
+        {
+          "kind": "on",
+          "writing": "結果",
+          "reading": "けっか",
+          "meaning": "résultat"
+        }
+      ]
+    },
+    {
+      "character": "校",
+      "kunyomi": [],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "学校",
+          "reading": "がっこう",
+          "meaning": "école"
+        }
+      ]
+    },
+    {
+      "character": "椅",
+      "kunyomi": [],
+      "onyomi": [
+        "イ"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0000160300",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "椅子",
+          "reading": "いす",
+          "meaning": "chaise"
+        }
+      ]
+    },
+    {
+      "character": "楽",
+      "kunyomi": [
+        "たの.しい",
+        "たの.しむ"
+      ],
+      "onyomi": [
+        "ガク",
+        "ラク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "楽しい",
+          "reading": "たのしい",
+          "meaning": "agréable"
+        },
+        {
+          "kind": "on",
+          "writing": "音楽",
+          "reading": "おんがく",
+          "meaning": "musique"
+        }
+      ]
+    },
+    {
+      "character": "歌",
+      "kunyomi": [
+        "うた",
+        "うた.う"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "歌",
+          "reading": "うた",
+          "meaning": "chanson"
+        },
+        {
+          "kind": "on",
+          "writing": "歌手",
+          "reading": "かしゅ",
+          "meaning": "chanteur"
+        }
+      ]
+    },
+    {
+      "character": "歩",
+      "kunyomi": [
+        "あるく",
+        "あゆむ",
+        "あゆみ"
+      ],
+      "onyomi": [
+        "ホ",
+        "ブ",
+        "フ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "歩く",
+          "reading": "あるく",
+          "meaning": "marcher"
+        },
+        {
+          "kind": "on",
+          "writing": "散歩",
+          "reading": "さんぽ",
+          "meaning": "promenade"
+        }
+      ]
+    },
+    {
+      "character": "毎",
+      "kunyomi": [
+        "ごと"
+      ],
+      "onyomi": [
+        "マイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "三日毎に",
+          "reading": "みっかごとに",
+          "meaning": "tous les trois jours"
+        },
+        {
+          "kind": "on",
+          "writing": "毎日",
+          "reading": "まいにち",
+          "meaning": "chaque jour"
+        }
+      ]
+    },
+    {
+      "character": "水",
+      "kunyomi": [
+        "みず"
+      ],
+      "onyomi": [
+        "スイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "水",
+          "reading": "みず",
+          "meaning": "eau"
+        },
+        {
+          "kind": "on",
+          "writing": "水曜日",
+          "reading": "すいようび",
+          "meaning": "mercredi"
+        }
+      ]
+    },
+    {
+      "character": "泳",
+      "kunyomi": [
+        "およ.ぐ"
+      ],
+      "onyomi": [
+        "エイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "泳ぐ",
+          "reading": "およぐ",
+          "meaning": "nager"
+        },
+        {
+          "kind": "on",
+          "writing": "水泳",
+          "reading": "すいえい",
+          "meaning": "natation"
+        }
+      ]
+    },
+    {
+      "character": "港",
+      "kunyomi": [
+        "みなと"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "港",
+          "reading": "みなと",
+          "meaning": "port"
+        },
+        {
+          "kind": "on",
+          "writing": "空港",
+          "reading": "くうこう",
+          "meaning": "aéroport"
+        }
+      ]
+    },
+    {
+      "character": "準",
+      "kunyomi": [],
+      "onyomi": [
+        "ジュン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "準備",
+          "reading": "じゅんび",
+          "meaning": "préparation"
+        }
+      ]
+    },
+    {
+      "character": "火",
+      "kunyomi": [
+        "ひ"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "火",
+          "reading": "ひ",
+          "meaning": "feu"
+        },
+        {
+          "kind": "on",
+          "writing": "火曜日",
+          "reading": "かようび",
+          "meaning": "mardi"
+        }
+      ]
+    },
+    {
+      "character": "物",
+      "kunyomi": [
+        "もの"
+      ],
+      "onyomi": [
+        "ブツ",
+        "モツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "物",
+          "reading": "もの",
+          "meaning": "chose"
+        },
+        {
+          "kind": "on",
+          "writing": "動物",
+          "reading": "どうぶつ",
+          "meaning": "animal"
+        }
+      ]
+    },
+    {
+      "character": "犬",
+      "kunyomi": [
+        "いぬ"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "犬",
+          "reading": "いぬ",
+          "meaning": "chien"
+        },
+        {
+          "kind": "on",
+          "writing": "番犬",
+          "reading": "ばんけん",
+          "meaning": "chien de garde"
+        }
+      ]
+    },
+    {
+      "character": "猫",
+      "kunyomi": [
+        "ねこ"
+      ],
+      "onyomi": [
+        "ビョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "猫",
+          "reading": "ねこ",
+          "meaning": "chat"
+        },
+        {
+          "kind": "on",
+          "writing": "愛猫家",
+          "reading": "あいびょうか",
+          "meaning": "amateur de chats"
+        }
+      ]
+    },
+    {
+      "character": "理",
+      "kunyomi": [],
+      "onyomi": [
+        "リ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "料理",
+          "reading": "りょうり",
+          "meaning": "cuisine / plat"
+        }
+      ]
+    },
+    {
+      "character": "生",
+      "kunyomi": [
+        "いきる",
+        "うまれる",
+        "うむ",
+        "お",
+        "はえる",
+        "はやす",
+        "なま",
+        "き"
+      ],
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "生きる",
+          "reading": "いきる",
+          "meaning": "vivre"
+        },
+        {
+          "kind": "on",
+          "writing": "学生",
+          "reading": "がくせい",
+          "meaning": "étudiant"
+        }
+      ]
+    },
+    {
+      "character": "画",
+      "kunyomi": [],
+      "onyomi": [
+        "ガ",
+        "カク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "映画",
+          "reading": "えいが",
+          "meaning": "film"
+        }
+      ]
+    },
+    {
+      "character": "病",
+      "kunyomi": [
+        "やむ",
+        "やみ",
+        "やまい"
+      ],
+      "onyomi": [
+        "ビョウ",
+        "ヘイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "病",
+          "reading": "やまい",
+          "meaning": "maladie"
+        },
+        {
+          "kind": "on",
+          "writing": "病院",
+          "reading": "びょういん",
+          "meaning": "hôpital"
+        }
+      ]
+    },
+    {
+      "character": "白",
+      "kunyomi": [
+        "しら",
+        "しろい"
+      ],
+      "onyomi": [
+        "ハク",
+        "ビャク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "白い",
+          "reading": "しろい",
+          "meaning": "blanc"
+        },
+        {
+          "kind": "on",
+          "writing": "白紙",
+          "reading": "はくし",
+          "meaning": "papier blanc"
+        }
+      ]
+    },
+    {
+      "character": "目",
+      "kunyomi": [
+        "め",
+        "ま"
+      ],
+      "onyomi": [
+        "モク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "目",
+          "reading": "め",
+          "meaning": "œil"
+        },
+        {
+          "kind": "on",
+          "writing": "目的",
+          "reading": "もくてき",
+          "meaning": "but / objectif"
+        }
+      ]
+    },
+    {
+      "character": "直",
+      "kunyomi": [
+        "ただす",
+        "なおる",
+        "なおす"
+      ],
+      "onyomi": [
+        "チョク",
+        "ジキ",
+        "ジカ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "直す",
+          "reading": "なおす",
+          "meaning": "réparer / corriger"
+        },
+        {
+          "kind": "on",
+          "writing": "直接",
+          "reading": "ちょくせつ",
+          "meaning": "directement"
+        }
+      ]
+    },
+    {
+      "character": "真",
+      "kunyomi": [
+        "ま"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "真夏",
+          "reading": "まなつ",
+          "meaning": "plein été"
+        },
+        {
+          "kind": "on",
+          "writing": "写真",
+          "reading": "しゃしん",
+          "meaning": "photo"
+        }
+      ]
+    },
+    {
+      "character": "私",
+      "kunyomi": [
+        "わたし",
+        "わたくし"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "私",
+          "reading": "わたし",
+          "meaning": "moi"
+        },
+        {
+          "kind": "on",
+          "writing": "私立",
+          "reading": "しりつ",
+          "meaning": "privé, pour une école"
+        }
+      ]
+    },
+    {
+      "character": "空",
+      "kunyomi": [
+        "そら",
+        "から",
+        "あく",
+        "あき",
+        "あける",
+        "むなしい",
+        "むなしさ"
+      ],
+      "onyomi": [
+        "クウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "空",
+          "reading": "そら",
+          "meaning": "ciel"
+        },
+        {
+          "kind": "on",
+          "writing": "空港",
+          "reading": "くうこう",
+          "meaning": "aéroport"
+        }
+      ]
+    },
+    {
+      "character": "窓",
+      "kunyomi": [
+        "まど"
+      ],
+      "onyomi": [
+        "ソウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "窓",
+          "reading": "まど",
+          "meaning": "fenêtre"
+        },
+        {
+          "kind": "on",
+          "writing": "車窓",
+          "reading": "しゃそう",
+          "meaning": "fenêtre d’un véhicule"
+        }
+      ]
+    },
+    {
+      "character": "立",
+      "kunyomi": [
+        "た.つ",
+        "た.てる"
+      ],
+      "onyomi": [
+        "リツ",
+        "リュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "立つ",
+          "reading": "たつ",
+          "meaning": "se lever / être debout"
+        },
+        {
+          "kind": "on",
+          "writing": "私立",
+          "reading": "しりつ",
+          "meaning": "privé, pour une école"
+        }
+      ]
+    },
+    {
+      "character": "符",
+      "kunyomi": [],
+      "onyomi": [
+        "フ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "切符",
+          "reading": "きっぷ",
+          "meaning": "billet de transport"
+        }
+      ]
+    },
+    {
+      "character": "約",
+      "kunyomi": [],
+      "onyomi": [
+        "ヤク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "約束",
+          "reading": "やくそく",
+          "meaning": "promesse / rendez-vous"
+        }
+      ]
+    },
+    {
+      "character": "緒",
+      "kunyomi": [
+        "お"
+      ],
+      "onyomi": [
+        "ショ",
+        "チョ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "緒",
+          "reading": "お",
+          "meaning": "cordon"
+        },
+        {
+          "kind": "on",
+          "writing": "一緒",
+          "reading": "いっしょ",
+          "meaning": "ensemble"
+        }
+      ]
+    },
+    {
+      "character": "習",
+      "kunyomi": [
+        "なら.う"
+      ],
+      "onyomi": [
+        "シュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "習う",
+          "reading": "ならう",
+          "meaning": "apprendre auprès de quelqu’un"
+        },
+        {
+          "kind": "on",
+          "writing": "練習",
+          "reading": "れんしゅう",
+          "meaning": "entraînement"
+        }
+      ]
+    },
+    {
+      "character": "聞",
+      "kunyomi": [
+        "き.く",
+        "き.こえる"
+      ],
+      "onyomi": [
+        "ブン",
+        "モン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "聞く",
+          "reading": "きく",
+          "meaning": "écouter / demander"
+        },
+        {
+          "kind": "on",
+          "writing": "新聞",
+          "reading": "しんぶん",
+          "meaning": "journal"
+        }
+      ]
+    },
+    {
+      "character": "肉",
+      "kunyomi": [],
+      "onyomi": [
+        "ニク"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "肉",
+          "reading": "にく",
+          "meaning": "viande"
+        }
+      ]
+    },
+    {
+      "character": "花",
+      "kunyomi": [
+        "はな"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "花",
+          "reading": "はな",
+          "meaning": "fleur"
+        },
+        {
+          "kind": "on",
+          "writing": "花壇",
+          "reading": "かだん",
+          "meaning": "parterre de fleurs"
+        }
+      ]
+    },
+    {
+      "character": "茶",
+      "kunyomi": [],
+      "onyomi": [
+        "チャ",
+        "サ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "お茶",
+          "reading": "おちゃ",
+          "meaning": "thé"
+        }
+      ]
+    },
+    {
+      "character": "菜",
+      "kunyomi": [
+        "な"
+      ],
+      "onyomi": [
+        "サイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "菜",
+          "reading": "な",
+          "meaning": "verdure comestible"
+        },
+        {
+          "kind": "on",
+          "writing": "野菜",
+          "reading": "やさい",
+          "meaning": "légumes"
+        }
+      ]
+    },
+    {
+      "character": "葉",
+      "kunyomi": [
+        "は"
+      ],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "葉",
+          "reading": "は",
+          "meaning": "feuille"
+        },
+        {
+          "kind": "on",
+          "writing": "葉書",
+          "reading": "はがき",
+          "meaning": "carte postale"
+        }
+      ]
+    },
+    {
+      "character": "行",
+      "kunyomi": [
+        "い.く",
+        "ゆ.く",
+        "おこな.う"
+      ],
+      "onyomi": [
+        "コウ",
+        "ギョウ",
+        "アン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "行く",
+          "reading": "いく",
+          "meaning": "aller"
+        },
+        {
+          "kind": "on",
+          "writing": "旅行",
+          "reading": "りょこう",
+          "meaning": "voyage"
+        }
+      ]
+    },
+    {
+      "character": "見",
+      "kunyomi": [
+        "み.る",
+        "み.える",
+        "み.せる"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "見る",
+          "reading": "みる",
+          "meaning": "voir"
+        },
+        {
+          "kind": "on",
+          "writing": "見学",
+          "reading": "けんがく",
+          "meaning": "visite d’observation"
+        }
+      ]
+    },
+    {
+      "character": "言",
+      "kunyomi": [
+        "いう",
+        "こと"
+      ],
+      "onyomi": [
+        "ゲン",
+        "ゴン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "言う",
+          "reading": "いう",
+          "meaning": "dire"
+        },
+        {
+          "kind": "on",
+          "writing": "言語",
+          "reading": "げんご",
+          "meaning": "langage / langue"
+        }
+      ]
+    },
+    {
+      "character": "計",
+      "kunyomi": [
+        "はかる",
+        "はかり",
+        "はからう"
+      ],
+      "onyomi": [
+        "ケイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "計る",
+          "reading": "はかる",
+          "meaning": "mesurer"
+        },
+        {
+          "kind": "on",
+          "writing": "時計",
+          "reading": "とけい",
+          "meaning": "montre / horloge"
+        }
+      ]
+    },
+    {
+      "character": "話",
+      "kunyomi": [
+        "はな.す",
+        "はなし"
+      ],
+      "onyomi": [
+        "ワ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "話す",
+          "reading": "はなす",
+          "meaning": "parler"
+        },
+        {
+          "kind": "on",
+          "writing": "会話",
+          "reading": "かいわ",
+          "meaning": "conversation"
+        }
+      ]
+    },
+    {
+      "character": "語",
+      "kunyomi": [
+        "かたる"
+      ],
+      "onyomi": [
+        "ゴ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "語る",
+          "reading": "かたる",
+          "meaning": "raconter"
+        },
+        {
+          "kind": "on",
+          "writing": "日本語",
+          "reading": "にほんご",
+          "meaning": "langue japonaise"
+        }
+      ]
+    },
+    {
+      "character": "読",
+      "kunyomi": [
+        "よ.む"
+      ],
+      "onyomi": [
+        "ドク",
+        "トク",
+        "トウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "読む",
+          "reading": "よむ",
+          "meaning": "lire"
+        },
+        {
+          "kind": "on",
+          "writing": "読書",
+          "reading": "どくしょ",
+          "meaning": "lecture"
+        }
+      ]
+    },
+    {
+      "character": "買",
+      "kunyomi": [
+        "か.う"
+      ],
+      "onyomi": [
+        "バイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "買う",
+          "reading": "かう",
+          "meaning": "acheter"
+        },
+        {
+          "kind": "on",
+          "writing": "売買",
+          "reading": "ばいばい",
+          "meaning": "achat et vente"
+        }
+      ]
+    },
+    {
+      "character": "質",
+      "kunyomi": [],
+      "onyomi": [
+        "シツ",
+        "シチ",
+        "チ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "質問",
+          "reading": "しつもん",
+          "meaning": "question"
+        }
+      ]
+    },
+    {
+      "character": "起",
+      "kunyomi": [
+        "お.きる",
+        "お.こる",
+        "お.こす"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "起きる",
+          "reading": "おきる",
+          "meaning": "se lever"
+        },
+        {
+          "kind": "on",
+          "writing": "起床",
+          "reading": "きしょう",
+          "meaning": "le fait de se lever"
+        }
+      ]
+    },
+    {
+      "character": "踊",
+      "kunyomi": [
+        "おど.る"
+      ],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "踊る",
+          "reading": "おどる",
+          "meaning": "danser"
+        },
+        {
+          "kind": "on",
+          "writing": "舞踊",
+          "reading": "ぶよう",
+          "meaning": "danse"
+        }
+      ]
+    },
+    {
+      "character": "車",
+      "kunyomi": [
+        "くるま"
+      ],
+      "onyomi": [
+        "シャ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "車",
+          "reading": "くるま",
+          "meaning": "voiture"
+        },
+        {
+          "kind": "on",
+          "writing": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        }
+      ]
+    },
+    {
+      "character": "近",
+      "kunyomi": [
+        "ちか.い"
+      ],
+      "onyomi": [
+        "キン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "近い",
+          "reading": "ちかい",
+          "meaning": "proche"
+        },
+        {
+          "kind": "on",
+          "writing": "近所",
+          "reading": "きんじょ",
+          "meaning": "voisinage"
+        }
+      ]
+    },
+    {
+      "character": "週",
+      "kunyomi": [],
+      "onyomi": [
+        "シュウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "毎週",
+          "reading": "まいしゅう",
+          "meaning": "chaque semaine"
+        }
+      ]
+    },
+    {
+      "character": "遊",
+      "kunyomi": [
+        "あそ.ぶ"
+      ],
+      "onyomi": [
+        "ユウ",
+        "ユ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "遊ぶ",
+          "reading": "あそぶ",
+          "meaning": "jouer"
+        },
+        {
+          "kind": "on",
+          "writing": "遊園地",
+          "reading": "ゆうえんち",
+          "meaning": "parc d’attractions"
+        }
+      ]
+    },
+    {
+      "character": "達",
+      "kunyomi": [
+        "たち"
+      ],
+      "onyomi": [
+        "タツ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "友達",
+          "reading": "ともだち",
+          "meaning": "ami"
+        },
+        {
+          "kind": "on",
+          "writing": "達人",
+          "reading": "たつじん",
+          "meaning": "expert"
+        }
+      ],
+      "note": "Dans 友達（ともだち）, たち devient だち. La lecture du mot entier garde cette consonne sonore."
+    },
+    {
+      "character": "遠",
+      "kunyomi": [
+        "とお.い"
+      ],
+      "onyomi": [
+        "エン",
+        "オン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "遠い",
+          "reading": "とおい",
+          "meaning": "éloigné"
+        },
+        {
+          "kind": "on",
+          "writing": "遠足",
+          "reading": "えんそく",
+          "meaning": "excursion"
+        }
+      ]
+    },
+    {
+      "character": "部",
+      "kunyomi": [],
+      "onyomi": [
+        "ブ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "部屋",
+          "reading": "へや",
+          "meaning": "pièce / chambre"
+        }
+      ]
+    },
+    {
+      "character": "野",
+      "kunyomi": [
+        "の"
+      ],
+      "onyomi": [
+        "ヤ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "野",
+          "reading": "の",
+          "meaning": "champ / plaine"
+        },
+        {
+          "kind": "on",
+          "writing": "野菜",
+          "reading": "やさい",
+          "meaning": "légumes"
+        }
+      ]
+    },
+    {
+      "character": "金",
+      "kunyomi": [
+        "かね",
+        "かな"
+      ],
+      "onyomi": [
+        "キン",
+        "コン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "金",
+          "reading": "かね",
+          "meaning": "argent"
+        },
+        {
+          "kind": "on",
+          "writing": "金曜日",
+          "reading": "きんようび",
+          "meaning": "vendredi"
+        }
+      ]
+    },
+    {
+      "character": "鍵",
+      "kunyomi": [
+        "かぎ"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0001970700",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "鍵",
+          "reading": "かぎ",
+          "meaning": "clé"
+        },
+        {
+          "kind": "on",
+          "writing": "鍵盤",
+          "reading": "けんばん",
+          "meaning": "clavier d’instrument"
+        }
+      ]
+    },
+    {
+      "character": "閉",
+      "kunyomi": [
+        "し.める",
+        "し.まる",
+        "と.じる"
+      ],
+      "onyomi": [
+        "ヘイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "閉める",
+          "reading": "しめる",
+          "meaning": "fermer"
+        },
+        {
+          "kind": "on",
+          "writing": "閉店",
+          "reading": "へいてん",
+          "meaning": "fermeture d’un magasin"
+        }
+      ]
+    },
+    {
+      "character": "開",
+      "kunyomi": [
+        "あ.ける",
+        "あ.く",
+        "ひら.く"
+      ],
+      "onyomi": [
+        "カイ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "開ける",
+          "reading": "あける",
+          "meaning": "ouvrir"
+        },
+        {
+          "kind": "on",
+          "writing": "開店",
+          "reading": "かいてん",
+          "meaning": "ouverture d’un magasin"
+        }
+      ]
+    },
+    {
+      "character": "院",
+      "kunyomi": [],
+      "onyomi": [
+        "イン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "病院",
+          "reading": "びょういん",
+          "meaning": "hôpital"
+        }
+      ]
+    },
+    {
+      "character": "隣",
+      "kunyomi": [
+        "となり"
+      ],
+      "onyomi": [
+        "リン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "隣",
+          "reading": "となり",
+          "meaning": "voisin / à côté"
+        },
+        {
+          "kind": "on",
+          "writing": "近隣",
+          "reading": "きんりん",
+          "meaning": "voisinage"
+        }
+      ]
+    },
+    {
+      "character": "難",
+      "kunyomi": [
+        "むずか.しい",
+        "かた.い"
+      ],
+      "onyomi": [
+        "ナン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficile"
+        },
+        {
+          "kind": "on",
+          "writing": "困難",
+          "reading": "こんなん",
+          "meaning": "difficulté"
+        }
+      ]
+    },
+    {
+      "character": "電",
+      "kunyomi": [],
+      "onyomi": [
+        "デン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        }
+      ]
+    },
+    {
+      "character": "静",
+      "kunyomi": [
+        "しず.か",
+        "しず.まる",
+        "しず.める"
+      ],
+      "onyomi": [
+        "セイ",
+        "ジョウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "静か",
+          "reading": "しずか",
+          "meaning": "calme"
+        },
+        {
+          "kind": "on",
+          "writing": "静止",
+          "reading": "せいし",
+          "meaning": "immobilité"
+        }
+      ]
+    },
+    {
+      "character": "面",
+      "kunyomi": [
+        "おもて",
+        "つら"
+      ],
+      "onyomi": [
+        "メン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "面",
+          "reading": "おもて",
+          "meaning": "face / surface"
+        },
+        {
+          "kind": "on",
+          "writing": "面積",
+          "reading": "めんせき",
+          "meaning": "superficie"
+        }
+      ]
+    },
+    {
+      "character": "靴",
+      "kunyomi": [
+        "くつ"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "靴",
+          "reading": "くつ",
+          "meaning": "chaussures"
+        },
+        {
+          "kind": "on",
+          "writing": "軍靴",
+          "reading": "ぐんか",
+          "meaning": "chaussures militaires"
+        }
+      ]
+    },
+    {
+      "character": "音",
+      "kunyomi": [
+        "おと",
+        "ね"
+      ],
+      "onyomi": [
+        "オン",
+        "ノン",
+        "イン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "音",
+          "reading": "おと",
+          "meaning": "son"
+        },
+        {
+          "kind": "on",
+          "writing": "音楽",
+          "reading": "おんがく",
+          "meaning": "musique"
+        }
+      ]
+    },
+    {
+      "character": "食",
+      "kunyomi": [
+        "た.べる",
+        "く.う"
+      ],
+      "onyomi": [
+        "ショク",
+        "ジキ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "食べる",
+          "reading": "たべる",
+          "meaning": "manger"
+        },
+        {
+          "kind": "on",
+          "writing": "食事",
+          "reading": "しょくじ",
+          "meaning": "repas"
+        }
+      ]
+    },
+    {
+      "character": "飯",
+      "kunyomi": [
+        "めし"
+      ],
+      "onyomi": [
+        "ハン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "飯",
+          "reading": "めし",
+          "meaning": "riz cuit / repas"
+        },
+        {
+          "kind": "on",
+          "writing": "ご飯",
+          "reading": "ごはん",
+          "meaning": "riz cuit / repas"
+        }
+      ]
+    },
+    {
+      "character": "飲",
+      "kunyomi": [
+        "の.む"
+      ],
+      "onyomi": [
+        "イン"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "飲む",
+          "reading": "のむ",
+          "meaning": "boire"
+        },
+        {
+          "kind": "on",
+          "writing": "飲食",
+          "reading": "いんしょく",
+          "meaning": "nourriture et boisson"
+        }
+      ]
+    },
+    {
+      "character": "館",
+      "kunyomi": [
+        "やかた",
+        "たち",
+        "たて"
+      ],
+      "onyomi": [
+        "カン"
+      ],
+      "source": "https://www.kanjipedia.jp/kanji/0001127500",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "館",
+          "reading": "やかた",
+          "meaning": "grande demeure"
+        },
+        {
+          "kind": "on",
+          "writing": "図書館",
+          "reading": "としょかん",
+          "meaning": "bibliothèque"
+        }
+      ]
+    },
+    {
+      "character": "駅",
+      "kunyomi": [],
+      "onyomi": [
+        "エキ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "on",
+          "writing": "駅",
+          "reading": "えき",
+          "meaning": "gare"
+        }
+      ]
+    },
+    {
+      "character": "高",
+      "kunyomi": [
+        "たか.い",
+        "たか",
+        "たか.まる",
+        "たか.める"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "高い",
+          "reading": "たかい",
+          "meaning": "haut / cher"
+        },
+        {
+          "kind": "on",
+          "writing": "高校",
+          "reading": "こうこう",
+          "meaning": "lycée"
+        }
+      ]
+    },
+    {
+      "character": "魚",
+      "kunyomi": [
+        "うお",
+        "さかな"
+      ],
+      "onyomi": [
+        "ギョ"
+      ],
+      "source": "https://github.com/kanjialive/kanji-data-media/blob/e1e24d39fc43e839948a8c7e99743b0994dedad5/language-data/ka_data.csv",
+      "examples": [
+        {
+          "kind": "kun",
+          "writing": "魚",
+          "reading": "さかな",
+          "meaning": "poisson"
+        },
+        {
+          "kind": "on",
+          "writing": "金魚",
+          "reading": "きんぎょ",
+          "meaning": "poisson rouge"
+        }
+      ]
+    }
+  ]
+}
