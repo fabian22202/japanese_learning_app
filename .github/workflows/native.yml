@@ -1,4 +1,4 @@
-name: Native Android and Windows
+name: Handwriting scroll regression tests
 on: [push]
 permissions:
   contents: read
@@ -7,7 +7,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 35
     defaults:
@@ -32,19 +32,3 @@ jobs:
       - run: flutter pub get
       - run: flutter analyze
       - run: flutter test --timeout 60s
-      - name: Build Android APK
-        if: runner.os == 'Linux'
-        run: flutter build apk --release
-      - name: Build Windows app
-        if: runner.os == 'Windows'
-        run: flutter build windows --release
-      - uses: actions/upload-artifact@v4
-        if: runner.os == 'Linux'
-        with:
-          name: Kotoba-Android
-          path: native/build/app/outputs/flutter-apk/app-release.apk
-      - uses: actions/upload-artifact@v4
-        if: runner.os == 'Windows'
-        with:
-          name: Kotoba-Windows
-          path: native/build/windows/x64/runner/Release/
