@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart' show EagerGestureRecognizer;
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -221,10 +222,17 @@ class _WritingPracticeState extends State<WritingPracticePage>
                                   result = null;
                                 });
                             },
-                            child: GestureDetector(
+                            child: RawGestureDetector(
                               behavior: HitTestBehavior.opaque,
-                              onPanStart: (_) {},
-                              onPanUpdate: (_) {},
+                              // Claim the gesture on contact, before the parent
+                              // scroll view can take vertical or diagonal drags.
+                              gestures: {
+                                EagerGestureRecognizer:
+                                    GestureRecognizerFactoryWithHandlers<EagerGestureRecognizer>(
+                                      () => EagerGestureRecognizer(),
+                                      (_) {},
+                                    ),
+                              },
                               child: CustomPaint(
                                 painter: WritingPainter(
                                   strokes
